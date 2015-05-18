@@ -10,6 +10,9 @@ Put together a prototype the demos how much easier doing ad-hoc queries would be
 
 ### Setup
 
+*  Verify your java version is >= 1.7
+
+        java -version
 
 *  Open a terminal and cd to project
 
@@ -93,7 +96,29 @@ note: to stop `control-c` to verify it's running you can open `http://localhost:
         { 
            "query" : { 
             "term" : { "orcid-profile.orcid-activities.affiliations.affiliation.organization.name":"orcid" }
-        } 
+        	} 
+        }' 
+
+
+* Match by organization name of affiliation 
+
+        curl -XGET 'http://localhost:9200/record/_search?pretty=true' -d '
+        { 
+           "query" : { 
+            "term" : { "orcid-profile.orcid-activities.affiliations.affiliation.organization.name":"orcid" }
+        	} 
+        }' 
+
+
+* Match by work identifier value 
+
+        curl -XGET 'http://localhost:9200/record/_search?pretty=true' -d '
+        { 
+        "query" : { 
+           "match" : { 
+            "orcid-profile.orcid-activities.orcid-works.orcid-work.work-external-identifiers.work-external-identifier.work-external-identifier-id.value":"UA 20120209644 A1"
+        	} 
+        	}
         }' 
 
  
