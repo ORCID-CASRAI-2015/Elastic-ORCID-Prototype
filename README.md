@@ -51,3 +51,52 @@ note: to stop `control-c` to verify it's running you can open `http://localhost:
         
 ### Sample queries (and proof this is easier)
 
+* Retrieve record
+
+        curl http://localhost:9200/record/orcid_v1.2/0000-0001-6622-4910
+
+* Simple count
+
+        curl http://localhost:9200/record/_count?pretty
+        
+* Retrieve all 
+
+       curl -XGET 'http://localhost:9200/record/_search?pretty=true' -d '
+       {
+       	"query" : { 
+             "match_all" : {} 
+           }
+       }'        
+        
+* Match by given name
+
+       curl -XGET 'http://localhost:9200/record/_search?pretty=true' -d '
+       { 
+          "query" : { 
+            "term" : { "orcid-profile.orcid-bio.personal-details.given-names.value":"alice" }
+          } 
+       }'
+
+
+* Match by given name
+
+       curl -XGET 'http://localhost:9200/record/_search?pretty=true' -d '
+       { 
+          "query" : { 
+            "term" : { "orcid-profile.orcid-bio.personal-details.given-names.value":"alice" }
+          } 
+       }'
+
+* Match by organization name of affiliation 
+
+curl -XGET 'http://localhost:9200/record/_search?pretty=true' -d '
+{ 
+    "query" : { 
+        "term" : { "orcid-profile.orcid-activities.affiliations.affiliation.organization.name":"orcid" }
+    } 
+}' 
+
+ 
+        
+
+     
