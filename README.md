@@ -70,31 +70,31 @@ note: to stop `control-c` to verify it's running you can open `http://localhost:
         
 * Match by given name
 
-       curl -XGET 'http://localhost:9200/record/_search?pretty=true' -d '
-       { 
-          "query" : { 
-            "term" : { "orcid-profile.orcid-bio.personal-details.given-names.value":"alice" }
-          } 
-       }'
+        curl -XGET 'http://localhost:9200/record/_search?pretty=true' -d '
+        { 
+           "query" : { 
+             "term" : { "orcid-profile.orcid-bio.personal-details.given-names.value":"alice" }
+           } 
+        }'
 
 
 * Match by given name
-
-       curl -XGET 'http://localhost:9200/record/_search?pretty=true' -d '
-       { 
-          "query" : { 
-            "term" : { "orcid-profile.orcid-bio.personal-details.given-names.value":"alice" }
-          } 
-       }'
+ 
+        curl -XGET 'http://localhost:9200/record/_search?pretty=true' -d '
+        { 
+           "query" : { 
+             "term" : { "orcid-profile.orcid-bio.personal-details.given-names.value":"alice" }
+           } 
+        }'
 
 * Match by organization name of affiliation 
 
-curl -XGET 'http://localhost:9200/record/_search?pretty=true' -d '
-{ 
-    "query" : { 
-        "term" : { "orcid-profile.orcid-activities.affiliations.affiliation.organization.name":"orcid" }
-    } 
-}' 
+        curl -XGET 'http://localhost:9200/record/_search?pretty=true' -d '
+        { 
+           "query" : { 
+            "term" : { "orcid-profile.orcid-activities.affiliations.affiliation.organization.name":"orcid" }
+        } 
+        }' 
 
  
         
