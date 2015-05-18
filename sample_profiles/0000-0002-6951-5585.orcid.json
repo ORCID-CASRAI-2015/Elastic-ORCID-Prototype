@@ -1,0 +1,271 @@
+{
+  "message-version" : "1.2",
+  "orcid-profile" : {
+    "orcid" : null,
+    "orcid-id" : null,
+    "orcid-identifier" : {
+      "value" : null,
+      "uri" : "http://orcid.org/0000-0002-6951-5585",
+      "path" : "0000-0002-6951-5585",
+      "host" : "orcid.org"
+    },
+    "orcid-deprecated" : null,
+    "orcid-preferences" : {
+      "locale" : "EN"
+    },
+    "orcid-history" : {
+      "creation-method" : "DIRECT",
+      "completion-date" : null,
+      "submission-date" : {
+        "value" : 1428865803843
+      },
+      "last-modified-date" : {
+        "value" : 1430482625363
+      },
+      "claimed" : {
+        "value" : true
+      },
+      "source" : null,
+      "deactivation-date" : null,
+      "verified-email" : {
+        "value" : true
+      },
+      "verified-primary-email" : {
+        "value" : true
+      },
+      "visibility" : null
+    },
+    "orcid-bio" : {
+      "personal-details" : {
+        "given-names" : {
+          "value" : "Douglas"
+        },
+        "family-name" : {
+          "value" : "Wright"
+        },
+        "credit-name" : null,
+        "other-names" : null
+      },
+      "biography" : {
+        "value" : "As the Director of Membership for ORCID, Doug builds the global engagement capacity, managing a team of Regional Directors tasked with growing our membership and implementation through regional workshops and training programs.  He supports our Business Steering Group (orcid.org/about/community), and collaborates with the communications and technical teams to ensure our members have the implementation tools they need.  Prior to joining ORCID, Doug was an served as Director of the PCG Division and Chief Marketing Officer at Publishing Technology.  He brings to ORCID a great deal of experience working with scholarly publishers as well as his global network of library and consortia contracts. Doug received a BA in Communications at the University of Alabama, and is fluent in Spanish, Portuguese, and English.\n\nhttps://www.linkedin.com/pub/douglas-wright/3/28a/951",
+        "visibility" : "PUBLIC"
+      },
+      "researcher-urls" : null,
+      "contact-details" : null,
+      "keywords" : null,
+      "external-identifiers" : null,
+      "delegation" : null,
+      "applications" : null,
+      "scope" : null
+    },
+    "orcid-activities" : {
+      "affiliations" : {
+        "affiliation" : [ {
+          "type" : "EMPLOYMENT",
+          "department-name" : null,
+          "role-title" : "Director of Membership",
+          "start-date" : {
+            "year" : {
+              "value" : "2015"
+            },
+            "month" : {
+              "value" : "04"
+            },
+            "day" : null
+          },
+          "end-date" : null,
+          "organization" : {
+            "name" : "ORCID",
+            "address" : {
+              "city" : "Bethesda",
+              "region" : "MD",
+              "country" : "US"
+            },
+            "disambiguated-organization" : {
+              "disambiguated-organization-identifier" : "385488",
+              "disambiguation-source" : "RINGGOLD"
+            }
+          },
+          "source" : {
+            "source-orcid" : {
+              "value" : null,
+              "uri" : "http://orcid.org/0000-0002-6951-5585",
+              "path" : "0000-0002-6951-5585",
+              "host" : "orcid.org"
+            },
+            "source-client-id" : null,
+            "source-name" : {
+              "value" : "Douglas Wright"
+            },
+            "source-date" : {
+              "value" : 1428941847984
+            }
+          },
+          "created-date" : {
+            "value" : 1428941847984
+          },
+          "last-modified-date" : {
+            "value" : 1428941847984
+          },
+          "visibility" : "PUBLIC",
+          "put-code" : "845839"
+        }, {
+          "type" : "EDUCATION",
+          "department-name" : "School of Communications",
+          "role-title" : "BA in Communications",
+          "start-date" : null,
+          "end-date" : null,
+          "organization" : {
+            "name" : "University of Alabama",
+            "address" : {
+              "city" : "Tuscaloosa",
+              "region" : "AL",
+              "country" : "US"
+            },
+            "disambiguated-organization" : {
+              "disambiguated-organization-identifier" : "8063",
+              "disambiguation-source" : "RINGGOLD"
+            }
+          },
+          "source" : {
+            "source-orcid" : {
+              "value" : null,
+              "uri" : "http://orcid.org/0000-0002-6951-5585",
+              "path" : "0000-0002-6951-5585",
+              "host" : "orcid.org"
+            },
+            "source-client-id" : null,
+            "source-name" : {
+              "value" : "Douglas Wright"
+            },
+            "source-date" : {
+              "value" : 1428938385442
+            }
+          },
+          "created-date" : {
+            "value" : 1428938385442
+          },
+          "last-modified-date" : {
+            "value" : 1428938385442
+          },
+          "visibility" : "PUBLIC",
+          "put-code" : "845701"
+        }, {
+          "type" : "EMPLOYMENT",
+          "department-name" : "Publishers Communication Group, Inc.",
+          "role-title" : "Director",
+          "start-date" : {
+            "year" : {
+              "value" : "1996"
+            },
+            "month" : null,
+            "day" : null
+          },
+          "end-date" : {
+            "year" : {
+              "value" : "2014"
+            },
+            "month" : null,
+            "day" : null
+          },
+          "organization" : {
+            "name" : "Publishing Technology plc",
+            "address" : {
+              "city" : "Boston",
+              "region" : "Massachusetts",
+              "country" : "US"
+            },
+            "disambiguated-organization" : {
+              "disambiguated-organization-identifier" : "93537",
+              "disambiguation-source" : "RINGGOLD"
+            }
+          },
+          "source" : {
+            "source-orcid" : {
+              "value" : null,
+              "uri" : "http://orcid.org/0000-0002-6951-5585",
+              "path" : "0000-0002-6951-5585",
+              "host" : "orcid.org"
+            },
+            "source-client-id" : null,
+            "source-name" : {
+              "value" : "Douglas Wright"
+            },
+            "source-date" : {
+              "value" : 1428941810318
+            }
+          },
+          "created-date" : {
+            "value" : 1428941810318
+          },
+          "last-modified-date" : {
+            "value" : 1428941810318
+          },
+          "visibility" : "PUBLIC",
+          "put-code" : "845838"
+        }, {
+          "type" : "EMPLOYMENT",
+          "department-name" : "PP&F",
+          "role-title" : "Account Director",
+          "start-date" : {
+            "year" : {
+              "value" : "1990"
+            },
+            "month" : null,
+            "day" : null
+          },
+          "end-date" : {
+            "year" : {
+              "value" : "1996"
+            },
+            "month" : null,
+            "day" : null
+          },
+          "organization" : {
+            "name" : "EBSCO Industries Inc",
+            "address" : {
+              "city" : "Birmingham",
+              "region" : "AL",
+              "country" : "US"
+            },
+            "disambiguated-organization" : {
+              "disambiguated-organization-identifier" : "1737",
+              "disambiguation-source" : "RINGGOLD"
+            }
+          },
+          "source" : {
+            "source-orcid" : {
+              "value" : null,
+              "uri" : "http://orcid.org/0000-0002-6951-5585",
+              "path" : "0000-0002-6951-5585",
+              "host" : "orcid.org"
+            },
+            "source-client-id" : null,
+            "source-name" : {
+              "value" : "Douglas Wright"
+            },
+            "source-date" : {
+              "value" : 1428938488234
+            }
+          },
+          "created-date" : {
+            "value" : 1428938488234
+          },
+          "last-modified-date" : {
+            "value" : 1428938488234
+          },
+          "visibility" : "PUBLIC",
+          "put-code" : "845706"
+        } ]
+      },
+      "orcid-works" : null,
+      "funding-list" : null
+    },
+    "orcid-internal" : null,
+    "type" : "USER",
+    "group-type" : null,
+    "client-type" : null
+  },
+  "orcid-search-results" : null,
+  "error-desc" : null
+}

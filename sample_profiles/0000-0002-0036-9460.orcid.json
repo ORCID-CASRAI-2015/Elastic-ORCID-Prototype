@@ -1,0 +1,627 @@
+{
+  "message-version" : "1.2",
+  "orcid-profile" : {
+    "orcid" : null,
+    "orcid-id" : null,
+    "orcid-identifier" : {
+      "value" : null,
+      "uri" : "http://orcid.org/0000-0002-0036-9460",
+      "path" : "0000-0002-0036-9460",
+      "host" : "orcid.org"
+    },
+    "orcid-deprecated" : null,
+    "orcid-preferences" : {
+      "locale" : "EN"
+    },
+    "orcid-history" : {
+      "creation-method" : "WEBSITE",
+      "completion-date" : {
+        "value" : 1351114074324
+      },
+      "submission-date" : {
+        "value" : 1351110197739
+      },
+      "last-modified-date" : {
+        "value" : 1431276698446
+      },
+      "claimed" : {
+        "value" : true
+      },
+      "source" : null,
+      "deactivation-date" : null,
+      "verified-email" : {
+        "value" : true
+      },
+      "verified-primary-email" : {
+        "value" : true
+      },
+      "visibility" : null
+    },
+    "orcid-bio" : {
+      "personal-details" : {
+        "given-names" : {
+          "value" : "Robert"
+        },
+        "family-name" : {
+          "value" : "Peters"
+        },
+        "credit-name" : null,
+        "other-names" : {
+          "other-name" : [ {
+            "value" : "Rob Peters"
+          }, {
+            "value" : "r.peters"
+          }, {
+            "value" : "rcpeters"
+          } ],
+          "visibility" : "PUBLIC"
+        }
+      },
+      "biography" : {
+        "value" : "test test test\ntest",
+        "visibility" : "PUBLIC"
+      },
+      "researcher-urls" : {
+        "researcher-url" : [ {
+          "url-name" : {
+            "value" : "Github 2"
+          },
+          "url" : {
+            "value" : "http://github.com/rcpeters"
+          }
+        }, {
+          "url-name" : {
+            "value" : "LinkedIn"
+          },
+          "url" : {
+            "value" : "http://linkedin.com/in/rcpeters"
+          }
+        } ],
+        "visibility" : "PUBLIC"
+      },
+      "contact-details" : {
+        "email" : [ {
+          "value" : "r.peters@orcid.org",
+          "primary" : false,
+          "current" : true,
+          "verified" : true,
+          "visibility" : "PUBLIC",
+          "source" : "0000-0002-0036-9460",
+          "source-client-id" : null
+        } ],
+        "address" : null
+      },
+      "keywords" : null,
+      "external-identifiers" : {
+        "external-identifier" : [ {
+          "orcid" : null,
+          "external-id-orcid" : null,
+          "external-id-common-name" : {
+            "value" : "ResearcherID"
+          },
+          "external-id-reference" : {
+            "value" : "O-6789-2014"
+          },
+          "external-id-url" : {
+            "value" : "http://www.researcherid.com/rid/O-6789-2014"
+          },
+          "external-id-source" : null,
+          "source" : {
+            "source-orcid" : {
+              "value" : null,
+              "uri" : "http://orcid.org/0000-0001-7707-4137",
+              "path" : "0000-0001-7707-4137",
+              "host" : "orcid.org"
+            },
+            "source-client-id" : null,
+            "source-name" : null,
+            "source-date" : null
+          }
+        }, {
+          "orcid" : null,
+          "external-id-orcid" : null,
+          "external-id-common-name" : {
+            "value" : "Scopus Author ID"
+          },
+          "external-id-reference" : {
+            "value" : "7007156898"
+          },
+          "external-id-url" : {
+            "value" : "http://www.scopus.com/inward/authorDetails.url?authorID=7007156898&partnerID=MN8TOARS"
+          },
+          "external-id-source" : null,
+          "source" : {
+            "source-orcid" : {
+              "value" : null,
+              "uri" : "http://orcid.org/0000-0002-5982-8983",
+              "path" : "0000-0002-5982-8983",
+              "host" : "orcid.org"
+            },
+            "source-client-id" : null,
+            "source-name" : null,
+            "source-date" : null
+          }
+        } ],
+        "visibility" : "PUBLIC"
+      },
+      "delegation" : null,
+      "applications" : null,
+      "scope" : null
+    },
+    "orcid-activities" : {
+      "affiliations" : {
+        "affiliation" : [ {
+          "type" : "EMPLOYMENT",
+          "department-name" : "Tech",
+          "role-title" : "Lead Developer",
+          "start-date" : {
+            "year" : {
+              "value" : "2012"
+            },
+            "month" : {
+              "value" : "11"
+            },
+            "day" : null
+          },
+          "end-date" : null,
+          "organization" : {
+            "name" : "ORCID.org",
+            "address" : {
+              "city" : "Bethesda",
+              "region" : "Maryland",
+              "country" : "US"
+            },
+            "disambiguated-organization" : null
+          },
+          "source" : {
+            "source-orcid" : {
+              "value" : null,
+              "uri" : "http://orcid.org/0000-0002-0036-9460",
+              "path" : "0000-0002-0036-9460",
+              "host" : "orcid.org"
+            },
+            "source-client-id" : null,
+            "source-name" : {
+              "value" : "Rob app 2"
+            },
+            "source-date" : {
+              "value" : 1401975162799
+            }
+          },
+          "created-date" : {
+            "value" : 1401975162799
+          },
+          "last-modified-date" : {
+            "value" : 1427214866546
+          },
+          "visibility" : "PUBLIC",
+          "put-code" : "301466"
+        }, {
+          "type" : "EDUCATION",
+          "department-name" : null,
+          "role-title" : "Associates in Mathematics",
+          "start-date" : {
+            "year" : {
+              "value" : "1993"
+            },
+            "month" : {
+              "value" : "09"
+            },
+            "day" : null
+          },
+          "end-date" : {
+            "year" : {
+              "value" : "1996"
+            },
+            "month" : {
+              "value" : "05"
+            },
+            "day" : null
+          },
+          "organization" : {
+            "name" : "Reedley College",
+            "address" : {
+              "city" : "Reedley",
+              "region" : "CA",
+              "country" : "US"
+            },
+            "disambiguated-organization" : {
+              "disambiguated-organization-identifier" : "17084",
+              "disambiguation-source" : "RINGGOLD"
+            }
+          },
+          "source" : {
+            "source-orcid" : {
+              "value" : null,
+              "uri" : "http://orcid.org/0000-0002-0036-9460",
+              "path" : "0000-0002-0036-9460",
+              "host" : "orcid.org"
+            },
+            "source-client-id" : null,
+            "source-name" : {
+              "value" : "Rob app 2"
+            },
+            "source-date" : {
+              "value" : 1386347519297
+            }
+          },
+          "created-date" : {
+            "value" : 1386347519297
+          },
+          "last-modified-date" : {
+            "value" : 1427214866546
+          },
+          "visibility" : "PUBLIC",
+          "put-code" : "3616"
+        } ]
+      },
+      "orcid-works" : {
+        "orcid-work" : [ {
+          "put-code" : "16318434",
+          "work-title" : {
+            "title" : {
+              "value" : "Ultrasound-guided core needle biopsy of breast masses: How many cores are necessary to diagnose cancer?"
+            },
+            "subtitle" : null,
+            "translated-title" : null
+          },
+          "journal-title" : {
+            "value" : "Journal of Clinical Ultrasound"
+          },
+          "short-description" : null,
+          "work-citation" : {
+            "work-citation-type" : "BIBTEX",
+            "citation" : "@article{de_Lucena_2007, doi= {10.1002/jcu.20380}, url= {http://dx.doi.org/10.1002/jcu.20380}, year= {2007}, publisher= {Wiley-Blackwell}, volume= {35}, number= {7}, pages= {363--366}, author= {Cl\\'ecio ??nio Murta de Lucena and Jo\\~ao L\\'ucio dos Santos J\\'unior and C\\'esar Alencar de Lima Resende and V\\u{a}nia Fonseca do Amaral and Alexandre de Almeida Barra and Jo\\~no Henrique Pena Reis}, title= {Ultrasound-guided core needle biopsy of breast masses: How many cores are necessary to diagnose cancer?}, journal= {Journal of Clinical Ultrasound}}\n\n"
+          },
+          "work-type" : "JOURNAL_ARTICLE",
+          "publication-date" : null,
+          "work-external-identifiers" : {
+            "work-external-identifier" : [ {
+              "work-external-identifier-type" : "DOI",
+              "work-external-identifier-id" : {
+                "value" : "10.1002/jcu.20380"
+              }
+            } ],
+            "scope" : null
+          },
+          "url" : {
+            "value" : "http://dx.doi.org/10.1002/jcu.20380"
+          },
+          "work-contributors" : null,
+          "work-source" : null,
+          "source" : {
+            "source-orcid" : {
+              "value" : null,
+              "uri" : "http://orcid.org/0000-0002-0036-9460",
+              "path" : "0000-0002-0036-9460",
+              "host" : "orcid.org"
+            },
+            "source-client-id" : null,
+            "source-name" : {
+              "value" : "Robert Peters"
+            },
+            "source-date" : {
+              "value" : 1430419406959
+            }
+          },
+          "created-date" : {
+            "value" : 1430419406959
+          },
+          "last-modified-date" : {
+            "value" : 1430423384141
+          },
+          "language-code" : null,
+          "country" : null,
+          "visibility" : "PUBLIC"
+        }, {
+          "put-code" : "16318401",
+          "work-title" : {
+            "title" : {
+              "value" : "Ísample title® ñ  ñ"
+            },
+            "subtitle" : null,
+            "translated-title" : null
+          },
+          "journal-title" : null,
+          "short-description" : null,
+          "work-citation" : {
+            "work-citation-type" : "BIBTEX",
+            "citation" : "@article{sample1, title= {\\'Isample title\\textregistered \\~n  \\~n}, threeE= {\\'e, \\'e, \\'e}}\n\n"
+          },
+          "work-type" : "JOURNAL_ARTICLE",
+          "publication-date" : null,
+          "work-external-identifiers" : null,
+          "url" : null,
+          "work-contributors" : null,
+          "work-source" : null,
+          "source" : {
+            "source-orcid" : {
+              "value" : null,
+              "uri" : "http://orcid.org/0000-0002-0036-9460",
+              "path" : "0000-0002-0036-9460",
+              "host" : "orcid.org"
+            },
+            "source-client-id" : null,
+            "source-name" : {
+              "value" : "Robert Peters"
+            },
+            "source-date" : {
+              "value" : 1430418730964
+            }
+          },
+          "created-date" : {
+            "value" : 1430418730964
+          },
+          "last-modified-date" : {
+            "value" : 1430418730964
+          },
+          "language-code" : null,
+          "country" : null,
+          "visibility" : "PUBLIC"
+        }, {
+          "put-code" : "15136926",
+          "work-title" : {
+            "title" : {
+              "value" : "Computer-implemented system and method for facilitating creation of business plans and reports"
+            },
+            "subtitle" : null,
+            "translated-title" : null
+          },
+          "journal-title" : null,
+          "short-description" : null,
+          "work-citation" : null,
+          "work-type" : "PATENT",
+          "publication-date" : {
+            "year" : {
+              "value" : "2011"
+            },
+            "month" : {
+              "value" : "08"
+            },
+            "day" : {
+              "value" : "15"
+            },
+            "media-type" : null
+          },
+          "work-external-identifiers" : {
+            "work-external-identifier" : [ {
+              "work-external-identifier-type" : "PAT",
+              "work-external-identifier-id" : {
+                "value" : "US 20120209644 A1"
+              }
+            } ],
+            "scope" : null
+          },
+          "url" : {
+            "value" : "http://www.google.com/patents/US20120209644"
+          },
+          "work-contributors" : null,
+          "work-source" : null,
+          "source" : {
+            "source-orcid" : {
+              "value" : null,
+              "uri" : "http://orcid.org/0000-0002-0036-9460",
+              "path" : "0000-0002-0036-9460",
+              "host" : "orcid.org"
+            },
+            "source-client-id" : null,
+            "source-name" : {
+              "value" : "Rob app 2"
+            },
+            "source-date" : {
+              "value" : 1422048509501
+            }
+          },
+          "created-date" : {
+            "value" : 1422048509501
+          },
+          "last-modified-date" : {
+            "value" : 1427214866546
+          },
+          "language-code" : null,
+          "country" : null,
+          "visibility" : "PUBLIC"
+        }, {
+          "put-code" : "14208565",
+          "work-title" : {
+            "title" : {
+              "value" : "ORCID Annual Public Data File, 2014"
+            },
+            "subtitle" : null,
+            "translated-title" : null
+          },
+          "journal-title" : null,
+          "short-description" : null,
+          "work-citation" : {
+            "work-citation-type" : "BIBTEX",
+            "citation" : "@misc{datacitef3867cb3-e546-46c2-a6b7-20548975d671,\n  doi = {10.14454/07243.2014.001},\n  url = {http://dx.doi.org/10.14454/07243.2014.001},\n  author = {Paglione, Laura; Peters, Robert; Oyler, Catalina; Simpson, Will; Montenegro, Angel; Ramírez Monge, José Francisco; Krznarich, Elizabeth; Brown, Josh; Haak, Laurel; },\n  publisher = {ORCID},\n  title = {ORCID Annual Public Data File, 2014},\n  year = {2014}\n}"
+          },
+          "work-type" : "DATA_SET",
+          "publication-date" : {
+            "year" : {
+              "value" : "2014"
+            },
+            "month" : null,
+            "day" : null,
+            "media-type" : null
+          },
+          "work-external-identifiers" : {
+            "work-external-identifier" : [ {
+              "work-external-identifier-type" : "DOI",
+              "work-external-identifier-id" : {
+                "value" : "10.14454/07243.2014.001"
+              }
+            } ],
+            "scope" : null
+          },
+          "url" : null,
+          "work-contributors" : null,
+          "work-source" : null,
+          "source" : {
+            "source-orcid" : {
+              "value" : null,
+              "uri" : "http://orcid.org/0000-0001-8099-6984",
+              "path" : "0000-0001-8099-6984",
+              "host" : "orcid.org"
+            },
+            "source-client-id" : null,
+            "source-name" : {
+              "value" : "DataCite search and link"
+            },
+            "source-date" : {
+              "value" : 1414431324776
+            }
+          },
+          "created-date" : {
+            "value" : 1414431324776
+          },
+          "last-modified-date" : {
+            "value" : 1425492026989
+          },
+          "language-code" : null,
+          "country" : null,
+          "visibility" : "PUBLIC"
+        }, {
+          "put-code" : "14208564",
+          "work-title" : {
+            "title" : {
+              "value" : "ORCID Annual Public Data File, 2013"
+            },
+            "subtitle" : null,
+            "translated-title" : null
+          },
+          "journal-title" : null,
+          "short-description" : null,
+          "work-citation" : {
+            "work-citation-type" : "BIBTEX",
+            "citation" : "@misc{datacited3827421-23ea-4f8b-a26c-0e6e5a014460,\n  doi = {10.14454/07243.2013.001},\n  url = {http://dx.doi.org/10.14454/07243.2013.001},\n  author = {Paglione, Laura; Peters, Robert; Oyler, Catalina; Simpson, Will; Montenegro, Angel; Ramírez Monge, José Francisco; Bryant, Rebecca; Haak, Laurel; },\n  publisher = {ORCID},\n  title = {ORCID Annual Public Data File, 2013},\n  year = {2013}\n}"
+          },
+          "work-type" : "DATA_SET",
+          "publication-date" : {
+            "year" : {
+              "value" : "2013"
+            },
+            "month" : null,
+            "day" : null,
+            "media-type" : null
+          },
+          "work-external-identifiers" : {
+            "work-external-identifier" : [ {
+              "work-external-identifier-type" : "DOI",
+              "work-external-identifier-id" : {
+                "value" : "10.14454/07243.2013.001"
+              }
+            } ],
+            "scope" : null
+          },
+          "url" : null,
+          "work-contributors" : null,
+          "work-source" : null,
+          "source" : {
+            "source-orcid" : {
+              "value" : null,
+              "uri" : "http://orcid.org/0000-0001-8099-6984",
+              "path" : "0000-0001-8099-6984",
+              "host" : "orcid.org"
+            },
+            "source-client-id" : null,
+            "source-name" : {
+              "value" : "DataCite search and link"
+            },
+            "source-date" : {
+              "value" : 1414431310182
+            }
+          },
+          "created-date" : {
+            "value" : 1414431310182
+          },
+          "last-modified-date" : {
+            "value" : 1425492026989
+          },
+          "language-code" : null,
+          "country" : null,
+          "visibility" : "PUBLIC"
+        } ],
+        "scope" : null
+      },
+      "funding-list" : {
+        "funding" : [ {
+          "put-code" : "15763",
+          "funding-type" : "GRANT",
+          "organization-defined-type" : null,
+          "funding-title" : {
+            "title" : {
+              "value" : "Alfred P. Sloan "
+            },
+            "translated-title" : null
+          },
+          "short-description" : null,
+          "amount" : null,
+          "url" : {
+            "value" : ""
+          },
+          "start-date" : {
+            "year" : {
+              "value" : "2014"
+            },
+            "month" : null,
+            "day" : null
+          },
+          "end-date" : null,
+          "funding-external-identifiers" : null,
+          "funding-contributors" : {
+            "funding-contributor" : [ {
+              "contributor-orcid" : null,
+              "credit-name" : null,
+              "contributor-email" : null,
+              "funding-contributor-attributes" : {
+                "funding-contributor-role" : "SUPPORTED_BY"
+              }
+            } ]
+          },
+          "organization" : {
+            "name" : "Alfred P. Sloan Foundation",
+            "address" : {
+              "city" : "NY",
+              "region" : "NY",
+              "country" : "US"
+            },
+            "disambiguated-organization" : {
+              "disambiguated-organization-identifier" : "http://dx.doi.org/10.13039/100000879",
+              "disambiguation-source" : "FUNDREF"
+            }
+          },
+          "source" : {
+            "source-orcid" : {
+              "value" : null,
+              "uri" : "http://orcid.org/0000-0002-0036-9460",
+              "path" : "0000-0002-0036-9460",
+              "host" : "orcid.org"
+            },
+            "source-client-id" : null,
+            "source-name" : {
+              "value" : "Robert Peters"
+            },
+            "source-date" : {
+              "value" : 1401975281149
+            }
+          },
+          "created-date" : {
+            "value" : 1401975281149
+          },
+          "last-modified-date" : {
+            "value" : 1419283093255
+          },
+          "visibility" : "PUBLIC"
+        } ],
+        "scope" : null
+      }
+    },
+    "orcid-internal" : null,
+    "type" : "ADMIN",
+    "group-type" : null,
+    "client-type" : null
+  },
+  "orcid-search-results" : null,
+  "error-desc" : null
+}

@@ -1,0 +1,936 @@
+{
+  "message-version" : "1.2",
+  "orcid-profile" : {
+    "orcid" : null,
+    "orcid-id" : null,
+    "orcid-identifier" : {
+      "value" : null,
+      "uri" : "http://orcid.org/0000-0003-3188-6273",
+      "path" : "0000-0003-3188-6273",
+      "host" : "orcid.org"
+    },
+    "orcid-deprecated" : null,
+    "orcid-preferences" : {
+      "locale" : "EN"
+    },
+    "orcid-history" : {
+      "creation-method" : "WEBSITE",
+      "completion-date" : {
+        "value" : 1348848027027
+      },
+      "submission-date" : {
+        "value" : 1348844422576
+      },
+      "last-modified-date" : {
+        "value" : 1431009142902
+      },
+      "claimed" : {
+        "value" : true
+      },
+      "source" : null,
+      "deactivation-date" : null,
+      "verified-email" : {
+        "value" : true
+      },
+      "verified-primary-email" : {
+        "value" : true
+      },
+      "visibility" : null
+    },
+    "orcid-bio" : {
+      "personal-details" : {
+        "given-names" : {
+          "value" : "Laura"
+        },
+        "family-name" : {
+          "value" : "Paglione"
+        },
+        "credit-name" : {
+          "value" : "Laura A D Paglione",
+          "visibility" : "PUBLIC"
+        },
+        "other-names" : null
+      },
+      "biography" : {
+        "value" : "Laura Paglione is an entrepreneurial, technically versatile, resourceful leader who thrives at the intersection of creative, technical and business environments. She currently serves as Technical Director of ORCID, where she is directing the technical efforts in ORCID’s mission to address name ambiguity for researchers, and serve as a gateway to connect their research activities from disparate sources.\n\nPreviously as Director, Advancing Innovation at the Kauffman Foundation, Laura directed the efforts of the iBridge Network, an innovation catalyst for university collaboration and technology commercialization. In prior positions at Ford Motor Company and Avid Technology, as well as several start-up/gazelle companies, Laura has turned around, launched and led 4 other high-profile initiatives, the most visible of which was for Ford Motor Company’s Board of Directors.",
+        "visibility" : "PUBLIC"
+      },
+      "researcher-urls" : {
+        "researcher-url" : [ ],
+        "visibility" : "PUBLIC"
+      },
+      "contact-details" : {
+        "email" : [ ],
+        "address" : {
+          "country" : {
+            "value" : "US",
+            "visibility" : "PUBLIC"
+          }
+        }
+      },
+      "keywords" : {
+        "keyword" : [ {
+          "value" : "program management"
+        }, {
+          "value" : "project management"
+        }, {
+          "value" : "startup"
+        }, {
+          "value" : "turn-around"
+        } ],
+        "visibility" : "PUBLIC"
+      },
+      "external-identifiers" : {
+        "external-identifier" : [ {
+          "orcid" : null,
+          "external-id-orcid" : null,
+          "external-id-common-name" : {
+            "value" : "Scopus Author ID"
+          },
+          "external-id-reference" : {
+            "value" : "55377012300"
+          },
+          "external-id-url" : {
+            "value" : "http://www.scopus.com/inward/authorDetails.url?authorID=55377012300&partnerID=MN8TOARS"
+          },
+          "external-id-source" : null,
+          "source" : {
+            "source-orcid" : {
+              "value" : null,
+              "uri" : "http://orcid.org/0000-0002-5982-8983",
+              "path" : "0000-0002-5982-8983",
+              "host" : "orcid.org"
+            },
+            "source-client-id" : null,
+            "source-name" : null,
+            "source-date" : null
+          }
+        } ],
+        "visibility" : "PUBLIC"
+      },
+      "delegation" : null,
+      "applications" : null,
+      "scope" : null
+    },
+    "orcid-activities" : {
+      "affiliations" : {
+        "affiliation" : [ {
+          "type" : "EMPLOYMENT",
+          "department-name" : null,
+          "role-title" : "Technical Director",
+          "start-date" : {
+            "year" : {
+              "value" : "2012"
+            },
+            "month" : {
+              "value" : "06"
+            },
+            "day" : null
+          },
+          "end-date" : null,
+          "organization" : {
+            "name" : "ORCID",
+            "address" : {
+              "city" : "Bethesda",
+              "region" : "MD",
+              "country" : "US"
+            },
+            "disambiguated-organization" : {
+              "disambiguated-organization-identifier" : "385488",
+              "disambiguation-source" : "RINGGOLD"
+            }
+          },
+          "source" : {
+            "source-orcid" : {
+              "value" : null,
+              "uri" : "http://orcid.org/0000-0003-3188-6273",
+              "path" : "0000-0003-3188-6273",
+              "host" : "orcid.org"
+            },
+            "source-client-id" : null,
+            "source-name" : {
+              "value" : "Laura A D Paglione"
+            },
+            "source-date" : {
+              "value" : 1386286946738
+            }
+          },
+          "created-date" : {
+            "value" : 1386286946738
+          },
+          "last-modified-date" : {
+            "value" : 1408043728129
+          },
+          "visibility" : "PUBLIC",
+          "put-code" : "1024"
+        }, {
+          "type" : "EDUCATION",
+          "department-name" : "Computer Science",
+          "role-title" : "ScM",
+          "start-date" : null,
+          "end-date" : null,
+          "organization" : {
+            "name" : "Brown University",
+            "address" : {
+              "city" : "Providence",
+              "region" : "RI",
+              "country" : "US"
+            },
+            "disambiguated-organization" : {
+              "disambiguated-organization-identifier" : "6752",
+              "disambiguation-source" : "RINGGOLD"
+            }
+          },
+          "source" : {
+            "source-orcid" : {
+              "value" : null,
+              "uri" : "http://orcid.org/0000-0003-3188-6273",
+              "path" : "0000-0003-3188-6273",
+              "host" : "orcid.org"
+            },
+            "source-client-id" : null,
+            "source-name" : {
+              "value" : "Laura A D Paglione"
+            },
+            "source-date" : {
+              "value" : 1386333832230
+            }
+          },
+          "created-date" : {
+            "value" : 1386333832230
+          },
+          "last-modified-date" : {
+            "value" : 1408043728129
+          },
+          "visibility" : "PUBLIC",
+          "put-code" : "2706"
+        }, {
+          "type" : "EDUCATION",
+          "department-name" : "Engineering Management",
+          "role-title" : "BEng",
+          "start-date" : null,
+          "end-date" : null,
+          "organization" : {
+            "name" : "Stevens Institute of Technology",
+            "address" : {
+              "city" : "Hoboken",
+              "region" : "NJ",
+              "country" : "US"
+            },
+            "disambiguated-organization" : {
+              "disambiguated-organization-identifier" : "33694",
+              "disambiguation-source" : "RINGGOLD"
+            }
+          },
+          "source" : {
+            "source-orcid" : {
+              "value" : null,
+              "uri" : "http://orcid.org/0000-0003-3188-6273",
+              "path" : "0000-0003-3188-6273",
+              "host" : "orcid.org"
+            },
+            "source-client-id" : null,
+            "source-name" : {
+              "value" : "Laura A D Paglione"
+            },
+            "source-date" : {
+              "value" : 1386333868802
+            }
+          },
+          "created-date" : {
+            "value" : 1386333868802
+          },
+          "last-modified-date" : {
+            "value" : 1408043728129
+          },
+          "visibility" : "PUBLIC",
+          "put-code" : "2710"
+        }, {
+          "type" : "EMPLOYMENT",
+          "department-name" : null,
+          "role-title" : "VP, Operations",
+          "start-date" : {
+            "year" : {
+              "value" : "2010"
+            },
+            "month" : {
+              "value" : "04"
+            },
+            "day" : null
+          },
+          "end-date" : {
+            "year" : {
+              "value" : "2012"
+            },
+            "month" : {
+              "value" : "06"
+            },
+            "day" : null
+          },
+          "organization" : {
+            "name" : "Management Leadership for Tomorrow",
+            "address" : {
+              "city" : "New York",
+              "region" : "NY",
+              "country" : "US"
+            },
+            "disambiguated-organization" : null
+          },
+          "source" : {
+            "source-orcid" : {
+              "value" : null,
+              "uri" : "http://orcid.org/0000-0003-3188-6273",
+              "path" : "0000-0003-3188-6273",
+              "host" : "orcid.org"
+            },
+            "source-client-id" : null,
+            "source-name" : {
+              "value" : "Laura A D Paglione"
+            },
+            "source-date" : {
+              "value" : 1386287131192
+            }
+          },
+          "created-date" : {
+            "value" : 1386287131192
+          },
+          "last-modified-date" : {
+            "value" : 1408043728129
+          },
+          "visibility" : "PUBLIC",
+          "put-code" : "1033"
+        }, {
+          "type" : "EMPLOYMENT",
+          "department-name" : null,
+          "role-title" : "Chief Operating Officer",
+          "start-date" : {
+            "year" : {
+              "value" : "2009"
+            },
+            "month" : null,
+            "day" : null
+          },
+          "end-date" : {
+            "year" : {
+              "value" : "2010"
+            },
+            "month" : null,
+            "day" : null
+          },
+          "organization" : {
+            "name" : "Wildcat",
+            "address" : {
+              "city" : "New York",
+              "region" : "NY",
+              "country" : "US"
+            },
+            "disambiguated-organization" : null
+          },
+          "source" : {
+            "source-orcid" : {
+              "value" : null,
+              "uri" : "http://orcid.org/0000-0003-3188-6273",
+              "path" : "0000-0003-3188-6273",
+              "host" : "orcid.org"
+            },
+            "source-client-id" : null,
+            "source-name" : {
+              "value" : "Laura A D Paglione"
+            },
+            "source-date" : {
+              "value" : 1386287214910
+            }
+          },
+          "created-date" : {
+            "value" : 1386287214910
+          },
+          "last-modified-date" : {
+            "value" : 1408043728129
+          },
+          "visibility" : "PUBLIC",
+          "put-code" : "1039"
+        }, {
+          "type" : "EMPLOYMENT",
+          "department-name" : "Advancing Innovation",
+          "role-title" : "Director",
+          "start-date" : {
+            "year" : {
+              "value" : "2004"
+            },
+            "month" : null,
+            "day" : null
+          },
+          "end-date" : {
+            "year" : {
+              "value" : "2009"
+            },
+            "month" : null,
+            "day" : null
+          },
+          "organization" : {
+            "name" : "Ewing Marion Kauffman Foundation",
+            "address" : {
+              "city" : "Kansas City",
+              "region" : "MO",
+              "country" : "US"
+            },
+            "disambiguated-organization" : {
+              "disambiguated-organization-identifier" : "10675",
+              "disambiguation-source" : "RINGGOLD"
+            }
+          },
+          "source" : {
+            "source-orcid" : {
+              "value" : null,
+              "uri" : "http://orcid.org/0000-0003-3188-6273",
+              "path" : "0000-0003-3188-6273",
+              "host" : "orcid.org"
+            },
+            "source-client-id" : null,
+            "source-name" : {
+              "value" : "Laura A D Paglione"
+            },
+            "source-date" : {
+              "value" : 1391095420355
+            }
+          },
+          "created-date" : {
+            "value" : 1391095420355
+          },
+          "last-modified-date" : {
+            "value" : 1408043728129
+          },
+          "visibility" : "PUBLIC",
+          "put-code" : "96789"
+        }, {
+          "type" : "EMPLOYMENT",
+          "department-name" : "Process Reengineering",
+          "role-title" : null,
+          "start-date" : {
+            "year" : {
+              "value" : "1999"
+            },
+            "month" : null,
+            "day" : null
+          },
+          "end-date" : {
+            "year" : {
+              "value" : "2004"
+            },
+            "month" : null,
+            "day" : null
+          },
+          "organization" : {
+            "name" : "Ford Motor Co",
+            "address" : {
+              "city" : "Dearborn",
+              "region" : "MI",
+              "country" : "US"
+            },
+            "disambiguated-organization" : {
+              "disambiguated-organization-identifier" : "1931",
+              "disambiguation-source" : "RINGGOLD"
+            }
+          },
+          "source" : {
+            "source-orcid" : {
+              "value" : null,
+              "uri" : "http://orcid.org/0000-0003-3188-6273",
+              "path" : "0000-0003-3188-6273",
+              "host" : "orcid.org"
+            },
+            "source-client-id" : null,
+            "source-name" : {
+              "value" : "Laura A D Paglione"
+            },
+            "source-date" : {
+              "value" : 1404415636678
+            }
+          },
+          "created-date" : {
+            "value" : 1404415636678
+          },
+          "last-modified-date" : {
+            "value" : 1408043728129
+          },
+          "visibility" : "PUBLIC",
+          "put-code" : "339809"
+        }, {
+          "type" : "EDUCATION",
+          "department-name" : null,
+          "role-title" : "MBA",
+          "start-date" : null,
+          "end-date" : {
+            "year" : {
+              "value" : "1999"
+            },
+            "month" : null,
+            "day" : null
+          },
+          "organization" : {
+            "name" : "Massachusetts Institute of Technology Sloan School of Management",
+            "address" : {
+              "city" : "Cambridge",
+              "region" : "MA",
+              "country" : "US"
+            },
+            "disambiguated-organization" : {
+              "disambiguated-organization-identifier" : "33575",
+              "disambiguation-source" : "RINGGOLD"
+            }
+          },
+          "source" : {
+            "source-orcid" : {
+              "value" : null,
+              "uri" : "http://orcid.org/0000-0003-3188-6273",
+              "path" : "0000-0003-3188-6273",
+              "host" : "orcid.org"
+            },
+            "source-client-id" : null,
+            "source-name" : {
+              "value" : "Laura A D Paglione"
+            },
+            "source-date" : {
+              "value" : 1386333783864
+            }
+          },
+          "created-date" : {
+            "value" : 1386333783864
+          },
+          "last-modified-date" : {
+            "value" : 1408043728129
+          },
+          "visibility" : "PUBLIC",
+          "put-code" : "2701"
+        } ]
+      },
+      "orcid-works" : {
+        "orcid-work" : [ {
+          "put-code" : "11601956",
+          "work-title" : {
+            "title" : {
+              "value" : "ORCID: a system to uniquely identify researchers"
+            },
+            "subtitle" : {
+              "value" : "Learned Publishing"
+            },
+            "translated-title" : null
+          },
+          "journal-title" : null,
+          "short-description" : null,
+          "work-citation" : {
+            "work-citation-type" : "BIBTEX",
+            "citation" : "@article{ner_Paglione_Pentz_Ratner_2012, title={ORCID: a system to uniquely identify researchers}, volume={25}, url={http://dx.doi.org/10.1087/20120404}, DOI={10.1087/20120404}, number={4}, journal={Learned Publishing}, publisher={ALPSP -Association of Learned and Professional Society Publishers}, author={Haak, Laurel L. and Fenner, Martin and Paglione, Laura and Pentz, Ed and Ratner, Howard}, year={2012}, month={Oct}, pages={259-264}}"
+          },
+          "work-type" : "JOURNAL_ARTICLE",
+          "publication-date" : {
+            "year" : {
+              "value" : "2012"
+            },
+            "month" : null,
+            "day" : null,
+            "media-type" : null
+          },
+          "work-external-identifiers" : {
+            "work-external-identifier" : [ {
+              "work-external-identifier-type" : "ISSN",
+              "work-external-identifier-id" : {
+                "value" : "0953-1513"
+              }
+            }, {
+              "work-external-identifier-type" : "DOI",
+              "work-external-identifier-id" : {
+                "value" : "10.1087/20120404"
+              }
+            } ],
+            "scope" : null
+          },
+          "url" : null,
+          "work-contributors" : null,
+          "work-source" : null,
+          "source" : {
+            "source-orcid" : {
+              "value" : null,
+              "uri" : "http://orcid.org/0000-0002-3054-1567",
+              "path" : "0000-0002-3054-1567",
+              "host" : "orcid.org"
+            },
+            "source-client-id" : null,
+            "source-name" : {
+              "value" : "CrossRef Metadata Search"
+            },
+            "source-date" : {
+              "value" : 1389989350299
+            }
+          },
+          "created-date" : {
+            "value" : 1389989350299
+          },
+          "last-modified-date" : {
+            "value" : 1417721797311
+          },
+          "language-code" : null,
+          "country" : null,
+          "visibility" : "PUBLIC"
+        }, {
+          "put-code" : "11601842",
+          "work-title" : {
+            "title" : {
+              "value" : "ORCID Annual Public Data File, 2013"
+            },
+            "subtitle" : null,
+            "translated-title" : null
+          },
+          "journal-title" : null,
+          "short-description" : null,
+          "work-citation" : {
+            "work-citation-type" : "BIBTEX",
+            "citation" : "@misc{datacite3bd080b0-9775-44c8-90f0-6608b3c84504,\n  doi = {10.14454/07243.2013.001},\n  url = {http://dx.doi.org/10.14454/07243.2013.001},\n  author = {Paglione, Laura; Peters, Robert; Oyler, Catalina; Simpson, Will; Montenegro, Angel; Ramírez Monge, José Francisco; Bryant, Rebecca; Haak, Laurel; },\n  publisher = {ORCID},\n  title = {ORCID Annual Public Data File, 2013},\n  year = {2013}\n}"
+          },
+          "work-type" : "DATA_SET",
+          "publication-date" : {
+            "year" : {
+              "value" : "2013"
+            },
+            "month" : null,
+            "day" : null,
+            "media-type" : null
+          },
+          "work-external-identifiers" : {
+            "work-external-identifier" : [ {
+              "work-external-identifier-type" : "DOI",
+              "work-external-identifier-id" : {
+                "value" : "10.14454/07243.2013.001"
+              }
+            } ],
+            "scope" : null
+          },
+          "url" : null,
+          "work-contributors" : null,
+          "work-source" : null,
+          "source" : {
+            "source-orcid" : {
+              "value" : null,
+              "uri" : "http://orcid.org/0000-0001-8099-6984",
+              "path" : "0000-0001-8099-6984",
+              "host" : "orcid.org"
+            },
+            "source-client-id" : null,
+            "source-name" : {
+              "value" : "DataCite search and link"
+            },
+            "source-date" : {
+              "value" : 1389986793354
+            }
+          },
+          "created-date" : {
+            "value" : 1389986793354
+          },
+          "last-modified-date" : {
+            "value" : 1418335112375
+          },
+          "language-code" : null,
+          "country" : null,
+          "visibility" : "PUBLIC"
+        }, {
+          "put-code" : "11215137",
+          "work-title" : {
+            "title" : {
+              "value" : "Work Title"
+            },
+            "subtitle" : {
+              "value" : "Work Subtitle"
+            },
+            "translated-title" : {
+              "value" : "Translated Title",
+              "language-code" : "es"
+            }
+          },
+          "journal-title" : {
+            "value" : "Journal Title"
+          },
+          "short-description" : "This is a description",
+          "work-citation" : {
+            "work-citation-type" : "FORMATTED_UNSPECIFIED",
+            "citation" : "This s my citation. Isn't it pretty?"
+          },
+          "work-type" : "JOURNAL_ARTICLE",
+          "publication-date" : {
+            "year" : {
+              "value" : "2013"
+            },
+            "month" : {
+              "value" : "12"
+            },
+            "day" : {
+              "value" : "11"
+            },
+            "media-type" : null
+          },
+          "work-external-identifiers" : {
+            "work-external-identifier" : [ {
+              "work-external-identifier-type" : "DOI",
+              "work-external-identifier-id" : {
+                "value" : "10.14454/07243.2013.001"
+              }
+            } ],
+            "scope" : null
+          },
+          "url" : {
+            "value" : "http://orcid.org"
+          },
+          "work-contributors" : {
+            "contributor" : [ {
+              "contributor-orcid" : null,
+              "credit-name" : null,
+              "contributor-email" : null,
+              "contributor-attributes" : {
+                "contributor-sequence" : "FIRST",
+                "contributor-role" : "AUTHOR"
+              }
+            } ]
+          },
+          "work-source" : null,
+          "source" : {
+            "source-orcid" : {
+              "value" : null,
+              "uri" : "http://orcid.org/0000-0003-3188-6273",
+              "path" : "0000-0003-3188-6273",
+              "host" : "orcid.org"
+            },
+            "source-client-id" : null,
+            "source-name" : {
+              "value" : "Laura A D Paglione"
+            },
+            "source-date" : {
+              "value" : 1386788574219
+            }
+          },
+          "created-date" : {
+            "value" : 1386788574219
+          },
+          "last-modified-date" : {
+            "value" : 1418335110820
+          },
+          "language-code" : "en",
+          "country" : {
+            "value" : "US",
+            "visibility" : "PUBLIC"
+          },
+          "visibility" : "PUBLIC"
+        }, {
+          "put-code" : "11601841",
+          "work-title" : {
+            "title" : {
+              "value" : "ORCID iD Growth"
+            },
+            "subtitle" : null,
+            "translated-title" : null
+          },
+          "journal-title" : null,
+          "short-description" : null,
+          "work-citation" : {
+            "work-citation-type" : "BIBTEX",
+            "citation" : "@misc{datacitec856b952-6f91-4a7d-b747-edcc4fad9b98,\n  doi = {10.6084/M9.FIGSHARE.841742},\n  url = {http://dx.doi.org/10.6084/M9.FIGSHARE.841742},\n  author = {Laura Paglione; },\n  publisher = {Figshare},\n  title = {ORCID iD Growth},\n  year = {2013}\n}"
+          },
+          "work-type" : "OTHER",
+          "publication-date" : {
+            "year" : {
+              "value" : "2013"
+            },
+            "month" : null,
+            "day" : null,
+            "media-type" : null
+          },
+          "work-external-identifiers" : {
+            "work-external-identifier" : [ {
+              "work-external-identifier-type" : "DOI",
+              "work-external-identifier-id" : {
+                "value" : "10.6084/M9.FIGSHARE.841742"
+              }
+            } ],
+            "scope" : null
+          },
+          "url" : null,
+          "work-contributors" : null,
+          "work-source" : null,
+          "source" : {
+            "source-orcid" : {
+              "value" : null,
+              "uri" : "http://orcid.org/0000-0001-8099-6984",
+              "path" : "0000-0001-8099-6984",
+              "host" : "orcid.org"
+            },
+            "source-client-id" : null,
+            "source-name" : {
+              "value" : "DataCite search and link"
+            },
+            "source-date" : {
+              "value" : 1389986784097
+            }
+          },
+          "created-date" : {
+            "value" : 1389986784097
+          },
+          "last-modified-date" : {
+            "value" : 1417189989856
+          },
+          "language-code" : null,
+          "country" : null,
+          "visibility" : "PUBLIC"
+        }, {
+          "put-code" : "8626044",
+          "work-title" : {
+            "title" : {
+              "value" : "ORCID: a system to uniquely identify researchers"
+            },
+            "subtitle" : null,
+            "translated-title" : null
+          },
+          "journal-title" : null,
+          "short-description" : null,
+          "work-citation" : {
+            "work-citation-type" : "FORMATTED_UNSPECIFIED",
+            "citation" : "Haak, L, Fenner, M, Paglione, L, Pentz, E & Ratner, H, 2012, 'ORCID: a system to uniquely identify researchers', <i>Learned Publishing</i>, vol. 25, no. 4, pp. 259-264."
+          },
+          "work-type" : "JOURNAL_ARTICLE",
+          "publication-date" : {
+            "year" : {
+              "value" : "2012"
+            },
+            "month" : {
+              "value" : "10"
+            },
+            "day" : {
+              "value" : "01"
+            },
+            "media-type" : null
+          },
+          "work-external-identifiers" : {
+            "work-external-identifier" : [ {
+              "work-external-identifier-type" : "DOI",
+              "work-external-identifier-id" : {
+                "value" : "10.1087/20120404"
+              }
+            } ],
+            "scope" : null
+          },
+          "url" : null,
+          "work-contributors" : {
+            "contributor" : [ {
+              "contributor-orcid" : null,
+              "credit-name" : null,
+              "contributor-email" : null,
+              "contributor-attributes" : {
+                "contributor-sequence" : "FIRST",
+                "contributor-role" : "AUTHOR"
+              }
+            } ]
+          },
+          "work-source" : null,
+          "source" : {
+            "source-orcid" : {
+              "value" : null,
+              "uri" : "http://orcid.org/0000-0003-3188-6273",
+              "path" : "0000-0003-3188-6273",
+              "host" : "orcid.org"
+            },
+            "source-client-id" : null,
+            "source-name" : {
+              "value" : "Laura A D Paglione"
+            },
+            "source-date" : {
+              "value" : 1366225176457
+            }
+          },
+          "created-date" : {
+            "value" : 1366225176457
+          },
+          "last-modified-date" : {
+            "value" : 1417721797310
+          },
+          "language-code" : null,
+          "country" : null,
+          "visibility" : "PUBLIC"
+        }, {
+          "put-code" : "9311692",
+          "work-title" : {
+            "title" : {
+              "value" : "iBridge Network"
+            },
+            "subtitle" : null,
+            "translated-title" : null
+          },
+          "journal-title" : null,
+          "short-description" : "It is well known that university-based research is responsible for some of the world’s most profound discoveries, spurring breakthrough products and technologies that have markedly improved the way we live. A key to our nation’s long-term success and our ability to remain competitive in the global economy is ensuring that all of universities' promising research is given a chance to make it into practical use.\n\nToday, the iBridgeSM Network provides the centralized online source for research and innovations.",
+          "work-citation" : null,
+          "work-type" : "WEBSITE",
+          "publication-date" : {
+            "year" : {
+              "value" : "2007"
+            },
+            "month" : null,
+            "day" : null,
+            "media-type" : null
+          },
+          "work-external-identifiers" : null,
+          "url" : {
+            "value" : "http://www.ibridgenetwork.org"
+          },
+          "work-contributors" : {
+            "contributor" : [ {
+              "contributor-orcid" : {
+                "value" : null,
+                "uri" : "http://orcid.org/0000-0003-3188-6273",
+                "path" : "0000-0003-3188-6273",
+                "host" : "orcid.org"
+              },
+              "credit-name" : {
+                "value" : "Laura A D Paglione",
+                "visibility" : "PUBLIC"
+              },
+              "contributor-email" : null,
+              "contributor-attributes" : {
+                "contributor-sequence" : null,
+                "contributor-role" : "CO_INVENTOR"
+              }
+            } ]
+          },
+          "work-source" : null,
+          "source" : {
+            "source-orcid" : {
+              "value" : null,
+              "uri" : "http://orcid.org/0000-0003-3188-6273",
+              "path" : "0000-0003-3188-6273",
+              "host" : "orcid.org"
+            },
+            "source-client-id" : null,
+            "source-name" : {
+              "value" : "Laura A D Paglione"
+            },
+            "source-date" : {
+              "value" : 1372798687562
+            }
+          },
+          "created-date" : {
+            "value" : 1372798687562
+          },
+          "last-modified-date" : {
+            "value" : 1389993808744
+          },
+          "language-code" : null,
+          "country" : null,
+          "visibility" : "PUBLIC"
+        } ],
+        "scope" : null
+      },
+      "funding-list" : null
+    },
+    "orcid-internal" : null,
+    "type" : "GROUP",
+    "group-type" : "PREMIUM_INSTITUTION",
+    "client-type" : null
+  },
+  "orcid-search-results" : null,
+  "error-desc" : null
+}

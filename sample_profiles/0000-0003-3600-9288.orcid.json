@@ -1,0 +1,278 @@
+{
+  "message-version" : "1.2",
+  "orcid-profile" : {
+    "orcid" : null,
+    "orcid-id" : null,
+    "orcid-identifier" : {
+      "value" : null,
+      "uri" : "http://orcid.org/0000-0003-3600-9288",
+      "path" : "0000-0003-3600-9288",
+      "host" : "orcid.org"
+    },
+    "orcid-deprecated" : null,
+    "orcid-preferences" : {
+      "locale" : "EN"
+    },
+    "orcid-history" : {
+      "creation-method" : "DIRECT",
+      "completion-date" : null,
+      "submission-date" : {
+        "value" : 1394469945640
+      },
+      "last-modified-date" : {
+        "value" : 1394635976831
+      },
+      "claimed" : {
+        "value" : true
+      },
+      "source" : null,
+      "deactivation-date" : null,
+      "verified-email" : {
+        "value" : true
+      },
+      "verified-primary-email" : {
+        "value" : true
+      },
+      "visibility" : null
+    },
+    "orcid-bio" : {
+      "personal-details" : {
+        "given-names" : {
+          "value" : "Claudia"
+        },
+        "family-name" : {
+          "value" : "Soriano"
+        },
+        "credit-name" : null,
+        "other-names" : {
+          "other-name" : [ ],
+          "visibility" : "PUBLIC"
+        }
+      },
+      "biography" : {
+        "value" : "Claudia Soriano is the Operations Manager at ORCID where she oversees all aspects of back office operations, while supporting the Executive Director.\nClaudia brings over five years of experience in operations, customer service and human resources; most recently spending 3 years in the non-profit sector.  ",
+        "visibility" : "PUBLIC"
+      },
+      "researcher-urls" : {
+        "researcher-url" : [ ],
+        "visibility" : "PUBLIC"
+      },
+      "contact-details" : null,
+      "keywords" : null,
+      "external-identifiers" : null,
+      "delegation" : null,
+      "applications" : null,
+      "scope" : null
+    },
+    "orcid-activities" : {
+      "affiliations" : {
+        "affiliation" : [ {
+          "type" : "EMPLOYMENT",
+          "department-name" : "Operations",
+          "role-title" : "Operations Manager",
+          "start-date" : {
+            "year" : {
+              "value" : "2014"
+            },
+            "month" : {
+              "value" : "03"
+            },
+            "day" : {
+              "value" : "10"
+            }
+          },
+          "end-date" : null,
+          "organization" : {
+            "name" : "ORCID",
+            "address" : {
+              "city" : "Bethesda",
+              "region" : "MD",
+              "country" : "US"
+            },
+            "disambiguated-organization" : null
+          },
+          "source" : {
+            "source-orcid" : {
+              "value" : null,
+              "uri" : "http://orcid.org/0000-0003-3600-9288",
+              "path" : "0000-0003-3600-9288",
+              "host" : "orcid.org"
+            },
+            "source-client-id" : null,
+            "source-name" : {
+              "value" : "Claudia Soriano"
+            },
+            "source-date" : {
+              "value" : 1394470018643
+            }
+          },
+          "created-date" : {
+            "value" : 1394470018643
+          },
+          "last-modified-date" : {
+            "value" : 1394470018643
+          },
+          "visibility" : "PUBLIC",
+          "put-code" : "154043"
+        }, {
+          "type" : "EDUCATION",
+          "department-name" : null,
+          "role-title" : "B.S.",
+          "start-date" : null,
+          "end-date" : null,
+          "organization" : {
+            "name" : "John Jay College of Criminal Justice",
+            "address" : {
+              "city" : "New York",
+              "region" : "NY",
+              "country" : "US"
+            },
+            "disambiguated-organization" : {
+              "disambiguated-organization-identifier" : "14775",
+              "disambiguation-source" : "RINGGOLD"
+            }
+          },
+          "source" : {
+            "source-orcid" : {
+              "value" : null,
+              "uri" : "http://orcid.org/0000-0003-3600-9288",
+              "path" : "0000-0003-3600-9288",
+              "host" : "orcid.org"
+            },
+            "source-client-id" : null,
+            "source-name" : {
+              "value" : "Claudia Soriano"
+            },
+            "source-date" : {
+              "value" : 1394635238668
+            }
+          },
+          "created-date" : {
+            "value" : 1394635238668
+          },
+          "last-modified-date" : {
+            "value" : 1394635238668
+          },
+          "visibility" : "PUBLIC",
+          "put-code" : "158881"
+        }, {
+          "type" : "EMPLOYMENT",
+          "department-name" : null,
+          "role-title" : "Operations Manager",
+          "start-date" : {
+            "year" : {
+              "value" : "2010"
+            },
+            "month" : {
+              "value" : "09"
+            },
+            "day" : null
+          },
+          "end-date" : {
+            "year" : {
+              "value" : "2014"
+            },
+            "month" : {
+              "value" : "03"
+            },
+            "day" : null
+          },
+          "organization" : {
+            "name" : "Management Leadership for Tomorrow",
+            "address" : {
+              "city" : "New York",
+              "region" : "NT",
+              "country" : "US"
+            },
+            "disambiguated-organization" : null
+          },
+          "source" : {
+            "source-orcid" : {
+              "value" : null,
+              "uri" : "http://orcid.org/0000-0003-3600-9288",
+              "path" : "0000-0003-3600-9288",
+              "host" : "orcid.org"
+            },
+            "source-client-id" : null,
+            "source-name" : {
+              "value" : "Claudia Soriano"
+            },
+            "source-date" : {
+              "value" : 1394564325515
+            }
+          },
+          "created-date" : {
+            "value" : 1394564325515
+          },
+          "last-modified-date" : {
+            "value" : 1394564325515
+          },
+          "visibility" : "PUBLIC",
+          "put-code" : "156616"
+        }, {
+          "type" : "EMPLOYMENT",
+          "department-name" : null,
+          "role-title" : "Business Operations Manager",
+          "start-date" : {
+            "year" : {
+              "value" : "2009"
+            },
+            "month" : {
+              "value" : "01"
+            },
+            "day" : null
+          },
+          "end-date" : {
+            "year" : {
+              "value" : "2010"
+            },
+            "month" : {
+              "value" : "09"
+            },
+            "day" : null
+          },
+          "organization" : {
+            "name" : "J&D Communication Inc.",
+            "address" : {
+              "city" : "New York",
+              "region" : "NY",
+              "country" : "US"
+            },
+            "disambiguated-organization" : null
+          },
+          "source" : {
+            "source-orcid" : {
+              "value" : null,
+              "uri" : "http://orcid.org/0000-0003-3600-9288",
+              "path" : "0000-0003-3600-9288",
+              "host" : "orcid.org"
+            },
+            "source-client-id" : null,
+            "source-name" : {
+              "value" : "Claudia Soriano"
+            },
+            "source-date" : {
+              "value" : 1394635185208
+            }
+          },
+          "created-date" : {
+            "value" : 1394635185208
+          },
+          "last-modified-date" : {
+            "value" : 1394635185208
+          },
+          "visibility" : "PUBLIC",
+          "put-code" : "158878"
+        } ]
+      },
+      "orcid-works" : null,
+      "funding-list" : null
+    },
+    "orcid-internal" : null,
+    "type" : "USER",
+    "group-type" : null,
+    "client-type" : null
+  },
+  "orcid-search-results" : null,
+  "error-desc" : null
+}

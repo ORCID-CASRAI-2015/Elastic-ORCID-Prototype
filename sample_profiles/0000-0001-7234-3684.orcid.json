@@ -1,0 +1,431 @@
+{
+  "message-version" : "1.2",
+  "orcid-profile" : {
+    "orcid" : null,
+    "orcid-id" : null,
+    "orcid-identifier" : {
+      "value" : null,
+      "uri" : "http://orcid.org/0000-0001-7234-3684",
+      "path" : "0000-0001-7234-3684",
+      "host" : "orcid.org"
+    },
+    "orcid-deprecated" : null,
+    "orcid-preferences" : {
+      "locale" : "EN"
+    },
+    "orcid-history" : {
+      "creation-method" : "MEMBER_REFERRED",
+      "completion-date" : null,
+      "submission-date" : {
+        "value" : 1429097581278
+      },
+      "last-modified-date" : {
+        "value" : 1431708754907
+      },
+      "claimed" : {
+        "value" : true
+      },
+      "source" : null,
+      "deactivation-date" : null,
+      "verified-email" : {
+        "value" : true
+      },
+      "verified-primary-email" : {
+        "value" : true
+      },
+      "visibility" : null
+    },
+    "orcid-bio" : {
+      "personal-details" : {
+        "given-names" : {
+          "value" : "Matthew"
+        },
+        "family-name" : {
+          "value" : "Buys"
+        },
+        "credit-name" : null,
+        "other-names" : null
+      },
+      "biography" : {
+        "value" : "Matthew Buys is currently the ORCID Regional Director, Africa and Middle East.  Matthew builds strategic relationships with key institutions and governments across Africa and the Middle East to promote the application of ORCID in the research and innovation process. Previously, Matthew was the Account Manager at Thomson Reuters covering the Eastern and Southern Africa region; and prior to that he was the Regional Sales Manager at EBSCO Information Services.  He completed a BA (Psychology) and Post-Graduate Diploma in Management at the University of the Witwatersrand. On the side, Matthew is working to complete a qualification in Information Systems covering developer skills including, Java, Flash, XML, html, Perl, and SQL.",
+        "visibility" : "PUBLIC"
+      },
+      "researcher-urls" : {
+        "researcher-url" : [ {
+          "url-name" : {
+            "value" : "ORCID"
+          },
+          "url" : {
+            "value" : "http://orcid.org"
+          }
+        }, {
+          "url-name" : {
+            "value" : "ResearcherID"
+          },
+          "url" : {
+            "value" : "http://www.researcherid.com/rid/J-2686-2014"
+          }
+        } ],
+        "visibility" : "PUBLIC"
+      },
+      "contact-details" : {
+        "email" : [ ],
+        "address" : {
+          "country" : {
+            "value" : "ZA",
+            "visibility" : "PUBLIC"
+          }
+        }
+      },
+      "keywords" : {
+        "keyword" : [ {
+          "value" : "access to information"
+        }, {
+          "value" : "information systems"
+        }, {
+          "value" : "innovation"
+        }, {
+          "value" : "interoperability"
+        }, {
+          "value" : "research management"
+        }, {
+          "value" : "unique identifiers"
+        } ],
+        "visibility" : "PUBLIC"
+      },
+      "external-identifiers" : {
+        "external-identifier" : [ {
+          "orcid" : null,
+          "external-id-orcid" : null,
+          "external-id-common-name" : {
+            "value" : "ResearcherID"
+          },
+          "external-id-reference" : {
+            "value" : "J-2686-2014"
+          },
+          "external-id-url" : {
+            "value" : "http://www.researcherid.com/rid/J-2686-2014"
+          },
+          "external-id-source" : null,
+          "source" : {
+            "source-orcid" : {
+              "value" : null,
+              "uri" : "http://orcid.org/0000-0001-7707-4137",
+              "path" : "0000-0001-7707-4137",
+              "host" : "orcid.org"
+            },
+            "source-client-id" : null,
+            "source-name" : null,
+            "source-date" : null
+          }
+        } ],
+        "visibility" : "PUBLIC"
+      },
+      "delegation" : null,
+      "applications" : null,
+      "scope" : null
+    },
+    "orcid-activities" : {
+      "affiliations" : {
+        "affiliation" : [ {
+          "type" : "EDUCATION",
+          "department-name" : null,
+          "role-title" : "Information Systems: Internet Development",
+          "start-date" : null,
+          "end-date" : null,
+          "organization" : {
+            "name" : "CTI Education",
+            "address" : {
+              "city" : "Johannesburg",
+              "region" : "Gauteng",
+              "country" : "ZA"
+            },
+            "disambiguated-organization" : null
+          },
+          "source" : {
+            "source-orcid" : {
+              "value" : null,
+              "uri" : "http://orcid.org/0000-0001-7234-3684",
+              "path" : "0000-0001-7234-3684",
+              "host" : "orcid.org"
+            },
+            "source-client-id" : null,
+            "source-name" : {
+              "value" : "Matthew Buys"
+            },
+            "source-date" : {
+              "value" : 1430052023430
+            }
+          },
+          "created-date" : {
+            "value" : 1430052023430
+          },
+          "last-modified-date" : {
+            "value" : 1430052023430
+          },
+          "visibility" : "PUBLIC",
+          "put-code" : "871880"
+        }, {
+          "type" : "EDUCATION",
+          "department-name" : null,
+          "role-title" : "Bachelor of Arts (Psychology)",
+          "start-date" : null,
+          "end-date" : null,
+          "organization" : {
+            "name" : "University of the Witwatersrand",
+            "address" : {
+              "city" : "Johannesburg",
+              "region" : "Gauteng",
+              "country" : "ZA"
+            },
+            "disambiguated-organization" : null
+          },
+          "source" : {
+            "source-orcid" : {
+              "value" : null,
+              "uri" : "http://orcid.org/0000-0001-7234-3684",
+              "path" : "0000-0001-7234-3684",
+              "host" : "orcid.org"
+            },
+            "source-client-id" : null,
+            "source-name" : {
+              "value" : "Matthew Buys"
+            },
+            "source-date" : {
+              "value" : 1430051912439
+            }
+          },
+          "created-date" : {
+            "value" : 1430051912439
+          },
+          "last-modified-date" : {
+            "value" : 1430051912439
+          },
+          "visibility" : "PUBLIC",
+          "put-code" : "871876"
+        }, {
+          "type" : "EDUCATION",
+          "department-name" : null,
+          "role-title" : "Post Graduate Diploma in Management (Business Administration)",
+          "start-date" : null,
+          "end-date" : null,
+          "organization" : {
+            "name" : "Wits Business School",
+            "address" : {
+              "city" : "Johannesburg",
+              "region" : "Gauteng",
+              "country" : "ZA"
+            },
+            "disambiguated-organization" : null
+          },
+          "source" : {
+            "source-orcid" : {
+              "value" : null,
+              "uri" : "http://orcid.org/0000-0001-7234-3684",
+              "path" : "0000-0001-7234-3684",
+              "host" : "orcid.org"
+            },
+            "source-client-id" : null,
+            "source-name" : {
+              "value" : "Matthew Buys"
+            },
+            "source-date" : {
+              "value" : 1430051970489
+            }
+          },
+          "created-date" : {
+            "value" : 1430051970489
+          },
+          "last-modified-date" : {
+            "value" : 1430051970489
+          },
+          "visibility" : "PUBLIC",
+          "put-code" : "871879"
+        }, {
+          "type" : "EMPLOYMENT",
+          "department-name" : null,
+          "role-title" : "Regional Sales Manager",
+          "start-date" : null,
+          "end-date" : null,
+          "organization" : {
+            "name" : "EBSCO Information Services",
+            "address" : {
+              "city" : "Johannesburg",
+              "region" : "Gauteng",
+              "country" : "ZA"
+            },
+            "disambiguated-organization" : null
+          },
+          "source" : {
+            "source-orcid" : {
+              "value" : null,
+              "uri" : "http://orcid.org/0000-0001-7234-3684",
+              "path" : "0000-0001-7234-3684",
+              "host" : "orcid.org"
+            },
+            "source-client-id" : null,
+            "source-name" : {
+              "value" : "Matthew Buys"
+            },
+            "source-date" : {
+              "value" : 1430052113809
+            }
+          },
+          "created-date" : {
+            "value" : 1430052113809
+          },
+          "last-modified-date" : {
+            "value" : 1430052113809
+          },
+          "visibility" : "PUBLIC",
+          "put-code" : "871885"
+        }, {
+          "type" : "EMPLOYMENT",
+          "department-name" : null,
+          "role-title" : "Regional Director: Africa & Middle East",
+          "start-date" : null,
+          "end-date" : null,
+          "organization" : {
+            "name" : "ORCID",
+            "address" : {
+              "city" : "Johannesburg",
+              "region" : "Gauteng",
+              "country" : "ZA"
+            },
+            "disambiguated-organization" : null
+          },
+          "source" : {
+            "source-orcid" : {
+              "value" : null,
+              "uri" : "http://orcid.org/0000-0001-7234-3684",
+              "path" : "0000-0001-7234-3684",
+              "host" : "orcid.org"
+            },
+            "source-client-id" : null,
+            "source-name" : {
+              "value" : "Matthew Buys"
+            },
+            "source-date" : {
+              "value" : 1430052158390
+            }
+          },
+          "created-date" : {
+            "value" : 1430052158390
+          },
+          "last-modified-date" : {
+            "value" : 1430052158390
+          },
+          "visibility" : "PUBLIC",
+          "put-code" : "871886"
+        }, {
+          "type" : "EMPLOYMENT",
+          "department-name" : "Intellectual Property & Science",
+          "role-title" : "Account Manager: Eastern & Southern Africa",
+          "start-date" : null,
+          "end-date" : null,
+          "organization" : {
+            "name" : "Thomson Reuters",
+            "address" : {
+              "city" : "Johannesburg",
+              "region" : null,
+              "country" : "ZA"
+            },
+            "disambiguated-organization" : null
+          },
+          "source" : {
+            "source-orcid" : {
+              "value" : null,
+              "uri" : "http://orcid.org/0000-0001-7234-3684",
+              "path" : "0000-0001-7234-3684",
+              "host" : "orcid.org"
+            },
+            "source-client-id" : null,
+            "source-name" : {
+              "value" : "Matthew Buys"
+            },
+            "source-date" : {
+              "value" : 1430052073558
+            }
+          },
+          "created-date" : {
+            "value" : 1430052073558
+          },
+          "last-modified-date" : {
+            "value" : 1430052073558
+          },
+          "visibility" : "PUBLIC",
+          "put-code" : "871883"
+        } ]
+      },
+      "orcid-works" : {
+        "orcid-work" : [ {
+          "put-code" : "16285361",
+          "work-title" : {
+            "title" : {
+              "value" : "Positioning yourself as a research leader: open access"
+            },
+            "subtitle" : null,
+            "translated-title" : null
+          },
+          "journal-title" : {
+            "value" : "Botswana Library Consortia Open Access Conference 2014"
+          },
+          "short-description" : null,
+          "work-citation" : null,
+          "work-type" : "CONFERENCE_PAPER",
+          "publication-date" : {
+            "year" : {
+              "value" : "2014"
+            },
+            "month" : {
+              "value" : "09"
+            },
+            "day" : {
+              "value" : "30"
+            },
+            "media-type" : null
+          },
+          "work-external-identifiers" : null,
+          "url" : null,
+          "work-contributors" : null,
+          "work-source" : null,
+          "source" : {
+            "source-orcid" : {
+              "value" : null,
+              "uri" : "http://orcid.org/0000-0001-7234-3684",
+              "path" : "0000-0001-7234-3684",
+              "host" : "orcid.org"
+            },
+            "source-client-id" : null,
+            "source-name" : {
+              "value" : "Matthew Buys"
+            },
+            "source-date" : {
+              "value" : 1430225487913
+            }
+          },
+          "created-date" : {
+            "value" : 1430225487913
+          },
+          "last-modified-date" : {
+            "value" : 1430225487913
+          },
+          "language-code" : null,
+          "country" : {
+            "value" : "ZA",
+            "visibility" : "PUBLIC"
+          },
+          "visibility" : "PUBLIC"
+        } ],
+        "scope" : null
+      },
+      "funding-list" : null
+    },
+    "orcid-internal" : null,
+    "type" : "USER",
+    "group-type" : null,
+    "client-type" : null
+  },
+  "orcid-search-results" : null,
+  "error-desc" : null
+}

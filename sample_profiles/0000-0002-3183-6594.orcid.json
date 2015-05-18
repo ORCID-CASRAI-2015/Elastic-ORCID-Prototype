@@ -1,0 +1,534 @@
+{
+  "message-version" : "1.2",
+  "orcid-profile" : {
+    "orcid" : null,
+    "orcid-id" : null,
+    "orcid-identifier" : {
+      "value" : null,
+      "uri" : "http://orcid.org/0000-0002-3183-6594",
+      "path" : "0000-0002-3183-6594",
+      "host" : "orcid.org"
+    },
+    "orcid-deprecated" : null,
+    "orcid-preferences" : {
+      "locale" : "EN"
+    },
+    "orcid-history" : {
+      "creation-method" : "WEBSITE",
+      "completion-date" : null,
+      "submission-date" : {
+        "value" : 1383597165363
+      },
+      "last-modified-date" : {
+        "value" : 1431804007298
+      },
+      "claimed" : {
+        "value" : true
+      },
+      "source" : null,
+      "deactivation-date" : null,
+      "verified-email" : {
+        "value" : false
+      },
+      "verified-primary-email" : {
+        "value" : false
+      },
+      "visibility" : null
+    },
+    "orcid-bio" : {
+      "personal-details" : {
+        "given-names" : {
+          "value" : "José Francisco"
+        },
+        "family-name" : {
+          "value" : "Ramírez Monge"
+        },
+        "credit-name" : null,
+        "other-names" : {
+          "other-name" : [ {
+            "value" : "hexplus"
+          } ],
+          "visibility" : "PUBLIC"
+        }
+      },
+      "biography" : {
+        "value" : "",
+        "visibility" : "PUBLIC"
+      },
+      "researcher-urls" : {
+        "researcher-url" : [ {
+          "url-name" : {
+            "value" : "Personal Website"
+          },
+          "url" : {
+            "value" : "http://www.franrmz.com"
+          }
+        } ],
+        "visibility" : "PUBLIC"
+      },
+      "contact-details" : null,
+      "keywords" : null,
+      "external-identifiers" : null,
+      "delegation" : null,
+      "applications" : null,
+      "scope" : null
+    },
+    "orcid-activities" : {
+      "affiliations" : {
+        "affiliation" : [ {
+          "type" : "EMPLOYMENT",
+          "department-name" : "Orcid",
+          "role-title" : "Senior Software Engineer",
+          "start-date" : {
+            "year" : {
+              "value" : "2013"
+            },
+            "month" : {
+              "value" : "07"
+            },
+            "day" : null
+          },
+          "end-date" : null,
+          "organization" : {
+            "name" : "Avantica Technologies",
+            "address" : {
+              "city" : "San José",
+              "region" : "San José, Costa Rica",
+              "country" : "CR"
+            },
+            "disambiguated-organization" : null
+          },
+          "source" : {
+            "source-orcid" : {
+              "value" : null,
+              "uri" : "http://orcid.org/0000-0002-3183-6594",
+              "path" : "0000-0002-3183-6594",
+              "host" : "orcid.org"
+            },
+            "source-client-id" : null,
+            "source-name" : {
+              "value" : "José Francisco Ramírez Monge"
+            },
+            "source-date" : {
+              "value" : 1413471270892
+            }
+          },
+          "created-date" : {
+            "value" : 1413471270892
+          },
+          "last-modified-date" : {
+            "value" : 1413471270892
+          },
+          "visibility" : "PUBLIC",
+          "put-code" : "524805"
+        }, {
+          "type" : "EMPLOYMENT",
+          "department-name" : "Web Development",
+          "role-title" : "Freelance Web Developer",
+          "start-date" : {
+            "year" : {
+              "value" : "2004"
+            },
+            "month" : {
+              "value" : "01"
+            },
+            "day" : null
+          },
+          "end-date" : null,
+          "organization" : {
+            "name" : "Hexplusoft",
+            "address" : {
+              "city" : "San José",
+              "region" : "San José, Costa Rica",
+              "country" : "CR"
+            },
+            "disambiguated-organization" : null
+          },
+          "source" : {
+            "source-orcid" : {
+              "value" : null,
+              "uri" : "http://orcid.org/0000-0002-3183-6594",
+              "path" : "0000-0002-3183-6594",
+              "host" : "orcid.org"
+            },
+            "source-client-id" : null,
+            "source-name" : {
+              "value" : "José Francisco Ramírez Monge"
+            },
+            "source-date" : {
+              "value" : 1413471010588
+            }
+          },
+          "created-date" : {
+            "value" : 1413471010588
+          },
+          "last-modified-date" : {
+            "value" : 1413471010588
+          },
+          "visibility" : "PUBLIC",
+          "put-code" : "524797"
+        }, {
+          "type" : "EMPLOYMENT",
+          "department-name" : "ePrize / BAS",
+          "role-title" : "Frontend Web Developer",
+          "start-date" : {
+            "year" : {
+              "value" : "2012"
+            },
+            "month" : {
+              "value" : "07"
+            },
+            "day" : null
+          },
+          "end-date" : {
+            "year" : {
+              "value" : "2013"
+            },
+            "month" : {
+              "value" : "07"
+            },
+            "day" : null
+          },
+          "organization" : {
+            "name" : "Accenture",
+            "address" : {
+              "city" : "Heredia",
+              "region" : "Heredia, Costa Rica",
+              "country" : "CR"
+            },
+            "disambiguated-organization" : null
+          },
+          "source" : {
+            "source-orcid" : {
+              "value" : null,
+              "uri" : "http://orcid.org/0000-0002-3183-6594",
+              "path" : "0000-0002-3183-6594",
+              "host" : "orcid.org"
+            },
+            "source-client-id" : null,
+            "source-name" : {
+              "value" : "José Francisco Ramírez Monge"
+            },
+            "source-date" : {
+              "value" : 1413471126495
+            }
+          },
+          "created-date" : {
+            "value" : 1413471126495
+          },
+          "last-modified-date" : {
+            "value" : 1413471126495
+          },
+          "visibility" : "PUBLIC",
+          "put-code" : "524801"
+        }, {
+          "type" : "EMPLOYMENT",
+          "department-name" : "ITO",
+          "role-title" : "Job Scheduling Engineer / Team Lead",
+          "start-date" : {
+            "year" : {
+              "value" : "2007"
+            },
+            "month" : {
+              "value" : "06"
+            },
+            "day" : null
+          },
+          "end-date" : {
+            "year" : {
+              "value" : "2011"
+            },
+            "month" : {
+              "value" : "11"
+            },
+            "day" : null
+          },
+          "organization" : {
+            "name" : "Hewlett Packard",
+            "address" : {
+              "city" : "Heredia, Costa Rica",
+              "region" : "Belén, Heredia, Costa Rica",
+              "country" : "CR"
+            },
+            "disambiguated-organization" : null
+          },
+          "source" : {
+            "source-orcid" : {
+              "value" : null,
+              "uri" : "http://orcid.org/0000-0002-3183-6594",
+              "path" : "0000-0002-3183-6594",
+              "host" : "orcid.org"
+            },
+            "source-client-id" : null,
+            "source-name" : {
+              "value" : "José Francisco Ramírez Monge"
+            },
+            "source-date" : {
+              "value" : 1413470848926
+            }
+          },
+          "created-date" : {
+            "value" : 1413470848926
+          },
+          "last-modified-date" : {
+            "value" : 1413470848926
+          },
+          "visibility" : "PUBLIC",
+          "put-code" : "524793"
+        }, {
+          "type" : "EDUCATION",
+          "department-name" : "System Engineering",
+          "role-title" : "Bachelor",
+          "start-date" : {
+            "year" : {
+              "value" : "2004"
+            },
+            "month" : null,
+            "day" : null
+          },
+          "end-date" : {
+            "year" : {
+              "value" : "2007"
+            },
+            "month" : null,
+            "day" : null
+          },
+          "organization" : {
+            "name" : "Universidad Latina de Costa Rica",
+            "address" : {
+              "city" : "San José, Costa Rica",
+              "region" : "San José, San Pedro de Montes de Oca",
+              "country" : "CR"
+            },
+            "disambiguated-organization" : null
+          },
+          "source" : {
+            "source-orcid" : {
+              "value" : null,
+              "uri" : "http://orcid.org/0000-0002-3183-6594",
+              "path" : "0000-0002-3183-6594",
+              "host" : "orcid.org"
+            },
+            "source-client-id" : null,
+            "source-name" : {
+              "value" : "José Francisco Ramírez Monge"
+            },
+            "source-date" : {
+              "value" : 1413470688051
+            }
+          },
+          "created-date" : {
+            "value" : 1413470688051
+          },
+          "last-modified-date" : {
+            "value" : 1413471520175
+          },
+          "visibility" : "PUBLIC",
+          "put-code" : "524783"
+        } ]
+      },
+      "orcid-works" : {
+        "orcid-work" : [ {
+          "put-code" : "14103092",
+          "work-title" : {
+            "title" : {
+              "value" : "ORCID Annual Public Data File, 2014"
+            },
+            "subtitle" : null,
+            "translated-title" : null
+          },
+          "journal-title" : null,
+          "short-description" : "",
+          "work-citation" : {
+            "work-citation-type" : "BIBTEX",
+            "citation" : "@misc{datacite3bd080b0-9775-44c8-90f0-6608b3c84504,\n  doi = {10.14454/07243.2014.001},\n  url = {http://dx.doi.org/10.14454/07243.2014.001},\n  author = {Paglione, Laura; Peters, Robert; Oyler, Catalina; Simpson, Will; Montenegro, Angel; Ramírez Monge, José Francisco; Bryant, Rebecca; Haak, Laurel; },\n  publisher = {ORCID},\n  title = {ORCID Annual Public Data File, 2014},\n  year = {2014}\n}"
+          },
+          "work-type" : "DATA_SET",
+          "publication-date" : {
+            "year" : {
+              "value" : "2014"
+            },
+            "month" : null,
+            "day" : null,
+            "media-type" : null
+          },
+          "work-external-identifiers" : {
+            "work-external-identifier" : [ {
+              "work-external-identifier-type" : "DOI",
+              "work-external-identifier-id" : {
+                "value" : "10.14454/07243.2014.001"
+              }
+            } ],
+            "scope" : null
+          },
+          "url" : null,
+          "work-contributors" : null,
+          "work-source" : null,
+          "source" : {
+            "source-orcid" : {
+              "value" : null,
+              "uri" : "http://orcid.org/0000-0002-3183-6594",
+              "path" : "0000-0002-3183-6594",
+              "host" : "orcid.org"
+            },
+            "source-client-id" : null,
+            "source-name" : {
+              "value" : "José Francisco Ramírez Monge"
+            },
+            "source-date" : {
+              "value" : 1413470122359
+            }
+          },
+          "created-date" : {
+            "value" : 1413470122359
+          },
+          "last-modified-date" : {
+            "value" : 1426106944504
+          },
+          "language-code" : null,
+          "country" : {
+            "value" : "AR",
+            "visibility" : "PUBLIC"
+          },
+          "visibility" : "PUBLIC"
+        }, {
+          "put-code" : "10804677",
+          "work-title" : {
+            "title" : {
+              "value" : "Siderurgia Rock"
+            },
+            "subtitle" : null,
+            "translated-title" : null
+          },
+          "journal-title" : null,
+          "short-description" : "Online Rock Radio",
+          "work-citation" : null,
+          "work-type" : "WEBSITE",
+          "publication-date" : {
+            "year" : {
+              "value" : "2013"
+            },
+            "month" : {
+              "value" : "06"
+            },
+            "day" : {
+              "value" : "07"
+            },
+            "media-type" : null
+          },
+          "work-external-identifiers" : null,
+          "url" : {
+            "value" : "http://www.siderurgiarock.com"
+          },
+          "work-contributors" : {
+            "contributor" : [ {
+              "contributor-orcid" : null,
+              "credit-name" : null,
+              "contributor-email" : null,
+              "contributor-attributes" : {
+                "contributor-sequence" : null,
+                "contributor-role" : "AUTHOR"
+              }
+            } ]
+          },
+          "work-source" : null,
+          "source" : {
+            "source-orcid" : {
+              "value" : null,
+              "uri" : "http://orcid.org/0000-0002-3183-6594",
+              "path" : "0000-0002-3183-6594",
+              "host" : "orcid.org"
+            },
+            "source-client-id" : null,
+            "source-name" : {
+              "value" : "José Francisco Ramírez Monge"
+            },
+            "source-date" : {
+              "value" : 1385134450142
+            }
+          },
+          "created-date" : {
+            "value" : 1385134450142
+          },
+          "last-modified-date" : {
+            "value" : 1385134450142
+          },
+          "language-code" : "en",
+          "country" : {
+            "value" : "CR",
+            "visibility" : "PUBLIC"
+          },
+          "visibility" : "PUBLIC"
+        }, {
+          "put-code" : "14103082",
+          "work-title" : {
+            "title" : {
+              "value" : "ORCID Annual Public Data File, 2013"
+            },
+            "subtitle" : null,
+            "translated-title" : null
+          },
+          "journal-title" : null,
+          "short-description" : "",
+          "work-citation" : {
+            "work-citation-type" : "BIBTEX",
+            "citation" : "@misc{datacite3bd080b0-9775-44c8-90f0-6608b3c84504,\n  doi = {10.14454/07243.2013.001},\n  url = {http://dx.doi.org/10.14454/07243.2013.001},\n  author = {Paglione, Laura; Peters, Robert; Oyler, Catalina; Simpson, Will; Montenegro, Angel; Ramírez Monge, José Francisco; Bryant, Rebecca; Haak, Laurel; },\n  publisher = {ORCID},\n  title = {ORCID Annual Public Data File, 2013},\n  year = {2013}\n}"
+          },
+          "work-type" : "DATA_SET",
+          "publication-date" : {
+            "year" : {
+              "value" : "2013"
+            },
+            "month" : null,
+            "day" : null,
+            "media-type" : null
+          },
+          "work-external-identifiers" : {
+            "work-external-identifier" : [ {
+              "work-external-identifier-type" : "DOI",
+              "work-external-identifier-id" : {
+                "value" : "10.14454/07243.2013.001"
+              }
+            } ],
+            "scope" : null
+          },
+          "url" : null,
+          "work-contributors" : null,
+          "work-source" : null,
+          "source" : {
+            "source-orcid" : {
+              "value" : null,
+              "uri" : "http://orcid.org/0000-0002-3183-6594",
+              "path" : "0000-0002-3183-6594",
+              "host" : "orcid.org"
+            },
+            "source-client-id" : null,
+            "source-name" : {
+              "value" : "José Francisco Ramírez Monge"
+            },
+            "source-date" : {
+              "value" : 1413469858532
+            }
+          },
+          "created-date" : {
+            "value" : 1413469858532
+          },
+          "last-modified-date" : {
+            "value" : 1413469858532
+          },
+          "language-code" : null,
+          "country" : null,
+          "visibility" : "PUBLIC"
+        } ],
+        "scope" : null
+      },
+      "funding-list" : null
+    },
+    "orcid-internal" : null,
+    "type" : "USER",
+    "group-type" : null,
+    "client-type" : null
+  },
+  "orcid-search-results" : null,
+  "error-desc" : null
+}

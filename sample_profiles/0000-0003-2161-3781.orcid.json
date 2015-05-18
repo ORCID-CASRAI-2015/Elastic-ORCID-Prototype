@@ -1,0 +1,444 @@
+{
+  "message-version" : "1.2",
+  "orcid-profile" : {
+    "orcid" : null,
+    "orcid-id" : null,
+    "orcid-identifier" : {
+      "value" : null,
+      "uri" : "http://orcid.org/0000-0003-2161-3781",
+      "path" : "0000-0003-2161-3781",
+      "host" : "orcid.org"
+    },
+    "orcid-deprecated" : null,
+    "orcid-preferences" : {
+      "locale" : "EN"
+    },
+    "orcid-history" : {
+      "creation-method" : "DIRECT",
+      "completion-date" : null,
+      "submission-date" : {
+        "value" : 1397854811596
+      },
+      "last-modified-date" : {
+        "value" : 1427581714208
+      },
+      "claimed" : {
+        "value" : true
+      },
+      "source" : null,
+      "deactivation-date" : null,
+      "verified-email" : {
+        "value" : true
+      },
+      "verified-primary-email" : {
+        "value" : true
+      },
+      "visibility" : null
+    },
+    "orcid-bio" : {
+      "personal-details" : {
+        "given-names" : {
+          "value" : "Alice"
+        },
+        "family-name" : {
+          "value" : "Meadows"
+        },
+        "credit-name" : null,
+        "other-names" : null
+      },
+      "biography" : null,
+      "researcher-urls" : null,
+      "contact-details" : null,
+      "keywords" : null,
+      "external-identifiers" : null,
+      "delegation" : null,
+      "applications" : null,
+      "scope" : null
+    },
+    "orcid-activities" : {
+      "affiliations" : null,
+      "orcid-works" : {
+        "orcid-work" : [ {
+          "put-code" : "15933181",
+          "work-title" : {
+            "title" : {
+              "value" : "CHORUS Helps Drive Public Access"
+            },
+            "subtitle" : null,
+            "translated-title" : null
+          },
+          "journal-title" : {
+            "value" : "ISQ"
+          },
+          "short-description" : null,
+          "work-citation" : {
+            "work-citation-type" : "BIBTEX",
+            "citation" : "@article{Meadows_2014,doi = {10.3789/isqv26no2.2014.06},url = {http://dx.doi.org/10.3789/isqv26no2.2014.06},year = 2014,publisher = {National Information Standards Organization ({NISO})},volume = {26},number = {2},pages = {32},author = {Alice Meadows and Howard Ratner},title = {{CHORUS} Helps Drive Public Access},journal = {{ISQ}}}"
+          },
+          "work-type" : "JOURNAL_ARTICLE",
+          "publication-date" : {
+            "year" : {
+              "value" : "2014"
+            },
+            "month" : null,
+            "day" : null,
+            "media-type" : null
+          },
+          "work-external-identifiers" : {
+            "work-external-identifier" : [ {
+              "work-external-identifier-type" : "DOI",
+              "work-external-identifier-id" : {
+                "value" : "10.3789/isqv26no2.2014.06"
+              }
+            } ],
+            "scope" : null
+          },
+          "url" : null,
+          "work-contributors" : {
+            "contributor" : [ {
+              "contributor-orcid" : null,
+              "credit-name" : {
+                "value" : "Alice Meadows",
+                "visibility" : "PUBLIC"
+              },
+              "contributor-email" : null,
+              "contributor-attributes" : {
+                "contributor-sequence" : null,
+                "contributor-role" : "AUTHOR"
+              }
+            }, {
+              "contributor-orcid" : null,
+              "credit-name" : {
+                "value" : "Howard Ratner",
+                "visibility" : "PUBLIC"
+              },
+              "contributor-email" : null,
+              "contributor-attributes" : {
+                "contributor-sequence" : null,
+                "contributor-role" : "AUTHOR"
+              }
+            } ]
+          },
+          "work-source" : null,
+          "source" : {
+            "source-orcid" : {
+              "value" : null,
+              "uri" : "http://orcid.org/0000-0002-3054-1567",
+              "path" : "0000-0002-3054-1567",
+              "host" : "orcid.org"
+            },
+            "source-client-id" : null,
+            "source-name" : {
+              "value" : "CrossRef Metadata Search"
+            },
+            "source-date" : {
+              "value" : 1427578025703
+            }
+          },
+          "created-date" : {
+            "value" : 1427578025703
+          },
+          "last-modified-date" : {
+            "value" : 1427578025703
+          },
+          "language-code" : null,
+          "country" : null,
+          "visibility" : "PUBLIC"
+        }, {
+          "put-code" : "12645519",
+          "work-title" : {
+            "title" : {
+              "value" : "The access question"
+            },
+            "subtitle" : null,
+            "translated-title" : null
+          },
+          "journal-title" : {
+            "value" : "Learn. Pub."
+          },
+          "short-description" : null,
+          "work-citation" : {
+            "work-citation-type" : "BIBTEX",
+            "citation" : " @article{Meadows_2012, title={The access question}, volume={25}, ISSN={1741-4857}, url={http://dx.doi.org/10.1087/20120305}, DOI={10.1087/20120305}, number={3}, journal={Learned Publishing}, publisher={Association of Learned and Professional Society Publishers (ALPSP)}, author={Meadows, Alice and Campbell, Robert and Webster, Keith}, year={2012}, month={Jul}, pages={189â193}}"
+          },
+          "work-type" : "JOURNAL_ARTICLE",
+          "publication-date" : {
+            "year" : {
+              "value" : "2012"
+            },
+            "month" : {
+              "value" : "07"
+            },
+            "day" : {
+              "value" : "01"
+            },
+            "media-type" : null
+          },
+          "work-external-identifiers" : {
+            "work-external-identifier" : [ {
+              "work-external-identifier-type" : "ISSN",
+              "work-external-identifier-id" : {
+                "value" : "0953-1513"
+              }
+            }, {
+              "work-external-identifier-type" : "DOI",
+              "work-external-identifier-id" : {
+                "value" : "10.1087/20120305"
+              }
+            } ],
+            "scope" : null
+          },
+          "url" : null,
+          "work-contributors" : {
+            "contributor" : [ {
+              "contributor-orcid" : null,
+              "credit-name" : {
+                "value" : "Alice Meadows",
+                "visibility" : "PUBLIC"
+              },
+              "contributor-email" : null,
+              "contributor-attributes" : {
+                "contributor-sequence" : null,
+                "contributor-role" : "AUTHOR"
+              }
+            }, {
+              "contributor-orcid" : null,
+              "credit-name" : {
+                "value" : "Robert Campbell",
+                "visibility" : "PUBLIC"
+              },
+              "contributor-email" : null,
+              "contributor-attributes" : {
+                "contributor-sequence" : null,
+                "contributor-role" : "AUTHOR"
+              }
+            }, {
+              "contributor-orcid" : null,
+              "credit-name" : {
+                "value" : "Keith Webster",
+                "visibility" : "PUBLIC"
+              },
+              "contributor-email" : null,
+              "contributor-attributes" : {
+                "contributor-sequence" : null,
+                "contributor-role" : "AUTHOR"
+              }
+            } ]
+          },
+          "work-source" : null,
+          "source" : {
+            "source-orcid" : {
+              "value" : null,
+              "uri" : "http://orcid.org/0000-0002-3054-1567",
+              "path" : "0000-0002-3054-1567",
+              "host" : "orcid.org"
+            },
+            "source-client-id" : null,
+            "source-name" : {
+              "value" : "CrossRef Metadata Search"
+            },
+            "source-date" : {
+              "value" : 1399910702202
+            }
+          },
+          "created-date" : {
+            "value" : 1399910702202
+          },
+          "last-modified-date" : {
+            "value" : 1399910702202
+          },
+          "language-code" : null,
+          "country" : null,
+          "visibility" : "PUBLIC"
+        }, {
+          "put-code" : "12645520",
+          "work-title" : {
+            "title" : {
+              "value" : "Scholarly journal publishing: where do we go from here?"
+            },
+            "subtitle" : null,
+            "translated-title" : null
+          },
+          "journal-title" : {
+            "value" : "Learn. Pub."
+          },
+          "short-description" : null,
+          "work-citation" : {
+            "work-citation-type" : "BIBTEX",
+            "citation" : " @article{Campbell_2011, title={Scholarly journal publishing: where do we go from here?}, volume={24}, ISSN={1741-4857}, url={http://dx.doi.org/10.1087/20110305}, DOI={10.1087/20110305}, number={3}, journal={Learned Publishing}, publisher={Association of Learned and Professional Society Publishers (ALPSP)}, author={Campbell, Robert and Meadows, Alice}, year={2011}, month={Jul}, pages={171â181}}"
+          },
+          "work-type" : "JOURNAL_ARTICLE",
+          "publication-date" : {
+            "year" : {
+              "value" : "2011"
+            },
+            "month" : {
+              "value" : "07"
+            },
+            "day" : {
+              "value" : "01"
+            },
+            "media-type" : null
+          },
+          "work-external-identifiers" : {
+            "work-external-identifier" : [ {
+              "work-external-identifier-type" : "ISSN",
+              "work-external-identifier-id" : {
+                "value" : "0953-1513"
+              }
+            }, {
+              "work-external-identifier-type" : "DOI",
+              "work-external-identifier-id" : {
+                "value" : "10.1087/20110305"
+              }
+            } ],
+            "scope" : null
+          },
+          "url" : null,
+          "work-contributors" : {
+            "contributor" : [ {
+              "contributor-orcid" : null,
+              "credit-name" : {
+                "value" : "Robert Campbell",
+                "visibility" : "PUBLIC"
+              },
+              "contributor-email" : null,
+              "contributor-attributes" : {
+                "contributor-sequence" : null,
+                "contributor-role" : "AUTHOR"
+              }
+            }, {
+              "contributor-orcid" : null,
+              "credit-name" : {
+                "value" : "Alice Meadows",
+                "visibility" : "PUBLIC"
+              },
+              "contributor-email" : null,
+              "contributor-attributes" : {
+                "contributor-sequence" : null,
+                "contributor-role" : "AUTHOR"
+              }
+            } ]
+          },
+          "work-source" : null,
+          "source" : {
+            "source-orcid" : {
+              "value" : null,
+              "uri" : "http://orcid.org/0000-0002-3054-1567",
+              "path" : "0000-0002-3054-1567",
+              "host" : "orcid.org"
+            },
+            "source-client-id" : null,
+            "source-name" : {
+              "value" : "CrossRef Metadata Search"
+            },
+            "source-date" : {
+              "value" : 1399910709842
+            }
+          },
+          "created-date" : {
+            "value" : 1399910709842
+          },
+          "last-modified-date" : {
+            "value" : 1399910709842
+          },
+          "language-code" : null,
+          "country" : null,
+          "visibility" : "PUBLIC"
+        }, {
+          "put-code" : "12645521",
+          "work-title" : {
+            "title" : {
+              "value" : "Mini-profile: a day in the life of a publishing director"
+            },
+            "subtitle" : null,
+            "translated-title" : null
+          },
+          "journal-title" : {
+            "value" : "Serials: The Journal for the Serials Community"
+          },
+          "short-description" : null,
+          "work-citation" : {
+            "work-citation-type" : "BIBTEX",
+            "citation" : " @article{Meadows_2006, title={Mini-profile: a day in the life of a publishing director}, volume={19}, ISSN={0953-0460}, url={http://dx.doi.org/10.1629/196}, DOI={10.1629/196}, number={1}, journal={Serials: The Journal for the Serials Community}, publisher={UKSG}, author={Meadows, Alice}, year={2006}, month={Mar}, pages={6â7}}"
+          },
+          "work-type" : "JOURNAL_ARTICLE",
+          "publication-date" : {
+            "year" : {
+              "value" : "2006"
+            },
+            "month" : {
+              "value" : "03"
+            },
+            "day" : {
+              "value" : "01"
+            },
+            "media-type" : null
+          },
+          "work-external-identifiers" : {
+            "work-external-identifier" : [ {
+              "work-external-identifier-type" : "ISSN",
+              "work-external-identifier-id" : {
+                "value" : "0953-0460"
+              }
+            }, {
+              "work-external-identifier-type" : "DOI",
+              "work-external-identifier-id" : {
+                "value" : "10.1629/196"
+              }
+            } ],
+            "scope" : null
+          },
+          "url" : null,
+          "work-contributors" : {
+            "contributor" : [ {
+              "contributor-orcid" : null,
+              "credit-name" : {
+                "value" : "Alice Meadows",
+                "visibility" : "PUBLIC"
+              },
+              "contributor-email" : null,
+              "contributor-attributes" : {
+                "contributor-sequence" : null,
+                "contributor-role" : "AUTHOR"
+              }
+            } ]
+          },
+          "work-source" : null,
+          "source" : {
+            "source-orcid" : {
+              "value" : null,
+              "uri" : "http://orcid.org/0000-0002-3054-1567",
+              "path" : "0000-0002-3054-1567",
+              "host" : "orcid.org"
+            },
+            "source-client-id" : null,
+            "source-name" : {
+              "value" : "CrossRef Metadata Search"
+            },
+            "source-date" : {
+              "value" : 1399910722354
+            }
+          },
+          "created-date" : {
+            "value" : 1399910722354
+          },
+          "last-modified-date" : {
+            "value" : 1399910722354
+          },
+          "language-code" : null,
+          "country" : null,
+          "visibility" : "PUBLIC"
+        } ],
+        "scope" : null
+      },
+      "funding-list" : null
+    },
+    "orcid-internal" : null,
+    "type" : "USER",
+    "group-type" : null,
+    "client-type" : null
+  },
+  "orcid-search-results" : null,
+  "error-desc" : null
+}

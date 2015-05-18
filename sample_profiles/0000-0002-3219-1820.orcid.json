@@ -1,0 +1,391 @@
+{
+  "message-version" : "1.2",
+  "orcid-profile" : {
+    "orcid" : null,
+    "orcid-id" : null,
+    "orcid-identifier" : {
+      "value" : null,
+      "uri" : "http://orcid.org/0000-0002-3219-1820",
+      "path" : "0000-0002-3219-1820",
+      "host" : "orcid.org"
+    },
+    "orcid-deprecated" : null,
+    "orcid-preferences" : {
+      "locale" : "PT"
+    },
+    "orcid-history" : {
+      "creation-method" : "DIRECT",
+      "completion-date" : null,
+      "submission-date" : {
+        "value" : 1429726201944
+      },
+      "last-modified-date" : {
+        "value" : 1431558623407
+      },
+      "claimed" : {
+        "value" : true
+      },
+      "source" : null,
+      "deactivation-date" : null,
+      "verified-email" : {
+        "value" : true
+      },
+      "verified-primary-email" : {
+        "value" : true
+      },
+      "visibility" : null
+    },
+    "orcid-bio" : {
+      "personal-details" : {
+        "given-names" : {
+          "value" : "Lilian"
+        },
+        "family-name" : {
+          "value" : "Pessoa"
+        },
+        "credit-name" : null,
+        "other-names" : {
+          "other-name" : [ ],
+          "visibility" : "PUBLIC"
+        }
+      },
+      "biography" : {
+        "value" : "",
+        "visibility" : "PUBLIC"
+      },
+      "researcher-urls" : {
+        "researcher-url" : [ {
+          "url-name" : {
+            "value" : "Linkedin"
+          },
+          "url" : {
+            "value" : "https://www.linkedin.com/profile/public-profile-settings?trk=prof-edit-edit-public_profile"
+          }
+        } ],
+        "visibility" : "PUBLIC"
+      },
+      "contact-details" : {
+        "email" : [ ],
+        "address" : {
+          "country" : {
+            "value" : "BR",
+            "visibility" : "PUBLIC"
+          }
+        }
+      },
+      "keywords" : null,
+      "external-identifiers" : null,
+      "delegation" : null,
+      "applications" : null,
+      "scope" : null
+    },
+    "orcid-activities" : {
+      "affiliations" : {
+        "affiliation" : [ {
+          "type" : "EMPLOYMENT",
+          "department-name" : "Membership",
+          "role-title" : "Regional Director, Latin America",
+          "start-date" : {
+            "year" : {
+              "value" : "2015"
+            },
+            "month" : {
+              "value" : "05"
+            },
+            "day" : {
+              "value" : "01"
+            }
+          },
+          "end-date" : null,
+          "organization" : {
+            "name" : "ORCID",
+            "address" : {
+              "city" : "Bethesda",
+              "region" : "MD",
+              "country" : "US"
+            },
+            "disambiguated-organization" : {
+              "disambiguated-organization-identifier" : "385488",
+              "disambiguation-source" : "RINGGOLD"
+            }
+          },
+          "source" : {
+            "source-orcid" : {
+              "value" : null,
+              "uri" : "http://orcid.org/0000-0002-3219-1820",
+              "path" : "0000-0002-3219-1820",
+              "host" : "orcid.org"
+            },
+            "source-client-id" : null,
+            "source-name" : {
+              "value" : "Lilian Pessoa"
+            },
+            "source-date" : {
+              "value" : 1429726458944
+            }
+          },
+          "created-date" : {
+            "value" : 1429726458944
+          },
+          "last-modified-date" : {
+            "value" : 1429726458944
+          },
+          "visibility" : "PUBLIC",
+          "put-code" : "865612"
+        }, {
+          "type" : "EMPLOYMENT",
+          "department-name" : "Sales & Marketing",
+          "role-title" : "VP, Latin America",
+          "start-date" : {
+            "year" : {
+              "value" : "2011"
+            },
+            "month" : {
+              "value" : "02"
+            },
+            "day" : {
+              "value" : "02"
+            }
+          },
+          "end-date" : {
+            "year" : {
+              "value" : "2014"
+            },
+            "month" : {
+              "value" : "04"
+            },
+            "day" : {
+              "value" : "01"
+            }
+          },
+          "organization" : {
+            "name" : "PCG",
+            "address" : {
+              "city" : "Cambridge",
+              "region" : "MA",
+              "country" : "US"
+            },
+            "disambiguated-organization" : {
+              "disambiguated-organization-identifier" : "122193",
+              "disambiguation-source" : "RINGGOLD"
+            }
+          },
+          "source" : {
+            "source-orcid" : {
+              "value" : null,
+              "uri" : "http://orcid.org/0000-0002-3219-1820",
+              "path" : "0000-0002-3219-1820",
+              "host" : "orcid.org"
+            },
+            "source-client-id" : null,
+            "source-name" : {
+              "value" : "Lilian Pessoa"
+            },
+            "source-date" : {
+              "value" : 1431558274477
+            }
+          },
+          "created-date" : {
+            "value" : 1431558274477
+          },
+          "last-modified-date" : {
+            "value" : 1431558274477
+          },
+          "visibility" : "PUBLIC",
+          "put-code" : "911478"
+        }, {
+          "type" : "EDUCATION",
+          "department-name" : "Management",
+          "role-title" : "MBA",
+          "start-date" : {
+            "year" : {
+              "value" : "2008"
+            },
+            "month" : {
+              "value" : "08"
+            },
+            "day" : {
+              "value" : "04"
+            }
+          },
+          "end-date" : {
+            "year" : {
+              "value" : "2011"
+            },
+            "month" : {
+              "value" : "12"
+            },
+            "day" : {
+              "value" : "06"
+            }
+          },
+          "organization" : {
+            "name" : "Fundação Getúlio Vargas",
+            "address" : {
+              "city" : "Rio de Janeiro",
+              "region" : "RJ",
+              "country" : "BR"
+            },
+            "disambiguated-organization" : {
+              "disambiguated-organization-identifier" : "42500",
+              "disambiguation-source" : "RINGGOLD"
+            }
+          },
+          "source" : {
+            "source-orcid" : {
+              "value" : null,
+              "uri" : "http://orcid.org/0000-0002-3219-1820",
+              "path" : "0000-0002-3219-1820",
+              "host" : "orcid.org"
+            },
+            "source-client-id" : null,
+            "source-name" : {
+              "value" : "Lilian Pessoa"
+            },
+            "source-date" : {
+              "value" : 1429726588312
+            }
+          },
+          "created-date" : {
+            "value" : 1429726588312
+          },
+          "last-modified-date" : {
+            "value" : 1429726762448
+          },
+          "visibility" : "PUBLIC",
+          "put-code" : "865615"
+        }, {
+          "type" : "EMPLOYMENT",
+          "department-name" : "Sales",
+          "role-title" : "Product Manager",
+          "start-date" : {
+            "year" : {
+              "value" : "2005"
+            },
+            "month" : {
+              "value" : "02"
+            },
+            "day" : {
+              "value" : "01"
+            }
+          },
+          "end-date" : {
+            "year" : {
+              "value" : "2011"
+            },
+            "month" : {
+              "value" : "01"
+            },
+            "day" : {
+              "value" : "30"
+            }
+          },
+          "organization" : {
+            "name" : "Cengage Learning Editores SA de CV Latin America",
+            "address" : {
+              "city" : "São Paulo",
+              "region" : "São Paulo",
+              "country" : "BR"
+            },
+            "disambiguated-organization" : {
+              "disambiguated-organization-identifier" : "287359",
+              "disambiguation-source" : "RINGGOLD"
+            }
+          },
+          "source" : {
+            "source-orcid" : {
+              "value" : null,
+              "uri" : "http://orcid.org/0000-0002-3219-1820",
+              "path" : "0000-0002-3219-1820",
+              "host" : "orcid.org"
+            },
+            "source-client-id" : null,
+            "source-name" : {
+              "value" : "Lilian Pessoa"
+            },
+            "source-date" : {
+              "value" : 1431558386456
+            }
+          },
+          "created-date" : {
+            "value" : 1431558386456
+          },
+          "last-modified-date" : {
+            "value" : 1431558386456
+          },
+          "visibility" : "PUBLIC",
+          "put-code" : "911487"
+        }, {
+          "type" : "EDUCATION",
+          "department-name" : "History ",
+          "role-title" : "Graduate",
+          "start-date" : {
+            "year" : {
+              "value" : "1998"
+            },
+            "month" : {
+              "value" : "02"
+            },
+            "day" : {
+              "value" : "02"
+            }
+          },
+          "end-date" : {
+            "year" : {
+              "value" : "2002"
+            },
+            "month" : {
+              "value" : "12"
+            },
+            "day" : {
+              "value" : "10"
+            }
+          },
+          "organization" : {
+            "name" : "Universidade de São Paulo",
+            "address" : {
+              "city" : "São Paulo",
+              "region" : "SP",
+              "country" : "BR"
+            },
+            "disambiguated-organization" : {
+              "disambiguated-organization-identifier" : "28133",
+              "disambiguation-source" : "RINGGOLD"
+            }
+          },
+          "source" : {
+            "source-orcid" : {
+              "value" : null,
+              "uri" : "http://orcid.org/0000-0002-3219-1820",
+              "path" : "0000-0002-3219-1820",
+              "host" : "orcid.org"
+            },
+            "source-client-id" : null,
+            "source-name" : {
+              "value" : "Lilian Pessoa"
+            },
+            "source-date" : {
+              "value" : 1429726404135
+            }
+          },
+          "created-date" : {
+            "value" : 1429726404135
+          },
+          "last-modified-date" : {
+            "value" : 1429726597527
+          },
+          "visibility" : "PUBLIC",
+          "put-code" : "865609"
+        } ]
+      },
+      "orcid-works" : null,
+      "funding-list" : null
+    },
+    "orcid-internal" : null,
+    "type" : "USER",
+    "group-type" : null,
+    "client-type" : null
+  },
+  "orcid-search-results" : null,
+  "error-desc" : null
+}

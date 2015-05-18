@@ -1,0 +1,625 @@
+{
+  "message-version" : "1.2",
+  "orcid-profile" : {
+    "orcid" : null,
+    "orcid-id" : null,
+    "orcid-identifier" : {
+      "value" : null,
+      "uri" : "http://orcid.org/0000-0001-6622-4910",
+      "path" : "0000-0001-6622-4910",
+      "host" : "orcid.org"
+    },
+    "orcid-deprecated" : null,
+    "orcid-preferences" : {
+      "locale" : "EN"
+    },
+    "orcid-history" : {
+      "creation-method" : "DIRECT",
+      "completion-date" : null,
+      "submission-date" : {
+        "value" : 1404156114748
+      },
+      "last-modified-date" : {
+        "value" : 1415044942387
+      },
+      "claimed" : {
+        "value" : true
+      },
+      "source" : null,
+      "deactivation-date" : null,
+      "verified-email" : {
+        "value" : true
+      },
+      "verified-primary-email" : {
+        "value" : true
+      },
+      "visibility" : null
+    },
+    "orcid-bio" : {
+      "personal-details" : {
+        "given-names" : {
+          "value" : "Elizabeth"
+        },
+        "family-name" : {
+          "value" : "Krznarich"
+        },
+        "credit-name" : null,
+        "other-names" : null
+      },
+      "biography" : null,
+      "researcher-urls" : null,
+      "contact-details" : null,
+      "keywords" : null,
+      "external-identifiers" : null,
+      "delegation" : null,
+      "applications" : null,
+      "scope" : null
+    },
+    "orcid-activities" : {
+      "affiliations" : {
+        "affiliation" : [ {
+          "type" : "EMPLOYMENT",
+          "department-name" : null,
+          "role-title" : "Technical Support",
+          "start-date" : {
+            "year" : {
+              "value" : "2014"
+            },
+            "month" : {
+              "value" : "06"
+            },
+            "day" : null
+          },
+          "end-date" : null,
+          "organization" : {
+            "name" : "ORCID",
+            "address" : {
+              "city" : "Madison",
+              "region" : "WI",
+              "country" : "US"
+            },
+            "disambiguated-organization" : null
+          },
+          "source" : {
+            "source-orcid" : {
+              "value" : null,
+              "uri" : "http://orcid.org/0000-0001-6622-4910",
+              "path" : "0000-0001-6622-4910",
+              "host" : "orcid.org"
+            },
+            "source-client-id" : null,
+            "source-name" : {
+              "value" : "Elizabeth Krznarich"
+            },
+            "source-date" : {
+              "value" : 1404156278251
+            }
+          },
+          "created-date" : {
+            "value" : 1404156278251
+          },
+          "last-modified-date" : {
+            "value" : 1404156278251
+          },
+          "visibility" : "PUBLIC",
+          "put-code" : "334553"
+        }, {
+          "type" : "EMPLOYMENT",
+          "department-name" : "Division of IT - Academic Technology ",
+          "role-title" : "Program Manager, Student Technology Training",
+          "start-date" : {
+            "year" : {
+              "value" : "2013"
+            },
+            "month" : {
+              "value" : "05"
+            },
+            "day" : null
+          },
+          "end-date" : {
+            "year" : {
+              "value" : "2014"
+            },
+            "month" : {
+              "value" : "06"
+            },
+            "day" : null
+          },
+          "organization" : {
+            "name" : "University of Wisconsin Madison",
+            "address" : {
+              "city" : "Madison",
+              "region" : "WI",
+              "country" : "US"
+            },
+            "disambiguated-organization" : {
+              "disambiguated-organization-identifier" : "5228",
+              "disambiguation-source" : "RINGGOLD"
+            }
+          },
+          "source" : {
+            "source-orcid" : {
+              "value" : null,
+              "uri" : "http://orcid.org/0000-0001-6622-4910",
+              "path" : "0000-0001-6622-4910",
+              "host" : "orcid.org"
+            },
+            "source-client-id" : null,
+            "source-name" : {
+              "value" : "Elizabeth Krznarich"
+            },
+            "source-date" : {
+              "value" : 1404156348227
+            }
+          },
+          "created-date" : {
+            "value" : 1404156348227
+          },
+          "last-modified-date" : {
+            "value" : 1404156348227
+          },
+          "visibility" : "PUBLIC",
+          "put-code" : "334557"
+        }, {
+          "type" : "EMPLOYMENT",
+          "department-name" : "Research Division",
+          "role-title" : "Webmaster",
+          "start-date" : {
+            "year" : {
+              "value" : "2012"
+            },
+            "month" : {
+              "value" : "06"
+            },
+            "day" : null
+          },
+          "end-date" : {
+            "year" : {
+              "value" : "2013"
+            },
+            "month" : {
+              "value" : "05"
+            },
+            "day" : null
+          },
+          "organization" : {
+            "name" : "University of Wisconsin Madison College of Agricultural and Life Sciences",
+            "address" : {
+              "city" : "Madison",
+              "region" : "WI",
+              "country" : "US"
+            },
+            "disambiguated-organization" : {
+              "disambiguated-organization-identifier" : "118709",
+              "disambiguation-source" : "RINGGOLD"
+            }
+          },
+          "source" : {
+            "source-orcid" : {
+              "value" : null,
+              "uri" : "http://orcid.org/0000-0001-6622-4910",
+              "path" : "0000-0001-6622-4910",
+              "host" : "orcid.org"
+            },
+            "source-client-id" : null,
+            "source-name" : {
+              "value" : "Elizabeth Krznarich"
+            },
+            "source-date" : {
+              "value" : 1415043094170
+            }
+          },
+          "created-date" : {
+            "value" : 1415043094170
+          },
+          "last-modified-date" : {
+            "value" : 1415043094170
+          },
+          "visibility" : "PUBLIC",
+          "put-code" : "553911"
+        }, {
+          "type" : "EMPLOYMENT",
+          "department-name" : "Division of IT - Academic Technology",
+          "role-title" : "Technical Trainer",
+          "start-date" : {
+            "year" : {
+              "value" : "2012"
+            },
+            "month" : {
+              "value" : "03"
+            },
+            "day" : null
+          },
+          "end-date" : {
+            "year" : {
+              "value" : "2013"
+            },
+            "month" : {
+              "value" : "05"
+            },
+            "day" : null
+          },
+          "organization" : {
+            "name" : "University of Wisconsin Madison",
+            "address" : {
+              "city" : "Madison",
+              "region" : "WI",
+              "country" : "US"
+            },
+            "disambiguated-organization" : {
+              "disambiguated-organization-identifier" : "5228",
+              "disambiguation-source" : "RINGGOLD"
+            }
+          },
+          "source" : {
+            "source-orcid" : {
+              "value" : null,
+              "uri" : "http://orcid.org/0000-0001-6622-4910",
+              "path" : "0000-0001-6622-4910",
+              "host" : "orcid.org"
+            },
+            "source-client-id" : null,
+            "source-name" : {
+              "value" : "Elizabeth Krznarich"
+            },
+            "source-date" : {
+              "value" : 1404156405450
+            }
+          },
+          "created-date" : {
+            "value" : 1404156405450
+          },
+          "last-modified-date" : {
+            "value" : 1404156405450
+          },
+          "visibility" : "PUBLIC",
+          "put-code" : "334561"
+        }, {
+          "type" : "EMPLOYMENT",
+          "department-name" : "College Library",
+          "role-title" : "Reference Assistant",
+          "start-date" : {
+            "year" : {
+              "value" : "2011"
+            },
+            "month" : {
+              "value" : "08"
+            },
+            "day" : null
+          },
+          "end-date" : {
+            "year" : {
+              "value" : "2013"
+            },
+            "month" : {
+              "value" : "05"
+            },
+            "day" : null
+          },
+          "organization" : {
+            "name" : "University of Wisconsin Madison",
+            "address" : {
+              "city" : "Madison",
+              "region" : "WI",
+              "country" : "US"
+            },
+            "disambiguated-organization" : {
+              "disambiguated-organization-identifier" : "5228",
+              "disambiguation-source" : "RINGGOLD"
+            }
+          },
+          "source" : {
+            "source-orcid" : {
+              "value" : null,
+              "uri" : "http://orcid.org/0000-0001-6622-4910",
+              "path" : "0000-0001-6622-4910",
+              "host" : "orcid.org"
+            },
+            "source-client-id" : null,
+            "source-name" : {
+              "value" : "Elizabeth Krznarich"
+            },
+            "source-date" : {
+              "value" : 1415042822167
+            }
+          },
+          "created-date" : {
+            "value" : 1415042822167
+          },
+          "last-modified-date" : {
+            "value" : 1415042822167
+          },
+          "visibility" : "PUBLIC",
+          "put-code" : "553895"
+        }, {
+          "type" : "EDUCATION",
+          "department-name" : "Library & Information Studies",
+          "role-title" : "MLIS",
+          "start-date" : {
+            "year" : {
+              "value" : "2010"
+            },
+            "month" : {
+              "value" : "09"
+            },
+            "day" : null
+          },
+          "end-date" : {
+            "year" : {
+              "value" : "2013"
+            },
+            "month" : {
+              "value" : "05"
+            },
+            "day" : null
+          },
+          "organization" : {
+            "name" : "University of Wisconsin Madison",
+            "address" : {
+              "city" : "Madison",
+              "region" : "WI",
+              "country" : "US"
+            },
+            "disambiguated-organization" : {
+              "disambiguated-organization-identifier" : "5228",
+              "disambiguation-source" : "RINGGOLD"
+            }
+          },
+          "source" : {
+            "source-orcid" : {
+              "value" : null,
+              "uri" : "http://orcid.org/0000-0001-6622-4910",
+              "path" : "0000-0001-6622-4910",
+              "host" : "orcid.org"
+            },
+            "source-client-id" : null,
+            "source-name" : {
+              "value" : "Elizabeth Krznarich"
+            },
+            "source-date" : {
+              "value" : 1404156162711
+            }
+          },
+          "created-date" : {
+            "value" : 1404156162711
+          },
+          "last-modified-date" : {
+            "value" : 1404156162711
+          },
+          "visibility" : "PUBLIC",
+          "put-code" : "334547"
+        }, {
+          "type" : "EMPLOYMENT",
+          "department-name" : null,
+          "role-title" : "Archives/Outreach Assistant",
+          "start-date" : {
+            "year" : {
+              "value" : "2010"
+            },
+            "month" : {
+              "value" : "08"
+            },
+            "day" : null
+          },
+          "end-date" : {
+            "year" : {
+              "value" : "2012"
+            },
+            "month" : {
+              "value" : "07"
+            },
+            "day" : null
+          },
+          "organization" : {
+            "name" : "Wisconsin Geological and Natural History Survey",
+            "address" : {
+              "city" : "Madison",
+              "region" : "WI",
+              "country" : "US"
+            },
+            "disambiguated-organization" : null
+          },
+          "source" : {
+            "source-orcid" : {
+              "value" : null,
+              "uri" : "http://orcid.org/0000-0001-6622-4910",
+              "path" : "0000-0001-6622-4910",
+              "host" : "orcid.org"
+            },
+            "source-client-id" : null,
+            "source-name" : {
+              "value" : "Elizabeth Krznarich"
+            },
+            "source-date" : {
+              "value" : 1415043315435
+            }
+          },
+          "created-date" : {
+            "value" : 1415043315435
+          },
+          "last-modified-date" : {
+            "value" : 1415043315435
+          },
+          "visibility" : "PUBLIC",
+          "put-code" : "553917"
+        }, {
+          "type" : "EMPLOYMENT",
+          "department-name" : null,
+          "role-title" : "Librarian",
+          "start-date" : {
+            "year" : {
+              "value" : "2010"
+            },
+            "month" : {
+              "value" : "08"
+            },
+            "day" : null
+          },
+          "end-date" : {
+            "year" : {
+              "value" : "2012"
+            },
+            "month" : {
+              "value" : "05"
+            },
+            "day" : null
+          },
+          "organization" : {
+            "name" : "University of Wisconsin Madison Center for Limnology",
+            "address" : {
+              "city" : "Madison",
+              "region" : "WI",
+              "country" : "US"
+            },
+            "disambiguated-organization" : {
+              "disambiguated-organization-identifier" : "236685",
+              "disambiguation-source" : "RINGGOLD"
+            }
+          },
+          "source" : {
+            "source-orcid" : {
+              "value" : null,
+              "uri" : "http://orcid.org/0000-0001-6622-4910",
+              "path" : "0000-0001-6622-4910",
+              "host" : "orcid.org"
+            },
+            "source-client-id" : null,
+            "source-name" : {
+              "value" : "Elizabeth Krznarich"
+            },
+            "source-date" : {
+              "value" : 1415043043940
+            }
+          },
+          "created-date" : {
+            "value" : 1415043043940
+          },
+          "last-modified-date" : {
+            "value" : 1415043043940
+          },
+          "visibility" : "PUBLIC",
+          "put-code" : "553908"
+        }, {
+          "type" : "EMPLOYMENT",
+          "department-name" : null,
+          "role-title" : "Account Manager",
+          "start-date" : {
+            "year" : {
+              "value" : "2005"
+            },
+            "month" : {
+              "value" : "08"
+            },
+            "day" : null
+          },
+          "end-date" : {
+            "year" : {
+              "value" : "2010"
+            },
+            "month" : {
+              "value" : "08"
+            },
+            "day" : null
+          },
+          "organization" : {
+            "name" : "Food Concepts, Inc.",
+            "address" : {
+              "city" : "Middleton",
+              "region" : "WI",
+              "country" : "US"
+            },
+            "disambiguated-organization" : null
+          },
+          "source" : {
+            "source-orcid" : {
+              "value" : null,
+              "uri" : "http://orcid.org/0000-0001-6622-4910",
+              "path" : "0000-0001-6622-4910",
+              "host" : "orcid.org"
+            },
+            "source-client-id" : null,
+            "source-name" : {
+              "value" : "Elizabeth Krznarich"
+            },
+            "source-date" : {
+              "value" : 1415043412924
+            }
+          },
+          "created-date" : {
+            "value" : 1415043412924
+          },
+          "last-modified-date" : {
+            "value" : 1415043412924
+          },
+          "visibility" : "PUBLIC",
+          "put-code" : "553921"
+        }, {
+          "type" : "EDUCATION",
+          "department-name" : "Art",
+          "role-title" : "B.S.",
+          "start-date" : {
+            "year" : {
+              "value" : "2001"
+            },
+            "month" : {
+              "value" : "09"
+            },
+            "day" : null
+          },
+          "end-date" : {
+            "year" : {
+              "value" : "2005"
+            },
+            "month" : {
+              "value" : "05"
+            },
+            "day" : null
+          },
+          "organization" : {
+            "name" : "University of Wisconsin Madison",
+            "address" : {
+              "city" : "Madison",
+              "region" : "WI",
+              "country" : "US"
+            },
+            "disambiguated-organization" : {
+              "disambiguated-organization-identifier" : "5228",
+              "disambiguation-source" : "RINGGOLD"
+            }
+          },
+          "source" : {
+            "source-orcid" : {
+              "value" : null,
+              "uri" : "http://orcid.org/0000-0001-6622-4910",
+              "path" : "0000-0001-6622-4910",
+              "host" : "orcid.org"
+            },
+            "source-client-id" : null,
+            "source-name" : {
+              "value" : "Elizabeth Krznarich"
+            },
+            "source-date" : {
+              "value" : 1404156202887
+            }
+          },
+          "created-date" : {
+            "value" : 1404156202887
+          },
+          "last-modified-date" : {
+            "value" : 1404156202887
+          },
+          "visibility" : "PUBLIC",
+          "put-code" : "334549"
+        } ]
+      },
+      "orcid-works" : null,
+      "funding-list" : null
+    },
+    "orcid-internal" : null,
+    "type" : "USER",
+    "group-type" : null,
+    "client-type" : null
+  },
+  "orcid-search-results" : null,
+  "error-desc" : null
+}

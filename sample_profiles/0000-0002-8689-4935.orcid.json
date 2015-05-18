@@ -1,0 +1,1005 @@
+{
+  "message-version" : "1.2",
+  "orcid-profile" : {
+    "orcid" : null,
+    "orcid-id" : null,
+    "orcid-identifier" : {
+      "value" : null,
+      "uri" : "http://orcid.org/0000-0002-8689-4935",
+      "path" : "0000-0002-8689-4935",
+      "host" : "orcid.org"
+    },
+    "orcid-deprecated" : null,
+    "orcid-preferences" : {
+      "locale" : "EN"
+    },
+    "orcid-history" : {
+      "creation-method" : "DIRECT",
+      "completion-date" : null,
+      "submission-date" : {
+        "value" : 1389710252521
+      },
+      "last-modified-date" : {
+        "value" : 1421344857125
+      },
+      "claimed" : {
+        "value" : true
+      },
+      "source" : null,
+      "deactivation-date" : null,
+      "verified-email" : {
+        "value" : true
+      },
+      "verified-primary-email" : {
+        "value" : true
+      },
+      "visibility" : null
+    },
+    "orcid-bio" : {
+      "personal-details" : {
+        "given-names" : {
+          "value" : "Josh"
+        },
+        "family-name" : {
+          "value" : "Brown"
+        },
+        "credit-name" : null,
+        "other-names" : null
+      },
+      "biography" : null,
+      "researcher-urls" : null,
+      "contact-details" : null,
+      "keywords" : null,
+      "external-identifiers" : null,
+      "delegation" : null,
+      "applications" : null,
+      "scope" : null
+    },
+    "orcid-activities" : {
+      "affiliations" : {
+        "affiliation" : [ {
+          "type" : "EMPLOYMENT",
+          "department-name" : null,
+          "role-title" : "Regional Director, Europe",
+          "start-date" : {
+            "year" : {
+              "value" : "2014"
+            },
+            "month" : {
+              "value" : "10"
+            },
+            "day" : {
+              "value" : "01"
+            }
+          },
+          "end-date" : null,
+          "organization" : {
+            "name" : "ORCID EU",
+            "address" : {
+              "city" : "Brussels",
+              "region" : null,
+              "country" : "BE"
+            },
+            "disambiguated-organization" : null
+          },
+          "source" : {
+            "source-orcid" : {
+              "value" : null,
+              "uri" : "http://orcid.org/0000-0002-8689-4935",
+              "path" : "0000-0002-8689-4935",
+              "host" : "orcid.org"
+            },
+            "source-client-id" : null,
+            "source-name" : {
+              "value" : "Josh Brown"
+            },
+            "source-date" : {
+              "value" : 1415090429769
+            }
+          },
+          "created-date" : {
+            "value" : 1415090429769
+          },
+          "last-modified-date" : {
+            "value" : 1415090429769
+          },
+          "visibility" : "PUBLIC",
+          "put-code" : "554540"
+        }, {
+          "type" : "EMPLOYMENT",
+          "department-name" : null,
+          "role-title" : "Communications Manager",
+          "start-date" : {
+            "year" : {
+              "value" : "2014"
+            },
+            "month" : {
+              "value" : "05"
+            },
+            "day" : {
+              "value" : "01"
+            }
+          },
+          "end-date" : {
+            "year" : {
+              "value" : "2014"
+            },
+            "month" : {
+              "value" : "09"
+            },
+            "day" : {
+              "value" : "30"
+            }
+          },
+          "organization" : {
+            "name" : "ORCID EU",
+            "address" : {
+              "city" : "Brussels",
+              "region" : null,
+              "country" : "BE"
+            },
+            "disambiguated-organization" : null
+          },
+          "source" : {
+            "source-orcid" : {
+              "value" : null,
+              "uri" : "http://orcid.org/0000-0002-8689-4935",
+              "path" : "0000-0002-8689-4935",
+              "host" : "orcid.org"
+            },
+            "source-client-id" : null,
+            "source-name" : {
+              "value" : "Josh Brown"
+            },
+            "source-date" : {
+              "value" : 1415090655135
+            }
+          },
+          "created-date" : {
+            "value" : 1415090655135
+          },
+          "last-modified-date" : {
+            "value" : 1415090655135
+          },
+          "visibility" : "PUBLIC",
+          "put-code" : "554546"
+        }, {
+          "type" : "EMPLOYMENT",
+          "department-name" : "Scientific Information Service",
+          "role-title" : "SCOAP3 Consortium and Operations Manager",
+          "start-date" : {
+            "year" : {
+              "value" : "2012"
+            },
+            "month" : {
+              "value" : "11"
+            },
+            "day" : null
+          },
+          "end-date" : {
+            "year" : {
+              "value" : "2014"
+            },
+            "month" : {
+              "value" : "04"
+            },
+            "day" : null
+          },
+          "organization" : {
+            "name" : "European Organization for Nuclear Research",
+            "address" : {
+              "city" : "Genève",
+              "region" : "GE",
+              "country" : "CH"
+            },
+            "disambiguated-organization" : {
+              "disambiguated-organization-identifier" : "30531",
+              "disambiguation-source" : "RINGGOLD"
+            }
+          },
+          "source" : {
+            "source-orcid" : {
+              "value" : null,
+              "uri" : "http://orcid.org/0000-0002-8689-4935",
+              "path" : "0000-0002-8689-4935",
+              "host" : "orcid.org"
+            },
+            "source-client-id" : null,
+            "source-name" : {
+              "value" : "Josh Brown"
+            },
+            "source-date" : {
+              "value" : 1400080208699
+            }
+          },
+          "created-date" : {
+            "value" : 1400080208699
+          },
+          "last-modified-date" : {
+            "value" : 1400080208699
+          },
+          "visibility" : "PUBLIC",
+          "put-code" : "265404"
+        }, {
+          "type" : "EMPLOYMENT",
+          "department-name" : "Digital Infrastructure Team",
+          "role-title" : "Programme Manager",
+          "start-date" : {
+            "year" : {
+              "value" : "2010"
+            },
+            "month" : {
+              "value" : "10"
+            },
+            "day" : null
+          },
+          "end-date" : {
+            "year" : {
+              "value" : "2012"
+            },
+            "month" : {
+              "value" : "10"
+            },
+            "day" : null
+          },
+          "organization" : {
+            "name" : "Joint Information Systems Committee",
+            "address" : {
+              "city" : "London",
+              "region" : null,
+              "country" : "GB"
+            },
+            "disambiguated-organization" : {
+              "disambiguated-organization-identifier" : "http://dx.doi.org/10.13039/501100000821",
+              "disambiguation-source" : "FUNDREF"
+            }
+          },
+          "source" : {
+            "source-orcid" : {
+              "value" : null,
+              "uri" : "http://orcid.org/0000-0002-8689-4935",
+              "path" : "0000-0002-8689-4935",
+              "host" : "orcid.org"
+            },
+            "source-client-id" : null,
+            "source-name" : {
+              "value" : "Josh Brown"
+            },
+            "source-date" : {
+              "value" : 1400080298048
+            }
+          },
+          "created-date" : {
+            "value" : 1400080298048
+          },
+          "last-modified-date" : {
+            "value" : 1400080298048
+          },
+          "visibility" : "PUBLIC",
+          "put-code" : "265406"
+        }, {
+          "type" : "EMPLOYMENT",
+          "department-name" : null,
+          "role-title" : "SHERPA-LEAP Project Officer",
+          "start-date" : {
+            "year" : {
+              "value" : "2009"
+            },
+            "month" : {
+              "value" : "05"
+            },
+            "day" : null
+          },
+          "end-date" : {
+            "year" : {
+              "value" : "2010"
+            },
+            "month" : {
+              "value" : "10"
+            },
+            "day" : null
+          },
+          "organization" : {
+            "name" : "University College London",
+            "address" : {
+              "city" : "London",
+              "region" : "London",
+              "country" : "GB"
+            },
+            "disambiguated-organization" : {
+              "disambiguated-organization-identifier" : "4919",
+              "disambiguation-source" : "RINGGOLD"
+            }
+          },
+          "source" : {
+            "source-orcid" : {
+              "value" : null,
+              "uri" : "http://orcid.org/0000-0002-8689-4935",
+              "path" : "0000-0002-8689-4935",
+              "host" : "orcid.org"
+            },
+            "source-client-id" : null,
+            "source-name" : {
+              "value" : "Josh Brown"
+            },
+            "source-date" : {
+              "value" : 1400080358203
+            }
+          },
+          "created-date" : {
+            "value" : 1400080358203
+          },
+          "last-modified-date" : {
+            "value" : 1400080358203
+          },
+          "visibility" : "PUBLIC",
+          "put-code" : "265409"
+        }, {
+          "type" : "EDUCATION",
+          "department-name" : "Computing, Mathematical and Information Science",
+          "role-title" : "MA Information Management",
+          "start-date" : {
+            "year" : {
+              "value" : "2005"
+            },
+            "month" : {
+              "value" : "09"
+            },
+            "day" : null
+          },
+          "end-date" : {
+            "year" : {
+              "value" : "2009"
+            },
+            "month" : {
+              "value" : "05"
+            },
+            "day" : null
+          },
+          "organization" : {
+            "name" : "University of Brighton",
+            "address" : {
+              "city" : "Brighton",
+              "region" : "Brighton and Hove",
+              "country" : "GB"
+            },
+            "disambiguated-organization" : {
+              "disambiguated-organization-identifier" : "1947",
+              "disambiguation-source" : "RINGGOLD"
+            }
+          },
+          "source" : {
+            "source-orcid" : {
+              "value" : null,
+              "uri" : "http://orcid.org/0000-0002-8689-4935",
+              "path" : "0000-0002-8689-4935",
+              "host" : "orcid.org"
+            },
+            "source-client-id" : null,
+            "source-name" : {
+              "value" : "Josh Brown"
+            },
+            "source-date" : {
+              "value" : 1400080078179
+            }
+          },
+          "created-date" : {
+            "value" : 1400080078179
+          },
+          "last-modified-date" : {
+            "value" : 1400080078179
+          },
+          "visibility" : "PUBLIC",
+          "put-code" : "265396"
+        }, {
+          "type" : "EDUCATION",
+          "department-name" : null,
+          "role-title" : "BA Philosophy and English Literature",
+          "start-date" : {
+            "year" : {
+              "value" : "1998"
+            },
+            "month" : {
+              "value" : "09"
+            },
+            "day" : null
+          },
+          "end-date" : {
+            "year" : {
+              "value" : "2001"
+            },
+            "month" : {
+              "value" : "07"
+            },
+            "day" : null
+          },
+          "organization" : {
+            "name" : "University of Sussex",
+            "address" : {
+              "city" : "Brighton",
+              "region" : "Brighton and Hove",
+              "country" : "GB"
+            },
+            "disambiguated-organization" : {
+              "disambiguated-organization-identifier" : "1948",
+              "disambiguation-source" : "RINGGOLD"
+            }
+          },
+          "source" : {
+            "source-orcid" : {
+              "value" : null,
+              "uri" : "http://orcid.org/0000-0002-8689-4935",
+              "path" : "0000-0002-8689-4935",
+              "host" : "orcid.org"
+            },
+            "source-client-id" : null,
+            "source-name" : {
+              "value" : "Josh Brown"
+            },
+            "source-date" : {
+              "value" : 1400080137955
+            }
+          },
+          "created-date" : {
+            "value" : 1400080137955
+          },
+          "last-modified-date" : {
+            "value" : 1400080137955
+          },
+          "visibility" : "PUBLIC",
+          "put-code" : "265400"
+        } ]
+      },
+      "orcid-works" : {
+        "orcid-work" : [ {
+          "put-code" : "15037562",
+          "work-title" : {
+            "title" : {
+              "value" : "Comparing consortial repositories: a model-driven analysis"
+            },
+            "subtitle" : null,
+            "translated-title" : null
+          },
+          "journal-title" : {
+            "value" : "UCL Library Services/SHERPA-LEAP, London"
+          },
+          "short-description" : null,
+          "work-citation" : null,
+          "work-type" : "WORKING_PAPER",
+          "publication-date" : {
+            "year" : {
+              "value" : "2009"
+            },
+            "month" : null,
+            "day" : null,
+            "media-type" : null
+          },
+          "work-external-identifiers" : null,
+          "url" : null,
+          "work-contributors" : null,
+          "work-source" : null,
+          "source" : {
+            "source-orcid" : {
+              "value" : null,
+              "uri" : "http://orcid.org/0000-0002-8689-4935",
+              "path" : "0000-0002-8689-4935",
+              "host" : "orcid.org"
+            },
+            "source-client-id" : null,
+            "source-name" : {
+              "value" : "Josh Brown"
+            },
+            "source-date" : {
+              "value" : 1421344763731
+            }
+          },
+          "created-date" : {
+            "value" : 1421344763731
+          },
+          "last-modified-date" : {
+            "value" : 1421344763731
+          },
+          "language-code" : null,
+          "country" : {
+            "value" : "GB",
+            "visibility" : "PUBLIC"
+          },
+          "visibility" : "PUBLIC"
+        }, {
+          "put-code" : "15037558",
+          "work-title" : {
+            "title" : {
+              "value" : "Overlay journals, repositories and the evolution of scholarly communication."
+            },
+            "subtitle" : null,
+            "translated-title" : null
+          },
+          "journal-title" : {
+            "value" : "OR 2010: The 5th International Conference on Open Repositories, Madrid, Spain."
+          },
+          "short-description" : null,
+          "work-citation" : null,
+          "work-type" : "CONFERENCE_POSTER",
+          "publication-date" : {
+            "year" : {
+              "value" : "2010"
+            },
+            "month" : null,
+            "day" : null,
+            "media-type" : null
+          },
+          "work-external-identifiers" : null,
+          "url" : null,
+          "work-contributors" : null,
+          "work-source" : null,
+          "source" : {
+            "source-orcid" : {
+              "value" : null,
+              "uri" : "http://orcid.org/0000-0002-8689-4935",
+              "path" : "0000-0002-8689-4935",
+              "host" : "orcid.org"
+            },
+            "source-client-id" : null,
+            "source-name" : {
+              "value" : "Josh Brown"
+            },
+            "source-date" : {
+              "value" : 1421344695472
+            }
+          },
+          "created-date" : {
+            "value" : 1421344695472
+          },
+          "last-modified-date" : {
+            "value" : 1421344695472
+          },
+          "language-code" : null,
+          "country" : null,
+          "visibility" : "PUBLIC"
+        }, {
+          "put-code" : "15037557",
+          "work-title" : {
+            "title" : {
+              "value" : "An introduction to overlay journals"
+            },
+            "subtitle" : null,
+            "translated-title" : null
+          },
+          "journal-title" : {
+            "value" : "UCL Library Services/SHERPA-LEAP, London."
+          },
+          "short-description" : null,
+          "work-citation" : null,
+          "work-type" : "WORKING_PAPER",
+          "publication-date" : {
+            "year" : {
+              "value" : "2010"
+            },
+            "month" : null,
+            "day" : null,
+            "media-type" : null
+          },
+          "work-external-identifiers" : null,
+          "url" : null,
+          "work-contributors" : null,
+          "work-source" : null,
+          "source" : {
+            "source-orcid" : {
+              "value" : null,
+              "uri" : "http://orcid.org/0000-0002-8689-4935",
+              "path" : "0000-0002-8689-4935",
+              "host" : "orcid.org"
+            },
+            "source-client-id" : null,
+            "source-name" : {
+              "value" : "Josh Brown"
+            },
+            "source-date" : {
+              "value" : 1421344639630
+            }
+          },
+          "created-date" : {
+            "value" : 1421344639630
+          },
+          "last-modified-date" : {
+            "value" : 1421344639630
+          },
+          "language-code" : null,
+          "country" : {
+            "value" : "GB",
+            "visibility" : "PUBLIC"
+          },
+          "visibility" : "PUBLIC"
+        }, {
+          "put-code" : "15037556",
+          "work-title" : {
+            "title" : {
+              "value" : "Literature review of research into attitudes towards electronic theses and dissertations (ETDs)."
+            },
+            "subtitle" : null,
+            "translated-title" : null
+          },
+          "journal-title" : {
+            "value" : "UCL Library Services/SHERPA-LEAP London."
+          },
+          "short-description" : null,
+          "work-citation" : null,
+          "work-type" : "WORKING_PAPER",
+          "publication-date" : {
+            "year" : {
+              "value" : "2010"
+            },
+            "month" : null,
+            "day" : null,
+            "media-type" : null
+          },
+          "work-external-identifiers" : null,
+          "url" : null,
+          "work-contributors" : null,
+          "work-source" : null,
+          "source" : {
+            "source-orcid" : {
+              "value" : null,
+              "uri" : "http://orcid.org/0000-0002-8689-4935",
+              "path" : "0000-0002-8689-4935",
+              "host" : "orcid.org"
+            },
+            "source-client-id" : null,
+            "source-name" : {
+              "value" : "Josh Brown"
+            },
+            "source-date" : {
+              "value" : 1421344555345
+            }
+          },
+          "created-date" : {
+            "value" : 1421344555345
+          },
+          "last-modified-date" : {
+            "value" : 1421344555345
+          },
+          "language-code" : null,
+          "country" : {
+            "value" : "GB",
+            "visibility" : "PUBLIC"
+          },
+          "visibility" : "PUBLIC"
+        }, {
+          "put-code" : "12664878",
+          "work-title" : {
+            "title" : {
+              "value" : "Current Research Information Systems in the UK: an evolving network"
+            },
+            "subtitle" : null,
+            "translated-title" : null
+          },
+          "journal-title" : null,
+          "short-description" : null,
+          "work-citation" : {
+            "work-citation-type" : "FORMATTED_UNSPECIFIED",
+            "citation" : "Brown, Josh. (2012) Current Research Information Systems in the UK: an evolving network. \nIn: Sven Bittner, Sven; Hornbostel, Stefan and Scholze, Frank (Ed.) (2012) Forschungsinformation In Deutschland: Anforderungen, Stand Und Nutzen Existierender  orschungsinformationssysteme. Workshop Forschungsinformationssysteme 2011 iFQ-Working Paper No. 10, Mai 2012. Institut für Forschungsinformation und Qualitätssicherung."
+          },
+          "work-type" : "BOOK_CHAPTER",
+          "publication-date" : {
+            "year" : {
+              "value" : "2012"
+            },
+            "month" : {
+              "value" : "03"
+            },
+            "day" : {
+              "value" : "01"
+            },
+            "media-type" : null
+          },
+          "work-external-identifiers" : null,
+          "url" : null,
+          "work-contributors" : {
+            "contributor" : [ {
+              "contributor-orcid" : null,
+              "credit-name" : {
+                "value" : "Josh Brown",
+                "visibility" : "PUBLIC"
+              },
+              "contributor-email" : null,
+              "contributor-attributes" : {
+                "contributor-sequence" : null,
+                "contributor-role" : "AUTHOR"
+              }
+            } ]
+          },
+          "work-source" : null,
+          "source" : {
+            "source-orcid" : {
+              "value" : null,
+              "uri" : "http://orcid.org/0000-0002-8689-4935",
+              "path" : "0000-0002-8689-4935",
+              "host" : "orcid.org"
+            },
+            "source-client-id" : null,
+            "source-name" : {
+              "value" : "Josh Brown"
+            },
+            "source-date" : {
+              "value" : 1400079666674
+            }
+          },
+          "created-date" : {
+            "value" : 1400079666674
+          },
+          "last-modified-date" : {
+            "value" : 1400079666674
+          },
+          "language-code" : null,
+          "country" : null,
+          "visibility" : "PUBLIC"
+        }, {
+          "put-code" : "12664880",
+          "work-title" : {
+            "title" : {
+              "value" : "Electronic doctoral theses in the UK: a sector-wide survey into policies, practice and barriers to Open Access."
+            },
+            "subtitle" : null,
+            "translated-title" : null
+          },
+          "journal-title" : null,
+          "short-description" : null,
+          "work-citation" : {
+            "work-citation-type" : "FORMATTED_UNSPECIFIED",
+            "citation" : "Moyle, Martin; Barnes, Tina; Brown, Josh and Sadler, Kathy. (2012) Electronic doctoral theses in the UK: a sector-wide survey into policies, practice and barriers to Open Access. UK Council for Graduate Education: London, UK."
+          },
+          "work-type" : "REPORT",
+          "publication-date" : {
+            "year" : {
+              "value" : "2012"
+            },
+            "month" : null,
+            "day" : null,
+            "media-type" : null
+          },
+          "work-external-identifiers" : null,
+          "url" : null,
+          "work-contributors" : {
+            "contributor" : [ {
+              "contributor-orcid" : null,
+              "credit-name" : {
+                "value" : "Josh Brown",
+                "visibility" : "PUBLIC"
+              },
+              "contributor-email" : null,
+              "contributor-attributes" : {
+                "contributor-sequence" : null,
+                "contributor-role" : "CO_INVESTIGATOR"
+              }
+            } ]
+          },
+          "work-source" : null,
+          "source" : {
+            "source-orcid" : {
+              "value" : null,
+              "uri" : "http://orcid.org/0000-0002-8689-4935",
+              "path" : "0000-0002-8689-4935",
+              "host" : "orcid.org"
+            },
+            "source-client-id" : null,
+            "source-name" : {
+              "value" : "Josh Brown"
+            },
+            "source-date" : {
+              "value" : 1400079738072
+            }
+          },
+          "created-date" : {
+            "value" : 1400079738072
+          },
+          "last-modified-date" : {
+            "value" : 1400079738072
+          },
+          "language-code" : null,
+          "country" : null,
+          "visibility" : "PUBLIC"
+        }, {
+          "put-code" : "12664882",
+          "work-title" : {
+            "title" : {
+              "value" : "Collection Development and Institutional Repositories."
+            },
+            "subtitle" : null,
+            "translated-title" : null
+          },
+          "journal-title" : null,
+          "short-description" : null,
+          "work-citation" : {
+            "work-citation-type" : "FORMATTED_UNSPECIFIED",
+            "citation" : "Brown, Josh. (2012) Collection Development and Institutional Repositories.\nIn: Fieldhouse, Maggie and Marshall, Audrey (ed.) (2012) Collection Development in the Digital Age. Facet Publishing: London, UK."
+          },
+          "work-type" : "BOOK_CHAPTER",
+          "publication-date" : {
+            "year" : {
+              "value" : "2012"
+            },
+            "month" : null,
+            "day" : null,
+            "media-type" : null
+          },
+          "work-external-identifiers" : null,
+          "url" : null,
+          "work-contributors" : {
+            "contributor" : [ {
+              "contributor-orcid" : null,
+              "credit-name" : {
+                "value" : "Josh Brown",
+                "visibility" : "PUBLIC"
+              },
+              "contributor-email" : null,
+              "contributor-attributes" : {
+                "contributor-sequence" : null,
+                "contributor-role" : "AUTHOR"
+              }
+            } ]
+          },
+          "work-source" : null,
+          "source" : {
+            "source-orcid" : {
+              "value" : null,
+              "uri" : "http://orcid.org/0000-0002-8689-4935",
+              "path" : "0000-0002-8689-4935",
+              "host" : "orcid.org"
+            },
+            "source-client-id" : null,
+            "source-name" : {
+              "value" : "Josh Brown"
+            },
+            "source-date" : {
+              "value" : 1400079800936
+            }
+          },
+          "created-date" : {
+            "value" : 1400079800936
+          },
+          "last-modified-date" : {
+            "value" : 1421344833174
+          },
+          "language-code" : null,
+          "country" : null,
+          "visibility" : "PUBLIC"
+        }, {
+          "put-code" : "12664909",
+          "work-title" : {
+            "title" : {
+              "value" : "Vision, impact, success: mandating electronic theses. Case studies of e-theses mandates in practice in the UK Higher Education sector"
+            },
+            "subtitle" : null,
+            "translated-title" : null
+          },
+          "journal-title" : null,
+          "short-description" : null,
+          "work-citation" : {
+            "work-citation-type" : "FORMATTED_UNSPECIFIED",
+            "citation" : "Brown, Josh and Sadler, Kathy. (2010) Vision, impact, success: mandating electronic theses. Case studies of e-theses mandates in practice in the UK Higher Education sector. University College London: London, UK."
+          },
+          "work-type" : "REPORT",
+          "publication-date" : {
+            "year" : {
+              "value" : "2010"
+            },
+            "month" : null,
+            "day" : null,
+            "media-type" : null
+          },
+          "work-external-identifiers" : null,
+          "url" : null,
+          "work-contributors" : {
+            "contributor" : [ {
+              "contributor-orcid" : null,
+              "credit-name" : {
+                "value" : "Josh Brown",
+                "visibility" : "PUBLIC"
+              },
+              "contributor-email" : null,
+              "contributor-attributes" : null
+            } ]
+          },
+          "work-source" : null,
+          "source" : {
+            "source-orcid" : {
+              "value" : null,
+              "uri" : "http://orcid.org/0000-0002-8689-4935",
+              "path" : "0000-0002-8689-4935",
+              "host" : "orcid.org"
+            },
+            "source-client-id" : null,
+            "source-name" : {
+              "value" : "Josh Brown"
+            },
+            "source-date" : {
+              "value" : 1400079859261
+            }
+          },
+          "created-date" : {
+            "value" : 1400079859261
+          },
+          "last-modified-date" : {
+            "value" : 1421344805736
+          },
+          "language-code" : null,
+          "country" : null,
+          "visibility" : "PUBLIC"
+        }, {
+          "put-code" : "12664924",
+          "work-title" : {
+            "title" : {
+              "value" : "Influencing the Deposit of Electronic Theses in UK HE: report on a sector-wide survey into thesis deposit and open access"
+            },
+            "subtitle" : null,
+            "translated-title" : null
+          },
+          "journal-title" : null,
+          "short-description" : null,
+          "work-citation" : {
+            "work-citation-type" : "FORMATTED_UNSPECIFIED",
+            "citation" : "Brown, Josh; Sadler, Kathy and Moyle, Martin. (2010) Influencing the Deposit of Electronic Theses in UK HE: report on a sector-wide survey into thesis deposit and open access. University College London: London, UK."
+          },
+          "work-type" : "REPORT",
+          "publication-date" : {
+            "year" : {
+              "value" : "2010"
+            },
+            "month" : null,
+            "day" : null,
+            "media-type" : null
+          },
+          "work-external-identifiers" : null,
+          "url" : null,
+          "work-contributors" : {
+            "contributor" : [ {
+              "contributor-orcid" : null,
+              "credit-name" : {
+                "value" : "Josh Brown",
+                "visibility" : "PUBLIC"
+              },
+              "contributor-email" : null,
+              "contributor-attributes" : {
+                "contributor-sequence" : null,
+                "contributor-role" : "AUTHOR"
+              }
+            } ]
+          },
+          "work-source" : null,
+          "source" : {
+            "source-orcid" : {
+              "value" : null,
+              "uri" : "http://orcid.org/0000-0002-8689-4935",
+              "path" : "0000-0002-8689-4935",
+              "host" : "orcid.org"
+            },
+            "source-client-id" : null,
+            "source-name" : {
+              "value" : "Josh Brown"
+            },
+            "source-date" : {
+              "value" : 1400079950427
+            }
+          },
+          "created-date" : {
+            "value" : 1400079950427
+          },
+          "last-modified-date" : {
+            "value" : 1421344857124
+          },
+          "language-code" : null,
+          "country" : null,
+          "visibility" : "PUBLIC"
+        } ],
+        "scope" : null
+      },
+      "funding-list" : null
+    },
+    "orcid-internal" : null,
+    "type" : "USER",
+    "group-type" : null,
+    "client-type" : null
+  },
+  "orcid-search-results" : null,
+  "error-desc" : null
+}

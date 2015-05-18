@@ -1,0 +1,3156 @@
+{
+  "message-version" : "1.2",
+  "orcid-profile" : {
+    "orcid" : null,
+    "orcid-id" : null,
+    "orcid-identifier" : {
+      "value" : null,
+      "uri" : "http://orcid.org/0000-0001-5109-3700",
+      "path" : "0000-0001-5109-3700",
+      "host" : "orcid.org"
+    },
+    "orcid-deprecated" : null,
+    "orcid-preferences" : {
+      "locale" : "EN"
+    },
+    "orcid-history" : {
+      "creation-method" : "WEBSITE",
+      "completion-date" : {
+        "value" : 1348856356615
+      },
+      "submission-date" : {
+        "value" : 1348852748336
+      },
+      "last-modified-date" : {
+        "value" : 1431776001029
+      },
+      "claimed" : {
+        "value" : true
+      },
+      "source" : null,
+      "deactivation-date" : null,
+      "verified-email" : {
+        "value" : true
+      },
+      "verified-primary-email" : {
+        "value" : true
+      },
+      "visibility" : null
+    },
+    "orcid-bio" : {
+      "personal-details" : {
+        "given-names" : {
+          "value" : "Laurel"
+        },
+        "family-name" : {
+          "value" : "Haak"
+        },
+        "credit-name" : {
+          "value" : "Laurel L Haak",
+          "visibility" : "PUBLIC"
+        },
+        "other-names" : {
+          "other-name" : [ {
+            "value" : " L. L. Haak"
+          }, {
+            "value" : "L Haak"
+          }, {
+            "value" : "Laure Haak"
+          }, {
+            "value" : "Laurela L Hāka"
+          } ],
+          "visibility" : "PUBLIC"
+        }
+      },
+      "biography" : {
+        "value" : "Laurel L. Haak, PhD, is the Executive Director of ORCID, an international and interdisciplinary non-profit organization dedicated to providing the technical infrastructure to generate and maintain unique and persistent identifiers for researchers and scholars.   \n",
+        "visibility" : "PUBLIC"
+      },
+      "researcher-urls" : {
+        "researcher-url" : [ {
+          "url-name" : {
+            "value" : "LinkedIn"
+          },
+          "url" : {
+            "value" : "http://www.linkedin.com/pub/laurel-haak/3/1b/4a3/"
+          }
+        }, {
+          "url-name" : {
+            "value" : "ResearchGate"
+          },
+          "url" : {
+            "value" : "https://www.researchgate.net/profile/Laurel_Haak"
+          }
+        } ],
+        "visibility" : "PUBLIC"
+      },
+      "contact-details" : {
+        "email" : [ ],
+        "address" : {
+          "country" : {
+            "value" : "US",
+            "visibility" : "PUBLIC"
+          }
+        }
+      },
+      "keywords" : {
+        "keyword" : [ {
+          "value" : "persistent identifiers, research policy, science workforce, program evaluation, neuroscience, calcium imaging, oligodendrocytes, circadian rhythms"
+        } ],
+        "visibility" : "PUBLIC"
+      },
+      "external-identifiers" : {
+        "external-identifier" : [ {
+          "orcid" : null,
+          "external-id-orcid" : null,
+          "external-id-common-name" : {
+            "value" : "ISNI"
+          },
+          "external-id-reference" : {
+            "value" : "0000000138352317"
+          },
+          "external-id-url" : {
+            "value" : "http://isni.org/isni/0000000138352317"
+          },
+          "external-id-source" : null,
+          "source" : {
+            "source-orcid" : {
+              "value" : null,
+              "uri" : "http://orcid.org/0000-0003-0412-1857",
+              "path" : "0000-0003-0412-1857",
+              "host" : "orcid.org"
+            },
+            "source-client-id" : null,
+            "source-name" : null,
+            "source-date" : null
+          }
+        }, {
+          "orcid" : null,
+          "external-id-orcid" : null,
+          "external-id-common-name" : {
+            "value" : "ResearcherID"
+          },
+          "external-id-reference" : {
+            "value" : "C-4986-2008"
+          },
+          "external-id-url" : {
+            "value" : "http://www.researcherid.com/rid/C-4986-2008"
+          },
+          "external-id-source" : null,
+          "source" : {
+            "source-orcid" : {
+              "value" : null,
+              "uri" : "http://orcid.org/0000-0001-7707-4137",
+              "path" : "0000-0001-7707-4137",
+              "host" : "orcid.org"
+            },
+            "source-client-id" : null,
+            "source-name" : null,
+            "source-date" : null
+          }
+        }, {
+          "orcid" : null,
+          "external-id-orcid" : null,
+          "external-id-common-name" : {
+            "value" : "Scopus Author ID"
+          },
+          "external-id-reference" : {
+            "value" : "6602258586"
+          },
+          "external-id-url" : {
+            "value" : "http://www.scopus.com/inward/authorDetails.url?authorID=6602258586&partnerID=MN8TOARS"
+          },
+          "external-id-source" : null,
+          "source" : {
+            "source-orcid" : {
+              "value" : null,
+              "uri" : "http://orcid.org/0000-0002-5982-8983",
+              "path" : "0000-0002-5982-8983",
+              "host" : "orcid.org"
+            },
+            "source-client-id" : null,
+            "source-name" : null,
+            "source-date" : null
+          }
+        } ],
+        "visibility" : "PUBLIC"
+      },
+      "delegation" : null,
+      "applications" : null,
+      "scope" : null
+    },
+    "orcid-activities" : {
+      "affiliations" : {
+        "affiliation" : [ {
+          "type" : "EMPLOYMENT",
+          "department-name" : "",
+          "role-title" : null,
+          "start-date" : {
+            "year" : {
+              "value" : "2012"
+            },
+            "month" : {
+              "value" : "04"
+            },
+            "day" : {
+              "value" : "09"
+            }
+          },
+          "end-date" : null,
+          "organization" : {
+            "name" : "ORCID",
+            "address" : {
+              "city" : "Bethesda",
+              "region" : null,
+              "country" : "US"
+            },
+            "disambiguated-organization" : null
+          },
+          "source" : {
+            "source-orcid" : {
+              "value" : null,
+              "uri" : "http://orcid.org/0000-0001-5109-3700",
+              "path" : "0000-0001-5109-3700",
+              "host" : "orcid.org"
+            },
+            "source-client-id" : null,
+            "source-name" : {
+              "value" : "Laurel L Haak"
+            },
+            "source-date" : {
+              "value" : 1382307859445
+            }
+          },
+          "created-date" : {
+            "value" : 1382307859445
+          },
+          "last-modified-date" : {
+            "value" : 1406092743932
+          },
+          "visibility" : "PUBLIC",
+          "put-code" : "1003"
+        }, {
+          "type" : "EDUCATION",
+          "department-name" : "Neurosciences",
+          "role-title" : "PhD",
+          "start-date" : null,
+          "end-date" : {
+            "year" : {
+              "value" : "1997"
+            },
+            "month" : null,
+            "day" : null
+          },
+          "organization" : {
+            "name" : "Stanford University School of Medicine",
+            "address" : {
+              "city" : "Stanford",
+              "region" : "California",
+              "country" : "US"
+            },
+            "disambiguated-organization" : null
+          },
+          "source" : {
+            "source-orcid" : {
+              "value" : null,
+              "uri" : "http://orcid.org/0000-0001-5109-3700",
+              "path" : "0000-0001-5109-3700",
+              "host" : "orcid.org"
+            },
+            "source-client-id" : null,
+            "source-name" : {
+              "value" : "Laurel L Haak"
+            },
+            "source-date" : {
+              "value" : 1385568459467
+            }
+          },
+          "created-date" : {
+            "value" : 1385568459467
+          },
+          "last-modified-date" : {
+            "value" : 1406092743932
+          },
+          "visibility" : "PUBLIC",
+          "put-code" : "1006"
+        }, {
+          "type" : "EDUCATION",
+          "department-name" : "Biology",
+          "role-title" : "BS and MS",
+          "start-date" : null,
+          "end-date" : {
+            "year" : {
+              "value" : "1988"
+            },
+            "month" : null,
+            "day" : null
+          },
+          "organization" : {
+            "name" : "Stanford University",
+            "address" : {
+              "city" : "Stanford",
+              "region" : "California",
+              "country" : "US"
+            },
+            "disambiguated-organization" : null
+          },
+          "source" : {
+            "source-orcid" : {
+              "value" : null,
+              "uri" : "http://orcid.org/0000-0001-5109-3700",
+              "path" : "0000-0001-5109-3700",
+              "host" : "orcid.org"
+            },
+            "source-client-id" : null,
+            "source-name" : {
+              "value" : "Laurel L Haak"
+            },
+            "source-date" : {
+              "value" : 1385568502902
+            }
+          },
+          "created-date" : {
+            "value" : 1385568502902
+          },
+          "last-modified-date" : {
+            "value" : 1406092743932
+          },
+          "visibility" : "PUBLIC",
+          "put-code" : "1007"
+        } ]
+      },
+      "orcid-works" : {
+        "orcid-work" : [ {
+          "put-code" : "15643384",
+          "work-title" : {
+            "title" : {
+              "value" : "Are race, ethnicity, and medical school affiliation associated with NIH R01 type 1 award probability for physician investigators?"
+            },
+            "subtitle" : null,
+            "translated-title" : null
+          },
+          "journal-title" : null,
+          "short-description" : null,
+          "work-citation" : {
+            "work-citation-type" : "BIBTEX",
+            "citation" : "@article { haak2012,title = {Are race, ethnicity, and medical school affiliation associated with NIH R01 type 1 award probability for physician investigators?},journal = {Academic Medicine},year = {2012},volume = {87},number = {11},pages = {1516-1524},author = {Ginther, D.K. and Haak, L.L. and Schaffer, W.T. and Kington, R.}}"
+          },
+          "work-type" : "JOURNAL_ARTICLE",
+          "publication-date" : {
+            "year" : {
+              "value" : "2012"
+            },
+            "month" : null,
+            "day" : null,
+            "media-type" : null
+          },
+          "work-external-identifiers" : {
+            "work-external-identifier" : [ {
+              "work-external-identifier-type" : "DOI",
+              "work-external-identifier-id" : {
+                "value" : "10.1097/ACM.0b013e31826d726b"
+              }
+            }, {
+              "work-external-identifier-type" : "EID",
+              "work-external-identifier-id" : {
+                "value" : "2-s2.0-84869886841"
+              }
+            } ],
+            "scope" : null
+          },
+          "url" : {
+            "value" : "http://www.scopus.com/inward/record.url?eid=2-s2.0-84869886841&partnerID=MN8TOARS"
+          },
+          "work-contributors" : {
+            "contributor" : [ {
+              "contributor-orcid" : null,
+              "credit-name" : {
+                "value" : "Ginther, D.K.",
+                "visibility" : "PUBLIC"
+              },
+              "contributor-email" : null,
+              "contributor-attributes" : null
+            }, {
+              "contributor-orcid" : null,
+              "credit-name" : {
+                "value" : "Haak, L.L.",
+                "visibility" : "PUBLIC"
+              },
+              "contributor-email" : null,
+              "contributor-attributes" : null
+            }, {
+              "contributor-orcid" : null,
+              "credit-name" : {
+                "value" : "Schaffer, W.T.",
+                "visibility" : "PUBLIC"
+              },
+              "contributor-email" : null,
+              "contributor-attributes" : null
+            }, {
+              "contributor-orcid" : null,
+              "credit-name" : {
+                "value" : "Kington, R.",
+                "visibility" : "PUBLIC"
+              },
+              "contributor-email" : null,
+              "contributor-attributes" : null
+            } ]
+          },
+          "work-source" : null,
+          "source" : {
+            "source-orcid" : {
+              "value" : null,
+              "uri" : "http://orcid.org/0000-0002-5982-8983",
+              "path" : "0000-0002-5982-8983",
+              "host" : "orcid.org"
+            },
+            "source-client-id" : null,
+            "source-name" : {
+              "value" : "Scopus to ORCID"
+            },
+            "source-date" : {
+              "value" : 1425587918546
+            }
+          },
+          "created-date" : {
+            "value" : 1425587918546
+          },
+          "last-modified-date" : {
+            "value" : 1427825642396
+          },
+          "language-code" : null,
+          "country" : null,
+          "visibility" : "PUBLIC"
+        }, {
+          "put-code" : "13250332",
+          "work-title" : {
+            "title" : {
+              "value" : "ORCID: connecting researchers and scholars with their works"
+            },
+            "subtitle" : {
+              "value" : "Based on a paper presented at the 36th UKSG Annual Conference, Bournemouth, April 2013"
+            },
+            "translated-title" : null
+          },
+          "journal-title" : {
+            "value" : "Insights: the UKSG journal"
+          },
+          "short-description" : null,
+          "work-citation" : {
+            "work-citation-type" : "BIBTEX",
+            "citation" : "@article{Haak_2013,doi = {10.1629/2048-7754.103},url = {http://dx.doi.org/10.1629/2048-7754.103},year = 2013,month = {Nov},publisher = {UKSG},volume = {26},number = {3},pages = {239-243},author = {Laurel L Haak},title = {ORCID: connecting researchers and scholars with their works},journal = {Insights: the UKSG journal}}"
+          },
+          "work-type" : "JOURNAL_ARTICLE",
+          "publication-date" : {
+            "year" : {
+              "value" : "2013"
+            },
+            "month" : {
+              "value" : "11"
+            },
+            "day" : {
+              "value" : "01"
+            },
+            "media-type" : null
+          },
+          "work-external-identifiers" : {
+            "work-external-identifier" : [ {
+              "work-external-identifier-type" : "DOI",
+              "work-external-identifier-id" : {
+                "value" : "10.1629/2048-7754.103"
+              }
+            }, {
+              "work-external-identifier-type" : "ISSN",
+              "work-external-identifier-id" : {
+                "value" : "2048-7754"
+              }
+            } ],
+            "scope" : null
+          },
+          "url" : null,
+          "work-contributors" : {
+            "contributor" : [ {
+              "contributor-orcid" : null,
+              "credit-name" : {
+                "value" : "Laurel L Haak",
+                "visibility" : "PUBLIC"
+              },
+              "contributor-email" : null,
+              "contributor-attributes" : {
+                "contributor-sequence" : null,
+                "contributor-role" : "AUTHOR"
+              }
+            } ]
+          },
+          "work-source" : null,
+          "source" : {
+            "source-orcid" : {
+              "value" : null,
+              "uri" : "http://orcid.org/0000-0002-3054-1567",
+              "path" : "0000-0002-3054-1567",
+              "host" : "orcid.org"
+            },
+            "source-client-id" : null,
+            "source-name" : {
+              "value" : "CrossRef Metadata Search"
+            },
+            "source-date" : {
+              "value" : 1406594255238
+            }
+          },
+          "created-date" : {
+            "value" : 1406594255238
+          },
+          "last-modified-date" : {
+            "value" : 1421498893218
+          },
+          "language-code" : null,
+          "country" : null,
+          "visibility" : "PUBLIC"
+        }, {
+          "put-code" : "15643392",
+          "work-title" : {
+            "title" : {
+              "value" : "Persistent identifiers can improve provenance and attribution and encourage sharing of research results"
+            },
+            "subtitle" : null,
+            "translated-title" : null
+          },
+          "journal-title" : null,
+          "short-description" : null,
+          "work-citation" : {
+            "work-citation-type" : "BIBTEX",
+            "citation" : "@article { haak2014,title = {Persistent identifiers can improve provenance and attribution and encourage sharing of research results},journal = {Information Services and Use},year = {2014},volume = {34},number = {1-2},pages = {93-96},author = {Haak, L.L.}}"
+          },
+          "work-type" : "JOURNAL_ARTICLE",
+          "publication-date" : {
+            "year" : {
+              "value" : "2014"
+            },
+            "month" : null,
+            "day" : null,
+            "media-type" : null
+          },
+          "work-external-identifiers" : {
+            "work-external-identifier" : [ {
+              "work-external-identifier-type" : "DOI",
+              "work-external-identifier-id" : {
+                "value" : "10.3233/ISU-140736"
+              }
+            }, {
+              "work-external-identifier-type" : "EID",
+              "work-external-identifier-id" : {
+                "value" : "2-s2.0-84908365265"
+              }
+            } ],
+            "scope" : null
+          },
+          "url" : {
+            "value" : "http://www.scopus.com/inward/record.url?eid=2-s2.0-84908365265&partnerID=MN8TOARS"
+          },
+          "work-contributors" : {
+            "contributor" : [ {
+              "contributor-orcid" : null,
+              "credit-name" : {
+                "value" : "Haak, L.L.",
+                "visibility" : "PUBLIC"
+              },
+              "contributor-email" : null,
+              "contributor-attributes" : null
+            } ]
+          },
+          "work-source" : null,
+          "source" : {
+            "source-orcid" : {
+              "value" : null,
+              "uri" : "http://orcid.org/0000-0002-5982-8983",
+              "path" : "0000-0002-5982-8983",
+              "host" : "orcid.org"
+            },
+            "source-client-id" : null,
+            "source-name" : {
+              "value" : "Scopus to ORCID"
+            },
+            "source-date" : {
+              "value" : 1425587920886
+            }
+          },
+          "created-date" : {
+            "value" : 1425587920886
+          },
+          "last-modified-date" : {
+            "value" : 1425587963687
+          },
+          "language-code" : null,
+          "country" : null,
+          "visibility" : "PUBLIC"
+        }, {
+          "put-code" : "13972590",
+          "work-title" : {
+            "title" : {
+              "value" : "ORCID Status and Plans: May 2014 ORCID Outreach Meeting"
+            },
+            "subtitle" : null,
+            "translated-title" : null
+          },
+          "journal-title" : null,
+          "short-description" : null,
+          "work-citation" : {
+            "work-citation-type" : "BIBTEX",
+            "citation" : "@misc{datacite247f3f54-0b25-43bd-8095-1557de7ad2e6,\n  doi = {10.6084/M9.FIGSHARE.1036360},\n  url = {http://dx.doi.org/10.6084/M9.FIGSHARE.1036360},\n  author = {Laurel Haak; },\n  publisher = {Figshare},\n  title = {ORCID Status and Plans: May 2014 ORCID Outreach Meeting},\n  year = {2014}\n}"
+          },
+          "work-type" : "DATA_SET",
+          "publication-date" : {
+            "year" : {
+              "value" : "2014"
+            },
+            "month" : null,
+            "day" : null,
+            "media-type" : null
+          },
+          "work-external-identifiers" : {
+            "work-external-identifier" : [ {
+              "work-external-identifier-type" : "DOI",
+              "work-external-identifier-id" : {
+                "value" : "10.6084/M9.FIGSHARE.1036360"
+              }
+            } ],
+            "scope" : null
+          },
+          "url" : null,
+          "work-contributors" : null,
+          "work-source" : null,
+          "source" : {
+            "source-orcid" : {
+              "value" : null,
+              "uri" : "http://orcid.org/0000-0001-8099-6984",
+              "path" : "0000-0001-8099-6984",
+              "host" : "orcid.org"
+            },
+            "source-client-id" : null,
+            "source-name" : {
+              "value" : "DataCite search and link"
+            },
+            "source-date" : {
+              "value" : 1412187041734
+            }
+          },
+          "created-date" : {
+            "value" : 1412187041734
+          },
+          "last-modified-date" : {
+            "value" : 1421498893218
+          },
+          "language-code" : null,
+          "country" : null,
+          "visibility" : "PUBLIC"
+        }, {
+          "put-code" : "13972592",
+          "work-title" : {
+            "title" : {
+              "value" : "Improving Discoverability with Unique Identifiers: ORCID, ISNI, and Implementation"
+            },
+            "subtitle" : null,
+            "translated-title" : null
+          },
+          "journal-title" : null,
+          "short-description" : null,
+          "work-citation" : {
+            "work-citation-type" : "BIBTEX",
+            "citation" : "@misc{datacite9b53af55-66f7-4a52-a4ec-ad0e13a40aba,\n  doi = {10.6084/M9.FIGSHARE.1115124},\n  url = {http://dx.doi.org/10.6084/M9.FIGSHARE.1115124},\n  author = {Laurel Haak; Laura Dawson; },\n  publisher = {Figshare},\n  title = {Improving Discoverability with Unique Identifiers: ORCID, ISNI, and Implementation},\n  year = {2014}\n}"
+          },
+          "work-type" : "DATA_SET",
+          "publication-date" : {
+            "year" : {
+              "value" : "2014"
+            },
+            "month" : null,
+            "day" : null,
+            "media-type" : null
+          },
+          "work-external-identifiers" : {
+            "work-external-identifier" : [ {
+              "work-external-identifier-type" : "DOI",
+              "work-external-identifier-id" : {
+                "value" : "10.6084/M9.FIGSHARE.1115124"
+              }
+            } ],
+            "scope" : null
+          },
+          "url" : null,
+          "work-contributors" : null,
+          "work-source" : null,
+          "source" : {
+            "source-orcid" : {
+              "value" : null,
+              "uri" : "http://orcid.org/0000-0001-8099-6984",
+              "path" : "0000-0001-8099-6984",
+              "host" : "orcid.org"
+            },
+            "source-client-id" : null,
+            "source-name" : {
+              "value" : "DataCite search and link"
+            },
+            "source-date" : {
+              "value" : 1412187051358
+            }
+          },
+          "created-date" : {
+            "value" : 1412187051358
+          },
+          "last-modified-date" : {
+            "value" : 1421498893217
+          },
+          "language-code" : null,
+          "country" : null,
+          "visibility" : "PUBLIC"
+        }, {
+          "put-code" : "13972593",
+          "work-title" : {
+            "title" : {
+              "value" : "ORICD iD Growth - Year 1"
+            },
+            "subtitle" : null,
+            "translated-title" : null
+          },
+          "journal-title" : null,
+          "short-description" : null,
+          "work-citation" : {
+            "work-citation-type" : "BIBTEX",
+            "citation" : "@misc{datacite21e99aeb-a164-495b-9195-8b5ba4403bab,\n  doi = {10.6084/M9.FIGSHARE.840566},\n  url = {http://dx.doi.org/10.6084/M9.FIGSHARE.840566},\n  author = {Laura Paglione; Laurel Haak; },\n  publisher = {Figshare},\n  title = {ORICD iD Growth - Year 1},\n  year = {2013}\n}"
+          },
+          "work-type" : "DATA_SET",
+          "publication-date" : {
+            "year" : {
+              "value" : "2013"
+            },
+            "month" : null,
+            "day" : null,
+            "media-type" : null
+          },
+          "work-external-identifiers" : {
+            "work-external-identifier" : [ {
+              "work-external-identifier-type" : "DOI",
+              "work-external-identifier-id" : {
+                "value" : "10.6084/M9.FIGSHARE.840566"
+              }
+            } ],
+            "scope" : null
+          },
+          "url" : null,
+          "work-contributors" : null,
+          "work-source" : null,
+          "source" : {
+            "source-orcid" : {
+              "value" : null,
+              "uri" : "http://orcid.org/0000-0001-8099-6984",
+              "path" : "0000-0001-8099-6984",
+              "host" : "orcid.org"
+            },
+            "source-client-id" : null,
+            "source-name" : {
+              "value" : "DataCite search and link"
+            },
+            "source-date" : {
+              "value" : 1412187066349
+            }
+          },
+          "created-date" : {
+            "value" : 1412187066349
+          },
+          "last-modified-date" : {
+            "value" : 1421498893217
+          },
+          "language-code" : null,
+          "country" : null,
+          "visibility" : "PUBLIC"
+        }, {
+          "put-code" : "11116651",
+          "work-title" : {
+            "title" : {
+              "value" : "ORCID Status and Plans: Registrations, membership, and sustainability"
+            },
+            "subtitle" : null,
+            "translated-title" : null
+          },
+          "journal-title" : null,
+          "short-description" : null,
+          "work-citation" : {
+            "work-citation-type" : "FORMATTED_APA",
+            "citation" : "Laurel Haak (2013) ORCID Status and Plans: Registrations, membership, and sustainability. doi: 10.6084/M9.FIGSHARE.847289\n"
+          },
+          "work-type" : "OTHER",
+          "publication-date" : {
+            "year" : {
+              "value" : "2013"
+            },
+            "month" : null,
+            "day" : null,
+            "media-type" : null
+          },
+          "work-external-identifiers" : {
+            "work-external-identifier" : [ {
+              "work-external-identifier-type" : "DOI",
+              "work-external-identifier-id" : {
+                "value" : "10.6084/M9.FIGSHARE.847289"
+              }
+            } ],
+            "scope" : null
+          },
+          "url" : null,
+          "work-contributors" : null,
+          "work-source" : null,
+          "source" : {
+            "source-orcid" : {
+              "value" : null,
+              "uri" : "http://orcid.org/0000-0001-8099-6984",
+              "path" : "0000-0001-8099-6984",
+              "host" : "orcid.org"
+            },
+            "source-client-id" : null,
+            "source-name" : {
+              "value" : "DataCite search and link"
+            },
+            "source-date" : {
+              "value" : 1386361332368
+            }
+          },
+          "created-date" : {
+            "value" : 1386361332368
+          },
+          "last-modified-date" : {
+            "value" : 1421498893217
+          },
+          "language-code" : null,
+          "country" : null,
+          "visibility" : "PUBLIC"
+        }, {
+          "put-code" : "11116649",
+          "work-title" : {
+            "title" : {
+              "value" : "ORCID Identifier Workflows for Funders, Publishers, and Professional Associations"
+            },
+            "subtitle" : null,
+            "translated-title" : null
+          },
+          "journal-title" : null,
+          "short-description" : null,
+          "work-citation" : {
+            "work-citation-type" : "FORMATTED_APA",
+            "citation" : "Laurel Haak (2013) ORCID Identifier Workflows for Funders, Publishers, and Professional Associations. doi: 10.6084/M9.FIGSHARE.847288\n"
+          },
+          "work-type" : "OTHER",
+          "publication-date" : {
+            "year" : {
+              "value" : "2013"
+            },
+            "month" : null,
+            "day" : null,
+            "media-type" : null
+          },
+          "work-external-identifiers" : {
+            "work-external-identifier" : [ {
+              "work-external-identifier-type" : "DOI",
+              "work-external-identifier-id" : {
+                "value" : "10.6084/M9.FIGSHARE.847288"
+              }
+            } ],
+            "scope" : null
+          },
+          "url" : null,
+          "work-contributors" : null,
+          "work-source" : null,
+          "source" : {
+            "source-orcid" : {
+              "value" : null,
+              "uri" : "http://orcid.org/0000-0001-8099-6984",
+              "path" : "0000-0001-8099-6984",
+              "host" : "orcid.org"
+            },
+            "source-client-id" : null,
+            "source-name" : {
+              "value" : "DataCite search and link"
+            },
+            "source-date" : {
+              "value" : 1386361307512
+            }
+          },
+          "created-date" : {
+            "value" : 1386361307512
+          },
+          "last-modified-date" : {
+            "value" : 1421498893217
+          },
+          "language-code" : null,
+          "country" : null,
+          "visibility" : "PUBLIC"
+        }, {
+          "put-code" : "11116648",
+          "work-title" : {
+            "title" : {
+              "value" : "ORCID Annual Public Data File, 2013"
+            },
+            "subtitle" : null,
+            "translated-title" : null
+          },
+          "journal-title" : null,
+          "short-description" : null,
+          "work-citation" : {
+            "work-citation-type" : "FORMATTED_APA",
+            "citation" : "Paglione, Laura, Peters, Robert, Oyler, Catalina, et al. (2013) ORCID Annual Public Data File, 2013. doi: 10.14454/07243.2013.001\n"
+          },
+          "work-type" : "OTHER",
+          "publication-date" : {
+            "year" : {
+              "value" : "2013"
+            },
+            "month" : null,
+            "day" : null,
+            "media-type" : null
+          },
+          "work-external-identifiers" : {
+            "work-external-identifier" : [ {
+              "work-external-identifier-type" : "DOI",
+              "work-external-identifier-id" : {
+                "value" : "10.14454/07243.2013.001"
+              }
+            } ],
+            "scope" : null
+          },
+          "url" : null,
+          "work-contributors" : null,
+          "work-source" : null,
+          "source" : {
+            "source-orcid" : {
+              "value" : null,
+              "uri" : "http://orcid.org/0000-0001-8099-6984",
+              "path" : "0000-0001-8099-6984",
+              "host" : "orcid.org"
+            },
+            "source-client-id" : null,
+            "source-name" : {
+              "value" : "DataCite search and link"
+            },
+            "source-date" : {
+              "value" : 1386361294474
+            }
+          },
+          "created-date" : {
+            "value" : 1386361294474
+          },
+          "last-modified-date" : {
+            "value" : 1421498893217
+          },
+          "language-code" : null,
+          "country" : null,
+          "visibility" : "PUBLIC"
+        }, {
+          "put-code" : "10555556",
+          "work-title" : {
+            "title" : {
+              "value" : "ORCID Annual Public Data File, 2013"
+            },
+            "subtitle" : null,
+            "translated-title" : null
+          },
+          "journal-title" : null,
+          "short-description" : null,
+          "work-citation" : {
+            "work-citation-type" : "BIBTEX",
+            "citation" : "@misc{datacite07891b7b-a4c1-4780-a4af-da50c2a29e14,\n  doi = {10.14454/07243.2013.001},\n  url = {http://dx.doi.org/10.14454/07243.2013.001},\n  author = {Paglione, Laura; Peters, Robert; Oyler, Catalina; Simpson, Will; Montenegro, Angel; Ramírez Monge, José Francisco; Bryant, Rebecca; Haak, Laurel; },\n  publisher = {ORCID},\n  title = {ORCID Annual Public Data File, 2013},\n  year = {2013}\n}"
+          },
+          "work-type" : "OTHER",
+          "publication-date" : {
+            "year" : {
+              "value" : "2013"
+            },
+            "month" : null,
+            "day" : null,
+            "media-type" : null
+          },
+          "work-external-identifiers" : {
+            "work-external-identifier" : [ {
+              "work-external-identifier-type" : "DOI",
+              "work-external-identifier-id" : {
+                "value" : "10.14454/07243.2013.001"
+              }
+            } ],
+            "scope" : null
+          },
+          "url" : null,
+          "work-contributors" : null,
+          "work-source" : null,
+          "source" : {
+            "source-orcid" : {
+              "value" : null,
+              "uri" : "http://orcid.org/0000-0001-8099-6984",
+              "path" : "0000-0001-8099-6984",
+              "host" : "orcid.org"
+            },
+            "source-client-id" : null,
+            "source-name" : {
+              "value" : "DataCite search and link"
+            },
+            "source-date" : {
+              "value" : 1384430517242
+            }
+          },
+          "created-date" : {
+            "value" : 1384430517242
+          },
+          "last-modified-date" : {
+            "value" : 1421498893217
+          },
+          "language-code" : null,
+          "country" : null,
+          "visibility" : "PUBLIC"
+        }, {
+          "put-code" : "11116652",
+          "work-title" : {
+            "title" : {
+              "value" : "Linking Researchers with their Research:"
+            },
+            "subtitle" : null,
+            "translated-title" : null
+          },
+          "journal-title" : null,
+          "short-description" : null,
+          "work-citation" : {
+            "work-citation-type" : "FORMATTED_APA",
+            "citation" : "Laurel Haak (2013) Linking Researchers with their Research: doi: 10.6084/M9.FIGSHARE.847290\n"
+          },
+          "work-type" : "OTHER",
+          "publication-date" : {
+            "year" : {
+              "value" : "2013"
+            },
+            "month" : null,
+            "day" : null,
+            "media-type" : null
+          },
+          "work-external-identifiers" : {
+            "work-external-identifier" : [ {
+              "work-external-identifier-type" : "DOI",
+              "work-external-identifier-id" : {
+                "value" : "10.6084/M9.FIGSHARE.847290"
+              }
+            } ],
+            "scope" : null
+          },
+          "url" : null,
+          "work-contributors" : null,
+          "work-source" : null,
+          "source" : {
+            "source-orcid" : {
+              "value" : null,
+              "uri" : "http://orcid.org/0000-0001-8099-6984",
+              "path" : "0000-0001-8099-6984",
+              "host" : "orcid.org"
+            },
+            "source-client-id" : null,
+            "source-name" : {
+              "value" : "DataCite search and link"
+            },
+            "source-date" : {
+              "value" : 1386361349526
+            }
+          },
+          "created-date" : {
+            "value" : 1386361349526
+          },
+          "last-modified-date" : {
+            "value" : 1421498893217
+          },
+          "language-code" : null,
+          "country" : null,
+          "visibility" : "PUBLIC"
+        }, {
+          "put-code" : "10551346",
+          "work-title" : {
+            "title" : {
+              "value" : "Linking Researchers with their Research:"
+            },
+            "subtitle" : null,
+            "translated-title" : null
+          },
+          "journal-title" : null,
+          "short-description" : null,
+          "work-citation" : {
+            "work-citation-type" : "BIBTEX",
+            "citation" : "@misc{datacite4f606965-6ae9-4bba-9019-e0b8a7325e91,\n  doi = {10.6084/M9.FIGSHARE.847290},\n  url = {http://dx.doi.org/10.6084/M9.FIGSHARE.847290},\n  author = {Laurel Haak; },\n  publisher = {Figshare},\n  title = {Linking Researchers with their Research:},\n  year = {2013}\n}"
+          },
+          "work-type" : "OTHER",
+          "publication-date" : {
+            "year" : {
+              "value" : "2013"
+            },
+            "month" : null,
+            "day" : null,
+            "media-type" : null
+          },
+          "work-external-identifiers" : {
+            "work-external-identifier" : [ {
+              "work-external-identifier-type" : "DOI",
+              "work-external-identifier-id" : {
+                "value" : "10.6084/M9.FIGSHARE.847290"
+              }
+            } ],
+            "scope" : null
+          },
+          "url" : null,
+          "work-contributors" : null,
+          "work-source" : null,
+          "source" : {
+            "source-orcid" : {
+              "value" : null,
+              "uri" : "http://orcid.org/0000-0001-8099-6984",
+              "path" : "0000-0001-8099-6984",
+              "host" : "orcid.org"
+            },
+            "source-client-id" : null,
+            "source-name" : {
+              "value" : "DataCite search and link"
+            },
+            "source-date" : {
+              "value" : 1384372820688
+            }
+          },
+          "created-date" : {
+            "value" : 1384372820688
+          },
+          "last-modified-date" : {
+            "value" : 1421498893217
+          },
+          "language-code" : null,
+          "country" : null,
+          "visibility" : "PUBLIC"
+        }, {
+          "put-code" : "11193295",
+          "work-title" : {
+            "title" : {
+              "value" : "Diversity, Databases, and Discoverability"
+            },
+            "subtitle" : null,
+            "translated-title" : null
+          },
+          "journal-title" : null,
+          "short-description" : null,
+          "work-citation" : {
+            "work-citation-type" : "BIBTEX",
+            "citation" : "@misc{datacitedf33b33c-17e4-4666-b818-dc4dd12d5216,\n  doi = {10.6084/M9.FIGSHARE.870508},\n  url = {http://dx.doi.org/10.6084/M9.FIGSHARE.870508},\n  author = {Laurel Haak; },\n  publisher = {Figshare},\n  title = {Diversity, Databases, and Discoverability},\n  year = {2013}\n}"
+          },
+          "work-type" : "OTHER",
+          "publication-date" : {
+            "year" : {
+              "value" : "2013"
+            },
+            "month" : null,
+            "day" : null,
+            "media-type" : null
+          },
+          "work-external-identifiers" : {
+            "work-external-identifier" : [ {
+              "work-external-identifier-type" : "DOI",
+              "work-external-identifier-id" : {
+                "value" : "10.6084/M9.FIGSHARE.870508"
+              }
+            } ],
+            "scope" : null
+          },
+          "url" : null,
+          "work-contributors" : null,
+          "work-source" : null,
+          "source" : {
+            "source-orcid" : {
+              "value" : null,
+              "uri" : "http://orcid.org/0000-0001-8099-6984",
+              "path" : "0000-0001-8099-6984",
+              "host" : "orcid.org"
+            },
+            "source-client-id" : null,
+            "source-name" : {
+              "value" : "DataCite search and link"
+            },
+            "source-date" : {
+              "value" : 1386725613235
+            }
+          },
+          "created-date" : {
+            "value" : 1386725613235
+          },
+          "last-modified-date" : {
+            "value" : 1421498893217
+          },
+          "language-code" : null,
+          "country" : null,
+          "visibility" : "PUBLIC"
+        }, {
+          "put-code" : "10551347",
+          "work-title" : {
+            "title" : {
+              "value" : "Connecting Research and Researchers"
+            },
+            "subtitle" : null,
+            "translated-title" : null
+          },
+          "journal-title" : null,
+          "short-description" : null,
+          "work-citation" : {
+            "work-citation-type" : "BIBTEX",
+            "citation" : "@misc{datacite9b70579d-ce6b-4628-aa50-75dca614d467,\n  doi = {10.6084/M9.FIGSHARE.847291},\n  url = {http://dx.doi.org/10.6084/M9.FIGSHARE.847291},\n  author = {Laurel Haak; },\n  publisher = {Figshare},\n  title = {Connecting Research and Researchers},\n  year = {2013}\n}"
+          },
+          "work-type" : "OTHER",
+          "publication-date" : {
+            "year" : {
+              "value" : "2013"
+            },
+            "month" : null,
+            "day" : null,
+            "media-type" : null
+          },
+          "work-external-identifiers" : {
+            "work-external-identifier" : [ {
+              "work-external-identifier-type" : "DOI",
+              "work-external-identifier-id" : {
+                "value" : "10.6084/M9.FIGSHARE.847291"
+              }
+            } ],
+            "scope" : null
+          },
+          "url" : null,
+          "work-contributors" : null,
+          "work-source" : null,
+          "source" : {
+            "source-orcid" : {
+              "value" : null,
+              "uri" : "http://orcid.org/0000-0001-8099-6984",
+              "path" : "0000-0001-8099-6984",
+              "host" : "orcid.org"
+            },
+            "source-client-id" : null,
+            "source-name" : {
+              "value" : "DataCite search and link"
+            },
+            "source-date" : {
+              "value" : 1384372828244
+            }
+          },
+          "created-date" : {
+            "value" : 1384372828244
+          },
+          "last-modified-date" : {
+            "value" : 1421498893217
+          },
+          "language-code" : null,
+          "country" : null,
+          "visibility" : "PUBLIC"
+        }, {
+          "put-code" : "8289814",
+          "work-title" : {
+            "title" : {
+              "value" : "Predicting highly cited papers: A Method for Early Detection of Candidate Breakthroughs"
+            },
+            "subtitle" : null,
+            "translated-title" : null
+          },
+          "journal-title" : null,
+          "short-description" : null,
+          "work-citation" : null,
+          "work-type" : "JOURNAL_ARTICLE",
+          "publication-date" : {
+            "year" : {
+              "value" : "2012"
+            },
+            "month" : {
+              "value" : "11"
+            },
+            "day" : null,
+            "media-type" : null
+          },
+          "work-external-identifiers" : {
+            "work-external-identifier" : [ {
+              "work-external-identifier-type" : "DOI",
+              "work-external-identifier-id" : {
+                "value" : "10.1016/j.techfore.2012.09.017"
+              }
+            } ],
+            "scope" : null
+          },
+          "url" : null,
+          "work-contributors" : null,
+          "work-source" : null,
+          "source" : {
+            "source-orcid" : {
+              "value" : null,
+              "uri" : "http://orcid.org/0000-0001-5109-3700",
+              "path" : "0000-0001-5109-3700",
+              "host" : "orcid.org"
+            },
+            "source-client-id" : null,
+            "source-name" : {
+              "value" : "Laurel L Haak"
+            },
+            "source-date" : {
+              "value" : 1365605030623
+            }
+          },
+          "created-date" : {
+            "value" : 1365605030623
+          },
+          "last-modified-date" : {
+            "value" : 1394055844142
+          },
+          "language-code" : null,
+          "country" : null,
+          "visibility" : "PUBLIC"
+        }, {
+          "put-code" : "8289794",
+          "work-title" : {
+            "title" : {
+              "value" : "Are Race, Ethnicity, and Medical School Affiliation Associated With NIH R01 Type 1 Award Probability for Physician Investigators?"
+            },
+            "subtitle" : null,
+            "translated-title" : null
+          },
+          "journal-title" : null,
+          "short-description" : null,
+          "work-citation" : null,
+          "work-type" : "JOURNAL_ARTICLE",
+          "publication-date" : {
+            "year" : {
+              "value" : "2012"
+            },
+            "month" : {
+              "value" : "11"
+            },
+            "day" : null,
+            "media-type" : null
+          },
+          "work-external-identifiers" : {
+            "work-external-identifier" : [ {
+              "work-external-identifier-type" : "DOI",
+              "work-external-identifier-id" : {
+                "value" : "10.1097/acm.0b013e31826d726b"
+              }
+            } ],
+            "scope" : null
+          },
+          "url" : null,
+          "work-contributors" : null,
+          "work-source" : null,
+          "source" : {
+            "source-orcid" : {
+              "value" : null,
+              "uri" : "http://orcid.org/0000-0001-5109-3700",
+              "path" : "0000-0001-5109-3700",
+              "host" : "orcid.org"
+            },
+            "source-client-id" : null,
+            "source-name" : {
+              "value" : "Laurel L Haak"
+            },
+            "source-date" : {
+              "value" : 1365605030513
+            }
+          },
+          "created-date" : {
+            "value" : 1365605030513
+          },
+          "last-modified-date" : {
+            "value" : 1427825642396
+          },
+          "language-code" : null,
+          "country" : null,
+          "visibility" : "PUBLIC"
+        }, {
+          "put-code" : "8289812",
+          "work-title" : {
+            "title" : {
+              "value" : "ORCID: a system to uniquely identify researchers"
+            },
+            "subtitle" : null,
+            "translated-title" : null
+          },
+          "journal-title" : null,
+          "short-description" : null,
+          "work-citation" : {
+            "work-citation-type" : "FORMATTED_UNSPECIFIED",
+            "citation" : "Haak, L, Fenner, M, Paglione, L, Pentz, E & Ratner, H, 2012, 'ORCID: a system to uniquely identify researchers', <i>Learned Publishing</i>, vol. 25, no. 4, pp. 259-264."
+          },
+          "work-type" : "JOURNAL_ARTICLE",
+          "publication-date" : {
+            "year" : {
+              "value" : "2012"
+            },
+            "month" : {
+              "value" : "10"
+            },
+            "day" : {
+              "value" : "01"
+            },
+            "media-type" : null
+          },
+          "work-external-identifiers" : {
+            "work-external-identifier" : [ {
+              "work-external-identifier-type" : "DOI",
+              "work-external-identifier-id" : {
+                "value" : "10.1087/20120404"
+              }
+            } ],
+            "scope" : null
+          },
+          "url" : null,
+          "work-contributors" : {
+            "contributor" : [ {
+              "contributor-orcid" : null,
+              "credit-name" : null,
+              "contributor-email" : null,
+              "contributor-attributes" : {
+                "contributor-sequence" : "FIRST",
+                "contributor-role" : "AUTHOR"
+              }
+            } ]
+          },
+          "work-source" : null,
+          "source" : {
+            "source-orcid" : {
+              "value" : null,
+              "uri" : "http://orcid.org/0000-0001-5109-3700",
+              "path" : "0000-0001-5109-3700",
+              "host" : "orcid.org"
+            },
+            "source-client-id" : null,
+            "source-name" : {
+              "value" : "Laurel L Haak"
+            },
+            "source-date" : {
+              "value" : 1365605030613
+            }
+          },
+          "created-date" : {
+            "value" : 1365605030613
+          },
+          "last-modified-date" : {
+            "value" : 1394055844142
+          },
+          "language-code" : null,
+          "country" : null,
+          "visibility" : "PUBLIC"
+        }, {
+          "put-code" : "8289799",
+          "work-title" : {
+            "title" : {
+              "value" : "Career Q&A: Laurel Haak and the ORCID Project"
+            },
+            "subtitle" : null,
+            "translated-title" : null
+          },
+          "journal-title" : null,
+          "short-description" : null,
+          "work-citation" : {
+            "work-citation-type" : "FORMATTED_UNSPECIFIED",
+            "citation" : "Austin, J, 2012, 'Career Q&A: Laurel Haak and the ORCID Project', <i>Science</i>."
+          },
+          "work-type" : "JOURNAL_ARTICLE",
+          "publication-date" : {
+            "year" : {
+              "value" : "2012"
+            },
+            "month" : {
+              "value" : "07"
+            },
+            "day" : {
+              "value" : "13"
+            },
+            "media-type" : null
+          },
+          "work-external-identifiers" : {
+            "work-external-identifier" : [ {
+              "work-external-identifier-type" : "DOI",
+              "work-external-identifier-id" : {
+                "value" : "10.1126/science.caredit.a1200080"
+              }
+            } ],
+            "scope" : null
+          },
+          "url" : null,
+          "work-contributors" : {
+            "contributor" : [ {
+              "contributor-orcid" : null,
+              "credit-name" : null,
+              "contributor-email" : null,
+              "contributor-attributes" : {
+                "contributor-sequence" : "FIRST",
+                "contributor-role" : "AUTHOR"
+              }
+            } ]
+          },
+          "work-source" : null,
+          "source" : {
+            "source-orcid" : {
+              "value" : null,
+              "uri" : "http://orcid.org/0000-0001-5109-3700",
+              "path" : "0000-0001-5109-3700",
+              "host" : "orcid.org"
+            },
+            "source-client-id" : null,
+            "source-name" : {
+              "value" : "Laurel L Haak"
+            },
+            "source-date" : {
+              "value" : 1365605030543
+            }
+          },
+          "created-date" : {
+            "value" : 1365605030543
+          },
+          "last-modified-date" : {
+            "value" : 1394055844142
+          },
+          "language-code" : null,
+          "country" : null,
+          "visibility" : "PUBLIC"
+        }, {
+          "put-code" : "8289821",
+          "work-title" : {
+            "title" : {
+              "value" : "The Electronic Scientific Portfolio Assistant: Integrating scientific knowledge databases to visualize program progress"
+            },
+            "subtitle" : null,
+            "translated-title" : null
+          },
+          "journal-title" : null,
+          "short-description" : null,
+          "work-citation" : {
+            "work-citation-type" : "FORMATTED_UNSPECIFIED",
+            "citation" : "Haak, LL, Ferriss, W, Wright, K, Pollard, ME, Barden, K, Tartakovsky, M, & Hackett, CJ, 2012, 'The Electronic Scientific Portfolio Assistant: Integrating scientific knowledge databases to visualize program progress'. Science and Public Policy, vol. 39, no. 4, pp. 464-475"
+          },
+          "work-type" : "JOURNAL_ARTICLE",
+          "publication-date" : {
+            "year" : {
+              "value" : "2012"
+            },
+            "month" : {
+              "value" : "05"
+            },
+            "day" : {
+              "value" : "29"
+            },
+            "media-type" : null
+          },
+          "work-external-identifiers" : {
+            "work-external-identifier" : [ {
+              "work-external-identifier-type" : "DOI",
+              "work-external-identifier-id" : {
+                "value" : "10.1093/scipol/scs030"
+              }
+            } ],
+            "scope" : null
+          },
+          "url" : {
+            "value" : "http://spp.oxfordjournals.org/content/39/4/464.abstract"
+          },
+          "work-contributors" : {
+            "contributor" : [ {
+              "contributor-orcid" : null,
+              "credit-name" : null,
+              "contributor-email" : null,
+              "contributor-attributes" : {
+                "contributor-sequence" : "FIRST",
+                "contributor-role" : "AUTHOR"
+              }
+            } ]
+          },
+          "work-source" : null,
+          "source" : {
+            "source-orcid" : {
+              "value" : null,
+              "uri" : "http://orcid.org/0000-0001-5109-3700",
+              "path" : "0000-0001-5109-3700",
+              "host" : "orcid.org"
+            },
+            "source-client-id" : null,
+            "source-name" : {
+              "value" : "Laurel L Haak"
+            },
+            "source-date" : {
+              "value" : 1365605030656
+            }
+          },
+          "created-date" : {
+            "value" : 1365605030656
+          },
+          "last-modified-date" : {
+            "value" : 1394055844143
+          },
+          "language-code" : null,
+          "country" : null,
+          "visibility" : "PUBLIC"
+        }, {
+          "put-code" : "8289811",
+          "work-title" : {
+            "title" : {
+              "value" : "National Institutes of Health Individual Mentored Career Development Program Evaluation"
+            },
+            "subtitle" : null,
+            "translated-title" : null
+          },
+          "journal-title" : null,
+          "short-description" : null,
+          "work-citation" : null,
+          "work-type" : "JOURNAL_ARTICLE",
+          "publication-date" : {
+            "year" : {
+              "value" : "2011"
+            },
+            "month" : {
+              "value" : "09"
+            },
+            "day" : {
+              "value" : "01"
+            },
+            "media-type" : null
+          },
+          "work-external-identifiers" : null,
+          "url" : {
+            "value" : "http://grants.nih.gov/training/K_Awards_Evaluation_FinalReport_20110901.pdf"
+          },
+          "work-contributors" : {
+            "contributor" : [ {
+              "contributor-orcid" : null,
+              "credit-name" : null,
+              "contributor-email" : null,
+              "contributor-attributes" : {
+                "contributor-sequence" : null,
+                "contributor-role" : "SUPPORT_STAFF"
+              }
+            } ]
+          },
+          "work-source" : null,
+          "source" : {
+            "source-orcid" : {
+              "value" : null,
+              "uri" : "http://orcid.org/0000-0001-5109-3700",
+              "path" : "0000-0001-5109-3700",
+              "host" : "orcid.org"
+            },
+            "source-client-id" : null,
+            "source-name" : {
+              "value" : "Laurel L Haak"
+            },
+            "source-date" : {
+              "value" : 1365605030608
+            }
+          },
+          "created-date" : {
+            "value" : 1365605030608
+          },
+          "last-modified-date" : {
+            "value" : 1394055844142
+          },
+          "language-code" : null,
+          "country" : null,
+          "visibility" : "PUBLIC"
+        }, {
+          "put-code" : "8289801",
+          "work-title" : {
+            "title" : {
+              "value" : "Diversity in Academic Biomedicine: An Evaluation of Education and Career Outcomes with Implications for Policy"
+            },
+            "subtitle" : null,
+            "translated-title" : null
+          },
+          "journal-title" : null,
+          "short-description" : null,
+          "work-citation" : null,
+          "work-type" : "JOURNAL_ARTICLE",
+          "publication-date" : {
+            "year" : {
+              "value" : "2010"
+            },
+            "month" : null,
+            "day" : null,
+            "media-type" : null
+          },
+          "work-external-identifiers" : {
+            "work-external-identifier" : [ {
+              "work-external-identifier-type" : "DOI",
+              "work-external-identifier-id" : {
+                "value" : "10.2139/ssrn.1677993"
+              }
+            } ],
+            "scope" : null
+          },
+          "url" : null,
+          "work-contributors" : null,
+          "work-source" : null,
+          "source" : {
+            "source-orcid" : {
+              "value" : null,
+              "uri" : "http://orcid.org/0000-0001-5109-3700",
+              "path" : "0000-0001-5109-3700",
+              "host" : "orcid.org"
+            },
+            "source-client-id" : null,
+            "source-name" : {
+              "value" : "Laurel L Haak"
+            },
+            "source-date" : {
+              "value" : 1365605030552
+            }
+          },
+          "created-date" : {
+            "value" : 1365605030552
+          },
+          "last-modified-date" : {
+            "value" : 1394055844142
+          },
+          "language-code" : null,
+          "country" : null,
+          "visibility" : "PUBLIC"
+        }, {
+          "put-code" : "8289810",
+          "work-title" : {
+            "title" : {
+              "value" : "NIH LRP Evaluation"
+            },
+            "subtitle" : {
+              "value" : "Extramural Loan Repayment Programs Fiscal Years 2003-2007 "
+            },
+            "translated-title" : null
+          },
+          "journal-title" : null,
+          "short-description" : null,
+          "work-citation" : null,
+          "work-type" : "JOURNAL_ARTICLE",
+          "publication-date" : {
+            "year" : {
+              "value" : "2009"
+            },
+            "month" : {
+              "value" : "04"
+            },
+            "day" : null,
+            "media-type" : null
+          },
+          "work-external-identifiers" : null,
+          "url" : {
+            "value" : "http://www.lrp.nih.gov/pdf/LRP_Evaluation_Report_508final06082009.pdf"
+          },
+          "work-contributors" : {
+            "contributor" : [ {
+              "contributor-orcid" : null,
+              "credit-name" : null,
+              "contributor-email" : null,
+              "contributor-attributes" : {
+                "contributor-sequence" : null,
+                "contributor-role" : "SUPPORT_STAFF"
+              }
+            } ]
+          },
+          "work-source" : null,
+          "source" : {
+            "source-orcid" : {
+              "value" : null,
+              "uri" : "http://orcid.org/0000-0001-5109-3700",
+              "path" : "0000-0001-5109-3700",
+              "host" : "orcid.org"
+            },
+            "source-client-id" : null,
+            "source-name" : {
+              "value" : "Laurel L Haak"
+            },
+            "source-date" : {
+              "value" : 1365605030603
+            }
+          },
+          "created-date" : {
+            "value" : 1365605030603
+          },
+          "last-modified-date" : {
+            "value" : 1394055844142
+          },
+          "language-code" : null,
+          "country" : null,
+          "visibility" : "PUBLIC"
+        }, {
+          "put-code" : "8289800",
+          "work-title" : {
+            "title" : {
+              "value" : "Diversity in Academic Biomedicine: An Evaluation of Education and Career Outcomes with Implications for Policy"
+            },
+            "subtitle" : null,
+            "translated-title" : null
+          },
+          "journal-title" : null,
+          "short-description" : null,
+          "work-citation" : {
+            "work-citation-type" : "FORMATTED_UNSPECIFIED",
+            "citation" : "Ginther, D, Schaffer, W, Schnell, J, Masimore, B, Liu, F, Haak, L & Kington, R, 2009, 'Diversity in Academic Biomedicine: An Evaluation of Education and Career Outcomes with Implications for Policy', <i>SSRN Electronic Journal</i>."
+          },
+          "work-type" : "JOURNAL_ARTICLE",
+          "publication-date" : {
+            "year" : {
+              "value" : "2009"
+            },
+            "month" : null,
+            "day" : null,
+            "media-type" : null
+          },
+          "work-external-identifiers" : {
+            "work-external-identifier" : [ {
+              "work-external-identifier-type" : "DOI",
+              "work-external-identifier-id" : {
+                "value" : "10.2139/ssrn.1677993"
+              }
+            } ],
+            "scope" : null
+          },
+          "url" : null,
+          "work-contributors" : {
+            "contributor" : [ {
+              "contributor-orcid" : null,
+              "credit-name" : null,
+              "contributor-email" : null,
+              "contributor-attributes" : {
+                "contributor-sequence" : "FIRST",
+                "contributor-role" : "AUTHOR"
+              }
+            } ]
+          },
+          "work-source" : null,
+          "source" : {
+            "source-orcid" : {
+              "value" : null,
+              "uri" : "http://orcid.org/0000-0001-5109-3700",
+              "path" : "0000-0001-5109-3700",
+              "host" : "orcid.org"
+            },
+            "source-client-id" : null,
+            "source-name" : {
+              "value" : "Laurel L Haak"
+            },
+            "source-date" : {
+              "value" : 1365605030548
+            }
+          },
+          "created-date" : {
+            "value" : 1365605030548
+          },
+          "last-modified-date" : {
+            "value" : 1394055844142
+          },
+          "language-code" : null,
+          "country" : null,
+          "visibility" : "PUBLIC"
+        }, {
+          "put-code" : "8289818",
+          "work-title" : {
+            "title" : {
+              "value" : "Rising Above the Gathering Storm: Energizing and Employing America for a Brighter Economic Future"
+            },
+            "subtitle" : null,
+            "translated-title" : null
+          },
+          "journal-title" : null,
+          "short-description" : null,
+          "work-citation" : {
+            "work-citation-type" : "FORMATTED_UNSPECIFIED",
+            "citation" : "COSEPUP, 2006, 'Rising Above the Gathering Storm: Energizing and Employing America for a Brighter Future', National Academies Press: Washington, DC. "
+          },
+          "work-type" : "JOURNAL_ARTICLE",
+          "publication-date" : {
+            "year" : {
+              "value" : "2007"
+            },
+            "month" : null,
+            "day" : null,
+            "media-type" : null
+          },
+          "work-external-identifiers" : null,
+          "url" : {
+            "value" : "http://www.nap.edu/catalog.php?record_id=11463"
+          },
+          "work-contributors" : {
+            "contributor" : [ {
+              "contributor-orcid" : null,
+              "credit-name" : null,
+              "contributor-email" : null,
+              "contributor-attributes" : {
+                "contributor-sequence" : null,
+                "contributor-role" : "SUPPORT_STAFF"
+              }
+            } ]
+          },
+          "work-source" : null,
+          "source" : {
+            "source-orcid" : {
+              "value" : null,
+              "uri" : "http://orcid.org/0000-0001-5109-3700",
+              "path" : "0000-0001-5109-3700",
+              "host" : "orcid.org"
+            },
+            "source-client-id" : null,
+            "source-name" : {
+              "value" : "Laurel L Haak"
+            },
+            "source-date" : {
+              "value" : 1365605030642
+            }
+          },
+          "created-date" : {
+            "value" : 1365605030642
+          },
+          "last-modified-date" : {
+            "value" : 1394055844143
+          },
+          "language-code" : null,
+          "country" : null,
+          "visibility" : "PUBLIC"
+        }, {
+          "put-code" : "8289809",
+          "work-title" : {
+            "title" : {
+              "value" : "Modulation of photic response by the metabotropic glutamate receptor agonist t-ACPD"
+            },
+            "subtitle" : null,
+            "translated-title" : null
+          },
+          "journal-title" : null,
+          "short-description" : null,
+          "work-citation" : {
+            "work-citation-type" : "FORMATTED_UNSPECIFIED",
+            "citation" : "Haak, L, Albers, H & Mintz, E, 2006, 'Modulation of photic response by the metabotropic glutamate receptor agonist t-ACPD', <i>Brain Research Bulletin</i>, vol. 5, no. Pt 2, pp. 1901-100."
+          },
+          "work-type" : "JOURNAL_ARTICLE",
+          "publication-date" : {
+            "year" : {
+              "value" : "2006"
+            },
+            "month" : {
+              "value" : "12"
+            },
+            "day" : null,
+            "media-type" : null
+          },
+          "work-external-identifiers" : {
+            "work-external-identifier" : [ {
+              "work-external-identifier-type" : "DOI",
+              "work-external-identifier-id" : {
+                "value" : "10.1016/j.brainresbull.2006.08.006"
+              }
+            } ],
+            "scope" : null
+          },
+          "url" : null,
+          "work-contributors" : {
+            "contributor" : [ {
+              "contributor-orcid" : null,
+              "credit-name" : null,
+              "contributor-email" : null,
+              "contributor-attributes" : {
+                "contributor-sequence" : "FIRST",
+                "contributor-role" : "AUTHOR"
+              }
+            } ]
+          },
+          "work-source" : null,
+          "source" : {
+            "source-orcid" : {
+              "value" : null,
+              "uri" : "http://orcid.org/0000-0001-5109-3700",
+              "path" : "0000-0001-5109-3700",
+              "host" : "orcid.org"
+            },
+            "source-client-id" : null,
+            "source-name" : {
+              "value" : "Laurel L Haak"
+            },
+            "source-date" : {
+              "value" : 1365605030597
+            }
+          },
+          "created-date" : {
+            "value" : 1365605030597
+          },
+          "last-modified-date" : {
+            "value" : 1394055844142
+          },
+          "language-code" : null,
+          "country" : null,
+          "visibility" : "PUBLIC"
+        }, {
+          "put-code" : "8289797",
+          "work-title" : {
+            "title" : {
+              "value" : "Biological, Social, and Organizational Components of Success for Women in Academic Science and Engineering: Workshop Report."
+            },
+            "subtitle" : null,
+            "translated-title" : null
+          },
+          "journal-title" : null,
+          "short-description" : null,
+          "work-citation" : {
+            "work-citation-type" : "FORMATTED_UNSPECIFIED",
+            "citation" : "COSEPUP, 2006, 'Biological, Social, and Organizational Components of Success for Women in Academic Science and Engineering: Workshop Report', National Academies Press: Washington, DC. "
+          },
+          "work-type" : "JOURNAL_ARTICLE",
+          "publication-date" : {
+            "year" : {
+              "value" : "2006"
+            },
+            "month" : null,
+            "day" : null,
+            "media-type" : null
+          },
+          "work-external-identifiers" : null,
+          "url" : {
+            "value" : "http://books.nap.edu/catalog.php?record_id=11766"
+          },
+          "work-contributors" : {
+            "contributor" : [ {
+              "contributor-orcid" : null,
+              "credit-name" : null,
+              "contributor-email" : null,
+              "contributor-attributes" : {
+                "contributor-sequence" : null,
+                "contributor-role" : "SUPPORT_STAFF"
+              }
+            } ]
+          },
+          "work-source" : null,
+          "source" : {
+            "source-orcid" : {
+              "value" : null,
+              "uri" : "http://orcid.org/0000-0001-5109-3700",
+              "path" : "0000-0001-5109-3700",
+              "host" : "orcid.org"
+            },
+            "source-client-id" : null,
+            "source-name" : {
+              "value" : "Laurel L Haak"
+            },
+            "source-date" : {
+              "value" : 1365605030532
+            }
+          },
+          "created-date" : {
+            "value" : 1365605030532
+          },
+          "last-modified-date" : {
+            "value" : 1394055844142
+          },
+          "language-code" : null,
+          "country" : null,
+          "visibility" : "PUBLIC"
+        }, {
+          "put-code" : "8289796",
+          "work-title" : {
+            "title" : {
+              "value" : "Beyond Bias and Barriers: Fulfilling the Promise of Women in Academic Science and Engineering."
+            },
+            "subtitle" : null,
+            "translated-title" : null
+          },
+          "journal-title" : null,
+          "short-description" : null,
+          "work-citation" : {
+            "work-citation-type" : "FORMATTED_UNSPECIFIED",
+            "citation" : "COSEPUP, 2006, 'Beyond Bias and Barriers: Fulfilling the Promise of Women in Academic Science and Engineering', National Academies Press: Washington, DC.  "
+          },
+          "work-type" : "JOURNAL_ARTICLE",
+          "publication-date" : {
+            "year" : {
+              "value" : "2006"
+            },
+            "month" : null,
+            "day" : null,
+            "media-type" : null
+          },
+          "work-external-identifiers" : null,
+          "url" : {
+            "value" : "http://www.nap.edu/openbook.php?isbn=0309100429"
+          },
+          "work-contributors" : {
+            "contributor" : [ {
+              "contributor-orcid" : null,
+              "credit-name" : null,
+              "contributor-email" : null,
+              "contributor-attributes" : {
+                "contributor-sequence" : null,
+                "contributor-role" : "SUPPORT_STAFF"
+              }
+            } ]
+          },
+          "work-source" : null,
+          "source" : {
+            "source-orcid" : {
+              "value" : null,
+              "uri" : "http://orcid.org/0000-0001-5109-3700",
+              "path" : "0000-0001-5109-3700",
+              "host" : "orcid.org"
+            },
+            "source-client-id" : null,
+            "source-name" : {
+              "value" : "Laurel L Haak"
+            },
+            "source-date" : {
+              "value" : 1365605030526
+            }
+          },
+          "created-date" : {
+            "value" : 1365605030526
+          },
+          "last-modified-date" : {
+            "value" : 1394055844142
+          },
+          "language-code" : null,
+          "country" : null,
+          "visibility" : "PUBLIC"
+        }, {
+          "put-code" : "8289813",
+          "work-title" : {
+            "title" : {
+              "value" : "Policy Implications of International Graduate Students and Postdoctoral Scholars in the United States"
+            },
+            "subtitle" : null,
+            "translated-title" : null
+          },
+          "journal-title" : null,
+          "short-description" : null,
+          "work-citation" : {
+            "work-citation-type" : "FORMATTED_UNSPECIFIED",
+            "citation" : "COSEPUP, 2005, 'Policy Implications of International Graduate Students and Postdoctoral Scholars in the United States', National Academies Press: Washington, DC. "
+          },
+          "work-type" : "JOURNAL_ARTICLE",
+          "publication-date" : {
+            "year" : {
+              "value" : "2005"
+            },
+            "month" : null,
+            "day" : null,
+            "media-type" : null
+          },
+          "work-external-identifiers" : null,
+          "url" : {
+            "value" : "http://www.nap.edu/catalog.php?record_id=11289"
+          },
+          "work-contributors" : {
+            "contributor" : [ {
+              "contributor-orcid" : null,
+              "credit-name" : null,
+              "contributor-email" : null,
+              "contributor-attributes" : {
+                "contributor-sequence" : null,
+                "contributor-role" : "SUPPORT_STAFF"
+              }
+            } ]
+          },
+          "work-source" : null,
+          "source" : {
+            "source-orcid" : {
+              "value" : null,
+              "uri" : "http://orcid.org/0000-0001-5109-3700",
+              "path" : "0000-0001-5109-3700",
+              "host" : "orcid.org"
+            },
+            "source-client-id" : null,
+            "source-name" : {
+              "value" : "Laurel L Haak"
+            },
+            "source-date" : {
+              "value" : 1365605030619
+            }
+          },
+          "created-date" : {
+            "value" : 1365605030619
+          },
+          "last-modified-date" : {
+            "value" : 1394055844142
+          },
+          "language-code" : null,
+          "country" : null,
+          "visibility" : "PUBLIC"
+        }, {
+          "put-code" : "8289803",
+          "work-title" : {
+            "title" : {
+              "value" : "Facilitating Interdisciplinary Research"
+            },
+            "subtitle" : null,
+            "translated-title" : null
+          },
+          "journal-title" : null,
+          "short-description" : null,
+          "work-citation" : {
+            "work-citation-type" : "FORMATTED_UNSPECIFIED",
+            "citation" : "COSEPUP, 2005, 'Facilitating Interdisciplinary Research', National Academies Press: Washington, DC. "
+          },
+          "work-type" : "JOURNAL_ARTICLE",
+          "publication-date" : {
+            "year" : {
+              "value" : "2004"
+            },
+            "month" : null,
+            "day" : null,
+            "media-type" : null
+          },
+          "work-external-identifiers" : null,
+          "url" : {
+            "value" : "http://www.nap.edu/catalog.php?record_id=11153"
+          },
+          "work-contributors" : {
+            "contributor" : [ {
+              "contributor-orcid" : null,
+              "credit-name" : null,
+              "contributor-email" : null,
+              "contributor-attributes" : {
+                "contributor-sequence" : null,
+                "contributor-role" : "SUPPORT_STAFF"
+              }
+            } ]
+          },
+          "work-source" : null,
+          "source" : {
+            "source-orcid" : {
+              "value" : null,
+              "uri" : "http://orcid.org/0000-0001-5109-3700",
+              "path" : "0000-0001-5109-3700",
+              "host" : "orcid.org"
+            },
+            "source-client-id" : null,
+            "source-name" : {
+              "value" : "Laurel L Haak"
+            },
+            "source-date" : {
+              "value" : 1365605030566
+            }
+          },
+          "created-date" : {
+            "value" : 1365605030566
+          },
+          "last-modified-date" : {
+            "value" : 1394055844142
+          },
+          "language-code" : null,
+          "country" : null,
+          "visibility" : "PUBLIC"
+        }, {
+          "put-code" : "9559463",
+          "work-title" : {
+            "title" : {
+              "value" : "Women in neuroscience (WIN): the first twenty years."
+            },
+            "subtitle" : null,
+            "translated-title" : null
+          },
+          "journal-title" : null,
+          "short-description" : null,
+          "work-citation" : {
+            "work-citation-type" : "FORMATTED_UNSPECIFIED",
+            "citation" : "Haak LL, <i>Journal of the history of the neurosciences</i>, 2002, vol. 11, no. 1, pp. 70-79"
+          },
+          "work-type" : "JOURNAL_ARTICLE",
+          "publication-date" : {
+            "year" : {
+              "value" : "2002"
+            },
+            "month" : {
+              "value" : "03"
+            },
+            "day" : null,
+            "media-type" : null
+          },
+          "work-external-identifiers" : {
+            "work-external-identifier" : [ {
+              "work-external-identifier-type" : "DOI",
+              "work-external-identifier-id" : {
+                "value" : "10.1076/jhin.11.1.70.9111"
+              }
+            }, {
+              "work-external-identifier-type" : "PMID",
+              "work-external-identifier-id" : {
+                "value" : "12012581"
+              }
+            } ],
+            "scope" : null
+          },
+          "url" : {
+            "value" : "http://europepmc.org/abstract/med/12012581"
+          },
+          "work-contributors" : {
+            "contributor" : [ {
+              "contributor-orcid" : null,
+              "credit-name" : {
+                "value" : "Haak LL",
+                "visibility" : "PUBLIC"
+              },
+              "contributor-email" : null,
+              "contributor-attributes" : {
+                "contributor-sequence" : "FIRST",
+                "contributor-role" : "AUTHOR"
+              }
+            } ]
+          },
+          "work-source" : null,
+          "source" : {
+            "source-orcid" : {
+              "value" : null,
+              "uri" : "http://orcid.org/0000-0002-9157-3431",
+              "path" : "0000-0002-9157-3431",
+              "host" : "orcid.org"
+            },
+            "source-client-id" : null,
+            "source-name" : {
+              "value" : "Europe PubMed Central"
+            },
+            "source-date" : {
+              "value" : 1375734052699
+            }
+          },
+          "created-date" : {
+            "value" : 1375734052699
+          },
+          "last-modified-date" : {
+            "value" : 1421498893218
+          },
+          "language-code" : null,
+          "country" : null,
+          "visibility" : "PUBLIC"
+        }, {
+          "put-code" : "8289808",
+          "work-title" : {
+            "title" : {
+              "value" : "Mitochondria regulate Ca2+ wave initiation and inositol trisphosphate signal transduction in oligodendrocyte progenitors"
+            },
+            "subtitle" : null,
+            "translated-title" : null
+          },
+          "journal-title" : null,
+          "short-description" : null,
+          "work-citation" : {
+            "work-citation-type" : "FORMATTED_UNSPECIFIED",
+            "citation" : "Haak, L, Grimaldi, M, Smaili, S & Russell, J, 2002, 'Mitochondria regulate Ca2+ wave initiation and inositol trisphosphate signal transduction in oligodendrocyte progenitors', <i>Journal of Neurochemistry</i>, vol. 80, no. 3, pp. 405-415."
+          },
+          "work-type" : "JOURNAL_ARTICLE",
+          "publication-date" : {
+            "year" : {
+              "value" : "2002"
+            },
+            "month" : {
+              "value" : "02"
+            },
+            "day" : null,
+            "media-type" : null
+          },
+          "work-external-identifiers" : {
+            "work-external-identifier" : [ {
+              "work-external-identifier-type" : "DOI",
+              "work-external-identifier-id" : {
+                "value" : "10.1046/j.0022-3042.2001.00727.x"
+              }
+            } ],
+            "scope" : null
+          },
+          "url" : null,
+          "work-contributors" : {
+            "contributor" : [ {
+              "contributor-orcid" : null,
+              "credit-name" : null,
+              "contributor-email" : null,
+              "contributor-attributes" : {
+                "contributor-sequence" : "FIRST",
+                "contributor-role" : "AUTHOR"
+              }
+            } ]
+          },
+          "work-source" : null,
+          "source" : {
+            "source-orcid" : {
+              "value" : null,
+              "uri" : "http://orcid.org/0000-0001-5109-3700",
+              "path" : "0000-0001-5109-3700",
+              "host" : "orcid.org"
+            },
+            "source-client-id" : null,
+            "source-name" : {
+              "value" : "Laurel L Haak"
+            },
+            "source-date" : {
+              "value" : 1365605030592
+            }
+          },
+          "created-date" : {
+            "value" : 1365605030592
+          },
+          "last-modified-date" : {
+            "value" : 1394055844142
+          },
+          "language-code" : null,
+          "country" : null,
+          "visibility" : "PUBLIC"
+        }, {
+          "put-code" : "9559464",
+          "work-title" : {
+            "title" : {
+              "value" : "Sparks and puffs in oligodendrocyte progenitors: cross talk between ryanodine receptors and inositol trisphosphate receptors."
+            },
+            "subtitle" : null,
+            "translated-title" : null
+          },
+          "journal-title" : null,
+          "short-description" : null,
+          "work-citation" : {
+            "work-citation-type" : "FORMATTED_UNSPECIFIED",
+            "citation" : "Haak LL, Song LS, Molinski TF, Pessah IN, Cheng H, Russell JT, <i>The Journal of neuroscience : the official journal of the Society for Neuroscience</i>, 2001, vol. 21, no. 11, pp. 3860-3870"
+          },
+          "work-type" : "JOURNAL_ARTICLE",
+          "publication-date" : {
+            "year" : {
+              "value" : "2001"
+            },
+            "month" : {
+              "value" : "06"
+            },
+            "day" : null,
+            "media-type" : null
+          },
+          "work-external-identifiers" : {
+            "work-external-identifier" : [ {
+              "work-external-identifier-type" : "PMID",
+              "work-external-identifier-id" : {
+                "value" : "11356874"
+              }
+            } ],
+            "scope" : null
+          },
+          "url" : {
+            "value" : "http://europepmc.org/abstract/med/11356874"
+          },
+          "work-contributors" : {
+            "contributor" : [ {
+              "contributor-orcid" : null,
+              "credit-name" : {
+                "value" : "Cheng H",
+                "visibility" : "PUBLIC"
+              },
+              "contributor-email" : null,
+              "contributor-attributes" : {
+                "contributor-sequence" : "FIRST",
+                "contributor-role" : "AUTHOR"
+              }
+            }, {
+              "contributor-orcid" : null,
+              "credit-name" : {
+                "value" : "Haak LL",
+                "visibility" : "PUBLIC"
+              },
+              "contributor-email" : null,
+              "contributor-attributes" : {
+                "contributor-sequence" : "FIRST",
+                "contributor-role" : "AUTHOR"
+              }
+            }, {
+              "contributor-orcid" : null,
+              "credit-name" : {
+                "value" : "Molinski TF",
+                "visibility" : "PUBLIC"
+              },
+              "contributor-email" : null,
+              "contributor-attributes" : {
+                "contributor-sequence" : "FIRST",
+                "contributor-role" : "AUTHOR"
+              }
+            }, {
+              "contributor-orcid" : null,
+              "credit-name" : {
+                "value" : "Pessah IN",
+                "visibility" : "PUBLIC"
+              },
+              "contributor-email" : null,
+              "contributor-attributes" : {
+                "contributor-sequence" : "FIRST",
+                "contributor-role" : "AUTHOR"
+              }
+            }, {
+              "contributor-orcid" : null,
+              "credit-name" : {
+                "value" : "Russell JT",
+                "visibility" : "PUBLIC"
+              },
+              "contributor-email" : null,
+              "contributor-attributes" : {
+                "contributor-sequence" : "FIRST",
+                "contributor-role" : "AUTHOR"
+              }
+            }, {
+              "contributor-orcid" : null,
+              "credit-name" : {
+                "value" : "Song LS",
+                "visibility" : "PUBLIC"
+              },
+              "contributor-email" : null,
+              "contributor-attributes" : {
+                "contributor-sequence" : "FIRST",
+                "contributor-role" : "AUTHOR"
+              }
+            } ]
+          },
+          "work-source" : null,
+          "source" : {
+            "source-orcid" : {
+              "value" : null,
+              "uri" : "http://orcid.org/0000-0002-9157-3431",
+              "path" : "0000-0002-9157-3431",
+              "host" : "orcid.org"
+            },
+            "source-client-id" : null,
+            "source-name" : {
+              "value" : "Europe PubMed Central"
+            },
+            "source-date" : {
+              "value" : 1375734052718
+            }
+          },
+          "created-date" : {
+            "value" : 1375734052718
+          },
+          "last-modified-date" : {
+            "value" : 1421498893218
+          },
+          "language-code" : null,
+          "country" : null,
+          "visibility" : "PUBLIC"
+        }, {
+          "put-code" : "8289804",
+          "work-title" : {
+            "title" : {
+              "value" : "Frequency-dependent regulation of rat hippocampal somato-dendritic excitability by the K+ channel subunit Kv2.1"
+            },
+            "subtitle" : null,
+            "translated-title" : null
+          },
+          "journal-title" : null,
+          "short-description" : null,
+          "work-citation" : {
+            "work-citation-type" : "FORMATTED_UNSPECIFIED",
+            "citation" : "Du, J, Haak, L, Phillips-Tansey, E, Russell, J & McBain, C, 2000, 'Frequency-dependent regulation of rat hippocampal somato-dendritic excitability by the K+ channel subunit Kv2.1', <i>The Journal of Physiology</i>, vol. 522, no. 1, pp. 19-31."
+          },
+          "work-type" : "JOURNAL_ARTICLE",
+          "publication-date" : {
+            "year" : {
+              "value" : "2000"
+            },
+            "month" : {
+              "value" : "01"
+            },
+            "day" : null,
+            "media-type" : null
+          },
+          "work-external-identifiers" : {
+            "work-external-identifier" : [ {
+              "work-external-identifier-type" : "DOI",
+              "work-external-identifier-id" : {
+                "value" : "10.1111/j.1469-7793.2000.t01-2-00019.xm"
+              }
+            } ],
+            "scope" : null
+          },
+          "url" : null,
+          "work-contributors" : {
+            "contributor" : [ {
+              "contributor-orcid" : null,
+              "credit-name" : null,
+              "contributor-email" : null,
+              "contributor-attributes" : {
+                "contributor-sequence" : "FIRST",
+                "contributor-role" : "AUTHOR"
+              }
+            } ]
+          },
+          "work-source" : null,
+          "source" : {
+            "source-orcid" : {
+              "value" : null,
+              "uri" : "http://orcid.org/0000-0001-5109-3700",
+              "path" : "0000-0001-5109-3700",
+              "host" : "orcid.org"
+            },
+            "source-client-id" : null,
+            "source-name" : {
+              "value" : "Laurel L Haak"
+            },
+            "source-date" : {
+              "value" : 1365605030572
+            }
+          },
+          "created-date" : {
+            "value" : 1365605030572
+          },
+          "last-modified-date" : {
+            "value" : 1394055844142
+          },
+          "language-code" : null,
+          "country" : null,
+          "visibility" : "PUBLIC"
+        }, {
+          "put-code" : "8289806",
+          "work-title" : {
+            "title" : {
+              "value" : "Metabotropic glutamate receptor modulation of glutamate responses in the suprachiasmatic nucleus"
+            },
+            "subtitle" : null,
+            "translated-title" : null
+          },
+          "journal-title" : null,
+          "short-description" : null,
+          "work-citation" : {
+            "work-citation-type" : "FORMATTED_UNSPECIFIED",
+            "citation" : "Haak LL, 1999, 'Metabotropic glutamate receptor modulation of glutamate responses in the suprachiasmatic nucleus'.  Journal of Neurophysiology, vol. 81, pp. 1308-1317"
+          },
+          "work-type" : "JOURNAL_ARTICLE",
+          "publication-date" : {
+            "year" : {
+              "value" : "1999"
+            },
+            "month" : {
+              "value" : "03"
+            },
+            "day" : null,
+            "media-type" : null
+          },
+          "work-external-identifiers" : {
+            "work-external-identifier" : [ {
+              "work-external-identifier-type" : "PMID",
+              "work-external-identifier-id" : {
+                "value" : "10085357"
+              }
+            } ],
+            "scope" : null
+          },
+          "url" : {
+            "value" : "http://www.ncbi.nlm.nih.gov/pubmed/10085357"
+          },
+          "work-contributors" : {
+            "contributor" : [ {
+              "contributor-orcid" : null,
+              "credit-name" : null,
+              "contributor-email" : null,
+              "contributor-attributes" : {
+                "contributor-sequence" : "FIRST",
+                "contributor-role" : "AUTHOR"
+              }
+            } ]
+          },
+          "work-source" : null,
+          "source" : {
+            "source-orcid" : {
+              "value" : null,
+              "uri" : "http://orcid.org/0000-0001-5109-3700",
+              "path" : "0000-0001-5109-3700",
+              "host" : "orcid.org"
+            },
+            "source-client-id" : null,
+            "source-name" : {
+              "value" : "Laurel L Haak"
+            },
+            "source-date" : {
+              "value" : 1365605030583
+            }
+          },
+          "created-date" : {
+            "value" : 1365605030583
+          },
+          "last-modified-date" : {
+            "value" : 1394055844142
+          },
+          "language-code" : null,
+          "country" : null,
+          "visibility" : "PUBLIC"
+        }, {
+          "put-code" : "8289805",
+          "work-title" : {
+            "title" : {
+              "value" : "Metabotropic glutamate receptor activation modulates kainate and serotonin calcium response in astrocytes"
+            },
+            "subtitle" : null,
+            "translated-title" : null
+          },
+          "journal-title" : null,
+          "short-description" : null,
+          "work-citation" : {
+            "work-citation-type" : "FORMATTED_UNSPECIFIED",
+            "citation" : "•\tHaak LL, Heller HC, van den Pol AN (1997) Metabotropic glutamate receptor activation modulates kainate and serotonin calcium response in astrocytes', Journal of Neuroscience, vol. 17, no. 5, pp. 1825-1837."
+          },
+          "work-type" : "JOURNAL_ARTICLE",
+          "publication-date" : {
+            "year" : {
+              "value" : "1997"
+            },
+            "month" : {
+              "value" : "03"
+            },
+            "day" : {
+              "value" : "01"
+            },
+            "media-type" : null
+          },
+          "work-external-identifiers" : {
+            "work-external-identifier" : [ {
+              "work-external-identifier-type" : "PMID",
+              "work-external-identifier-id" : {
+                "value" : "9030641"
+              }
+            } ],
+            "scope" : null
+          },
+          "url" : {
+            "value" : "http://www.ncbi.nlm.nih.gov/pubmed/9030641"
+          },
+          "work-contributors" : {
+            "contributor" : [ {
+              "contributor-orcid" : null,
+              "credit-name" : null,
+              "contributor-email" : null,
+              "contributor-attributes" : {
+                "contributor-sequence" : "FIRST",
+                "contributor-role" : "AUTHOR"
+              }
+            } ]
+          },
+          "work-source" : null,
+          "source" : {
+            "source-orcid" : {
+              "value" : null,
+              "uri" : "http://orcid.org/0000-0001-5109-3700",
+              "path" : "0000-0001-5109-3700",
+              "host" : "orcid.org"
+            },
+            "source-client-id" : null,
+            "source-name" : {
+              "value" : "Laurel L Haak"
+            },
+            "source-date" : {
+              "value" : 1365605030577
+            }
+          },
+          "created-date" : {
+            "value" : 1365605030577
+          },
+          "last-modified-date" : {
+            "value" : 1394055844142
+          },
+          "language-code" : null,
+          "country" : null,
+          "visibility" : "PUBLIC"
+        }, {
+          "put-code" : "9200720",
+          "work-title" : {
+            "title" : {
+              "value" : "Regional changes in central monoamine and metabolite levels during the hibernation cycle in the golden-mantled ground squirrel"
+            },
+            "subtitle" : {
+              "value" : "Brain Research"
+            },
+            "translated-title" : null
+          },
+          "journal-title" : null,
+          "short-description" : null,
+          "work-citation" : {
+            "work-citation-type" : "BIBTEX",
+            "citation" : "@article{not_Kilduff_Dement_Heller_1991, title={Regional changes in central monoamine and metabolite levels during the hibernation cycle in the golden-mantled ground squirrel}, volume={563}, url={http://dx.doi.org/10.1016/0006-8993(91)91536-A}, DOI={10.1016/0006-8993(91)91536-A}, number={1-2}, journal={Brain Research}, publisher={Elsevier}, author={Haak, Laurel L. and Mignot, Emmanuel and Kilduff, Thomas S. and Dement, W.C. and Heller, H.Craig}, year={1991}, month={Nov}, pages={215-220}}"
+          },
+          "work-type" : "JOURNAL_ARTICLE",
+          "publication-date" : {
+            "year" : {
+              "value" : "1991"
+            },
+            "month" : null,
+            "day" : null,
+            "media-type" : null
+          },
+          "work-external-identifiers" : {
+            "work-external-identifier" : [ {
+              "work-external-identifier-type" : "ISSN",
+              "work-external-identifier-id" : {
+                "value" : "0006-8993"
+              }
+            }, {
+              "work-external-identifier-type" : "DOI",
+              "work-external-identifier-id" : {
+                "value" : "10.1016/0006-8993(91)91536-a"
+              }
+            } ],
+            "scope" : null
+          },
+          "url" : null,
+          "work-contributors" : null,
+          "work-source" : null,
+          "source" : {
+            "source-orcid" : {
+              "value" : null,
+              "uri" : "http://orcid.org/0000-0002-3054-1567",
+              "path" : "0000-0002-3054-1567",
+              "host" : "orcid.org"
+            },
+            "source-client-id" : null,
+            "source-name" : {
+              "value" : "CrossRef Metadata Search"
+            },
+            "source-date" : {
+              "value" : 1371546443769
+            }
+          },
+          "created-date" : {
+            "value" : 1371546443769
+          },
+          "last-modified-date" : {
+            "value" : 1421498893218
+          },
+          "language-code" : null,
+          "country" : null,
+          "visibility" : "PUBLIC"
+        }, {
+          "put-code" : "8289802",
+          "work-title" : {
+            "title" : {
+              "value" : "Effects of central alpha-2 adrenergic compounds on canine narcolepsy, a disorder of rapid eye movement sleep."
+            },
+            "subtitle" : null,
+            "translated-title" : null
+          },
+          "journal-title" : null,
+          "short-description" : null,
+          "work-citation" : {
+            "work-citation-type" : "FORMATTED_UNSPECIFIED",
+            "citation" : "Nishino S, Haak LL, Shepard H, Guilleminault C, Sakai T, Dement WC, and Mignot E, 1990, 'Effects of central alpha-2 adrenergic compounds on canine narcolepsy, a disorder of rapid eye movement sleep', Journal of Pharmacology and Experimental Therapeutics, vol. 253, pp. 1145-1152"
+          },
+          "work-type" : "JOURNAL_ARTICLE",
+          "publication-date" : {
+            "year" : {
+              "value" : "1990"
+            },
+            "month" : {
+              "value" : "06"
+            },
+            "day" : null,
+            "media-type" : null
+          },
+          "work-external-identifiers" : {
+            "work-external-identifier" : [ {
+              "work-external-identifier-type" : "PMID",
+              "work-external-identifier-id" : {
+                "value" : "1972749"
+              }
+            } ],
+            "scope" : null
+          },
+          "url" : {
+            "value" : "http://www.ncbi.nlm.nih.gov/pubmed/1972749"
+          },
+          "work-contributors" : {
+            "contributor" : [ {
+              "contributor-orcid" : null,
+              "credit-name" : null,
+              "contributor-email" : null,
+              "contributor-attributes" : {
+                "contributor-sequence" : "ADDITIONAL",
+                "contributor-role" : "AUTHOR"
+              }
+            } ]
+          },
+          "work-source" : null,
+          "source" : {
+            "source-orcid" : {
+              "value" : null,
+              "uri" : "http://orcid.org/0000-0001-5109-3700",
+              "path" : "0000-0001-5109-3700",
+              "host" : "orcid.org"
+            },
+            "source-client-id" : null,
+            "source-name" : {
+              "value" : "Laurel L Haak"
+            },
+            "source-date" : {
+              "value" : 1365605030560
+            }
+          },
+          "created-date" : {
+            "value" : 1365605030560
+          },
+          "last-modified-date" : {
+            "value" : 1394055844142
+          },
+          "language-code" : null,
+          "country" : null,
+          "visibility" : "PUBLIC"
+        } ],
+        "scope" : null
+      },
+      "funding-list" : {
+        "funding" : [ {
+          "put-code" : "1357",
+          "funding-type" : "GRANT",
+          "organization-defined-type" : {
+            "value" : "default"
+          },
+          "funding-title" : {
+            "title" : {
+              "value" : "Postdoc Network Annual Policy Meeting; Berkeley, CA, March 15-17, 2003"
+            },
+            "translated-title" : null
+          },
+          "short-description" : null,
+          "amount" : {
+            "value" : "78407",
+            "currency-code" : "USD"
+          },
+          "url" : {
+            "value" : ""
+          },
+          "start-date" : {
+            "year" : {
+              "value" : "2003"
+            },
+            "month" : {
+              "value" : "03"
+            },
+            "day" : {
+              "value" : "01"
+            }
+          },
+          "end-date" : {
+            "year" : {
+              "value" : "2004"
+            },
+            "month" : {
+              "value" : "02"
+            },
+            "day" : {
+              "value" : "29"
+            }
+          },
+          "funding-external-identifiers" : {
+            "funding-external-identifier" : [ {
+              "funding-external-identifier-type" : "GRANT_NUMBER",
+              "funding-external-identifier-value" : "0305602",
+              "funding-external-identifier-url" : {
+                "value" : "http://grants.uberresearch.com/100000001/0305602/Postdoc-Network-Annual-Policy-Meeting-Berkeley-CA-March-15-17-2003"
+              }
+            }, {
+              "funding-external-identifier-type" : "GRANT_NUMBER",
+              "funding-external-identifier-value" : "0305602",
+              "funding-external-identifier-url" : {
+                "value" : "http://www.nsf.gov/awardsearch/showAward?AWD_ID=0305602&HistoricalAwards=false"
+              }
+            } ]
+          },
+          "funding-contributors" : null,
+          "organization" : {
+            "name" : "National Science Foundation",
+            "address" : {
+              "city" : "Airlington",
+              "region" : null,
+              "country" : "US"
+            },
+            "disambiguated-organization" : null
+          },
+          "source" : {
+            "source-orcid" : {
+              "value" : null,
+              "uri" : "http://orcid.org/0000-0003-2174-0924",
+              "path" : "0000-0003-2174-0924",
+              "host" : "orcid.org"
+            },
+            "source-client-id" : null,
+            "source-name" : {
+              "value" : "ÜberWizard for ORCID"
+            },
+            "source-date" : {
+              "value" : 1393856208158
+            }
+          },
+          "created-date" : {
+            "value" : 1393856208158
+          },
+          "last-modified-date" : {
+            "value" : 1406092743932
+          },
+          "visibility" : "PUBLIC"
+        }, {
+          "put-code" : "1356",
+          "funding-type" : "GRANT",
+          "organization-defined-type" : {
+            "value" : "default"
+          },
+          "funding-title" : {
+            "title" : {
+              "value" : "Policy Implications of International Graduate Students and Postdocs in the United States"
+            },
+            "translated-title" : null
+          },
+          "short-description" : null,
+          "amount" : {
+            "value" : "200000",
+            "currency-code" : "USD"
+          },
+          "url" : {
+            "value" : ""
+          },
+          "start-date" : {
+            "year" : {
+              "value" : "2004"
+            },
+            "month" : {
+              "value" : "03"
+            },
+            "day" : {
+              "value" : "01"
+            }
+          },
+          "end-date" : {
+            "year" : {
+              "value" : "2006"
+            },
+            "month" : {
+              "value" : "02"
+            },
+            "day" : {
+              "value" : "28"
+            }
+          },
+          "funding-external-identifiers" : {
+            "funding-external-identifier" : [ {
+              "funding-external-identifier-type" : "GRANT_NUMBER",
+              "funding-external-identifier-value" : "0342159",
+              "funding-external-identifier-url" : {
+                "value" : "http://grants.uberresearch.com/100000001/0342159/Policy-Implications-of-International-Graduate-Students-and-Postdocs-in-the-United-States"
+              }
+            }, {
+              "funding-external-identifier-type" : "GRANT_NUMBER",
+              "funding-external-identifier-value" : "0342159",
+              "funding-external-identifier-url" : {
+                "value" : "http://www.nsf.gov/awardsearch/showAward?AWD_ID=0342159&HistoricalAwards=false"
+              }
+            } ]
+          },
+          "funding-contributors" : null,
+          "organization" : {
+            "name" : "National Science Foundation",
+            "address" : {
+              "city" : "Airlington",
+              "region" : null,
+              "country" : "US"
+            },
+            "disambiguated-organization" : null
+          },
+          "source" : {
+            "source-orcid" : {
+              "value" : null,
+              "uri" : "http://orcid.org/0000-0003-2174-0924",
+              "path" : "0000-0003-2174-0924",
+              "host" : "orcid.org"
+            },
+            "source-client-id" : null,
+            "source-name" : {
+              "value" : "ÜberWizard for ORCID"
+            },
+            "source-date" : {
+              "value" : 1393856208143
+            }
+          },
+          "created-date" : {
+            "value" : 1393856208143
+          },
+          "last-modified-date" : {
+            "value" : 1406092743932
+          },
+          "visibility" : "PUBLIC"
+        }, {
+          "put-code" : "1355",
+          "funding-type" : "GRANT",
+          "organization-defined-type" : {
+            "value" : "default"
+          },
+          "funding-title" : {
+            "title" : {
+              "value" : "CELLULAR BASIS OF CIRCADIAN CLOCK IN SCN"
+            },
+            "translated-title" : null
+          },
+          "short-description" : null,
+          "amount" : null,
+          "url" : {
+            "value" : ""
+          },
+          "start-date" : {
+            "year" : {
+              "value" : "1994"
+            },
+            "month" : {
+              "value" : "10"
+            },
+            "day" : {
+              "value" : "01"
+            }
+          },
+          "end-date" : null,
+          "funding-external-identifiers" : {
+            "funding-external-identifier" : [ {
+              "funding-external-identifier-type" : "GRANT_NUMBER",
+              "funding-external-identifier-value" : "5F31MH010500-03",
+              "funding-external-identifier-url" : {
+                "value" : "http://grants.uberresearch.com/100000025/F31MH010500/CELLULAR-BASIS-OF-CIRCADIAN-CLOCK-IN-SCN"
+              }
+            }, {
+              "funding-external-identifier-type" : "GRANT_NUMBER",
+              "funding-external-identifier-value" : "5F31MH010500-03",
+              "funding-external-identifier-url" : {
+                "value" : "http://projectreporter.nih.gov/project_info_description.cfm?aid=2241697"
+              }
+            } ]
+          },
+          "funding-contributors" : null,
+          "organization" : {
+            "name" : "National Institute of Mental Health",
+            "address" : {
+              "city" : "Bethesda",
+              "region" : null,
+              "country" : "US"
+            },
+            "disambiguated-organization" : null
+          },
+          "source" : {
+            "source-orcid" : {
+              "value" : null,
+              "uri" : "http://orcid.org/0000-0003-2174-0924",
+              "path" : "0000-0003-2174-0924",
+              "host" : "orcid.org"
+            },
+            "source-client-id" : null,
+            "source-name" : {
+              "value" : "ÜberWizard for ORCID"
+            },
+            "source-date" : {
+              "value" : 1393856208135
+            }
+          },
+          "created-date" : {
+            "value" : 1393856208135
+          },
+          "last-modified-date" : {
+            "value" : 1393856208135
+          },
+          "visibility" : "PUBLIC"
+        } ],
+        "scope" : null
+      }
+    },
+    "orcid-internal" : null,
+    "type" : "USER",
+    "group-type" : null,
+    "client-type" : null
+  },
+  "orcid-search-results" : null,
+  "error-desc" : null
+}

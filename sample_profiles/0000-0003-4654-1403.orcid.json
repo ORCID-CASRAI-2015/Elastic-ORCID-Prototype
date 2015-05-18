@@ -1,0 +1,333 @@
+{
+  "message-version" : "1.2",
+  "orcid-profile" : {
+    "orcid" : null,
+    "orcid-id" : null,
+    "orcid-identifier" : {
+      "value" : null,
+      "uri" : "http://orcid.org/0000-0003-4654-1403",
+      "path" : "0000-0003-4654-1403",
+      "host" : "orcid.org"
+    },
+    "orcid-deprecated" : null,
+    "orcid-preferences" : {
+      "locale" : "EN"
+    },
+    "orcid-history" : {
+      "creation-method" : "WEBSITE",
+      "completion-date" : {
+        "value" : 1348836583670
+      },
+      "submission-date" : {
+        "value" : 1348832979492
+      },
+      "last-modified-date" : {
+        "value" : 1431339659484
+      },
+      "claimed" : {
+        "value" : true
+      },
+      "source" : null,
+      "deactivation-date" : null,
+      "verified-email" : {
+        "value" : true
+      },
+      "verified-primary-email" : {
+        "value" : true
+      },
+      "visibility" : null
+    },
+    "orcid-bio" : {
+      "personal-details" : {
+        "given-names" : {
+          "value" : "Will"
+        },
+        "family-name" : {
+          "value" : "Simpson"
+        },
+        "credit-name" : {
+          "value" : "W. J. R. Simpson",
+          "visibility" : "PUBLIC"
+        },
+        "other-names" : {
+          "other-name" : [ {
+            "value" : "Bill Simpson"
+          } ],
+          "visibility" : "PUBLIC"
+        }
+      },
+      "biography" : {
+        "value" : "Will graduated in 2000 with a first class honours degree in Physics from  University College London, having worked on numerical simulation software for his final year research project.\n\nHe then worked for the publishing company John Wiley & Sons Ltd, developing distribution software to deliver online book and journals content to Wiley Interscience and third parties such as PubMed and ProQuest.\n\nHe then moved to Semantico Ltd where he was part of the development team that created the DawsonEra online publishing platform. DawsonEra is now the largest supplier of electronic books to academic libraries in the UK, containing over 300,000 books.\n\nWill enjoyed a period away from software development when he went overseas to teach English as a foreign language, earning a CELTA certificate while studying and training in Latvia. He then went to Nepal as a volunteer, where he taught English to a parents group at a local school, and at a Buddhist monastery.\n\nHe then returned to John Wiley & Sons Ltd as a consultant, working on tracking and content transformation systems for their new publishing platform, Wiley Online Library. Also, he was part of the team that developed a rules based system for delivering e-book content to vendors such as Apple and Amazon.\n\nAfter another stint at Semantico, Will became an independent contractor working for ORCID, participating in hackathons and other community activities, as well as continuing to be part of the software development team.",
+        "visibility" : "PUBLIC"
+      },
+      "researcher-urls" : null,
+      "contact-details" : {
+        "email" : [ ],
+        "address" : {
+          "country" : {
+            "value" : "GB",
+            "visibility" : "PUBLIC"
+          }
+        }
+      },
+      "keywords" : null,
+      "external-identifiers" : {
+        "external-identifier" : [ ],
+        "visibility" : "PUBLIC"
+      },
+      "delegation" : null,
+      "applications" : null,
+      "scope" : null
+    },
+    "orcid-activities" : {
+      "affiliations" : {
+        "affiliation" : [ {
+          "type" : "EDUCATION",
+          "department-name" : null,
+          "role-title" : null,
+          "start-date" : null,
+          "end-date" : {
+            "year" : {
+              "value" : "2000"
+            },
+            "month" : null,
+            "day" : null
+          },
+          "organization" : {
+            "name" : "University College London",
+            "address" : {
+              "city" : "London",
+              "region" : "London",
+              "country" : "GB"
+            },
+            "disambiguated-organization" : {
+              "disambiguated-organization-identifier" : "4919",
+              "disambiguation-source" : "RINGGOLD"
+            }
+          },
+          "source" : {
+            "source-orcid" : {
+              "value" : null,
+              "uri" : "http://orcid.org/0000-0003-4654-1403",
+              "path" : "0000-0003-4654-1403",
+              "host" : "orcid.org"
+            },
+            "source-client-id" : null,
+            "source-name" : {
+              "value" : "Wills test"
+            },
+            "source-date" : {
+              "value" : 1386677854804
+            }
+          },
+          "created-date" : {
+            "value" : 1386677854804
+          },
+          "last-modified-date" : {
+            "value" : 1431277751170
+          },
+          "visibility" : "PUBLIC",
+          "put-code" : "15324"
+        } ]
+      },
+      "orcid-works" : {
+        "orcid-work" : [ {
+          "put-code" : "14208580",
+          "work-title" : {
+            "title" : {
+              "value" : "ORCID Annual Public Data File, 2014"
+            },
+            "subtitle" : null,
+            "translated-title" : null
+          },
+          "journal-title" : null,
+          "short-description" : null,
+          "work-citation" : {
+            "work-citation-type" : "BIBTEX",
+            "citation" : "@misc{datacitecc83e983-265b-41b4-b2ec-201cdabc7289,\n  doi = {10.14454/07243.2014.001},\n  url = {http://dx.doi.org/10.14454/07243.2014.001},\n  author = {Paglione, Laura; Peters, Robert; Oyler, Catalina; Simpson, Will; Montenegro, Angel; Ramírez Monge, José Francisco; Krznarich, Elizabeth; Brown, Josh; Haak, Laurel; },\n  publisher = {ORCID},\n  title = {ORCID Annual Public Data File, 2014},\n  year = {2014}\n}"
+          },
+          "work-type" : "DATA_SET",
+          "publication-date" : {
+            "year" : {
+              "value" : "2014"
+            },
+            "month" : null,
+            "day" : null,
+            "media-type" : null
+          },
+          "work-external-identifiers" : {
+            "work-external-identifier" : [ {
+              "work-external-identifier-type" : "DOI",
+              "work-external-identifier-id" : {
+                "value" : "10.14454/07243.2014.001"
+              }
+            } ],
+            "scope" : null
+          },
+          "url" : null,
+          "work-contributors" : null,
+          "work-source" : null,
+          "source" : {
+            "source-orcid" : {
+              "value" : null,
+              "uri" : "http://orcid.org/0000-0001-8099-6984",
+              "path" : "0000-0001-8099-6984",
+              "host" : "orcid.org"
+            },
+            "source-client-id" : null,
+            "source-name" : {
+              "value" : "DataCite search and link"
+            },
+            "source-date" : {
+              "value" : 1414431721567
+            }
+          },
+          "created-date" : {
+            "value" : 1414431721567
+          },
+          "last-modified-date" : {
+            "value" : 1431277751171
+          },
+          "language-code" : null,
+          "country" : null,
+          "visibility" : "PUBLIC"
+        }, {
+          "put-code" : "11601844",
+          "work-title" : {
+            "title" : {
+              "value" : "ORCID Annual Public Data File, 2013"
+            },
+            "subtitle" : null,
+            "translated-title" : null
+          },
+          "journal-title" : null,
+          "short-description" : null,
+          "work-citation" : {
+            "work-citation-type" : "BIBTEX",
+            "citation" : "@misc{datacite313f4070-3912-4e35-8993-368b976e873b,\n  doi = {10.14454/07243.2013.001},\n  url = {http://dx.doi.org/10.14454/07243.2013.001},\n  author = {Paglione, Laura; Peters, Robert; Oyler, Catalina; Simpson, Will; Montenegro, Angel; Ramírez Monge, José Francisco; Bryant, Rebecca; Haak, Laurel; },\n  publisher = {ORCID},\n  title = {ORCID Annual Public Data File, 2013},\n  year = {2013}\n}"
+          },
+          "work-type" : "DATA_SET",
+          "publication-date" : {
+            "year" : {
+              "value" : "2013"
+            },
+            "month" : null,
+            "day" : null,
+            "media-type" : null
+          },
+          "work-external-identifiers" : {
+            "work-external-identifier" : [ {
+              "work-external-identifier-type" : "DOI",
+              "work-external-identifier-id" : {
+                "value" : "10.14454/07243.2013.001"
+              }
+            } ],
+            "scope" : null
+          },
+          "url" : null,
+          "work-contributors" : null,
+          "work-source" : null,
+          "source" : {
+            "source-orcid" : {
+              "value" : null,
+              "uri" : "http://orcid.org/0000-0001-8099-6984",
+              "path" : "0000-0001-8099-6984",
+              "host" : "orcid.org"
+            },
+            "source-client-id" : null,
+            "source-name" : {
+              "value" : "DataCite search and link"
+            },
+            "source-date" : {
+              "value" : 1389986940987
+            }
+          },
+          "created-date" : {
+            "value" : 1389986940987
+          },
+          "last-modified-date" : {
+            "value" : 1431277751171
+          },
+          "language-code" : null,
+          "country" : null,
+          "visibility" : "PUBLIC"
+        }, {
+          "put-code" : "9761672",
+          "work-title" : {
+            "title" : {
+              "value" : "Stochastic chemistry on ultrafine aerosol"
+            },
+            "subtitle" : {
+              "value" : "Journal of Aerosol Science"
+            },
+            "translated-title" : null
+          },
+          "journal-title" : null,
+          "short-description" : null,
+          "work-citation" : {
+            "work-citation-type" : "BIBTEX",
+            "citation" : "@article{Simpson_Bhatt_Ford_2000, title={Stochastic chemistry on ultrafine aerosol}, volume={31}, url={http://dx.doi.org/10.1016/S0021-8502(00)90373-2}, DOI={10.1016/S0021-8502(00)90373-2}, journal={Journal of Aerosol Science}, publisher={Elsevier}, author={Simpson, W.J.R. and Bhatt, J. and Ford, I.J.}, year={2000}, month={Sep}, pages={362-363}}"
+          },
+          "work-type" : "JOURNAL_ARTICLE",
+          "publication-date" : {
+            "year" : {
+              "value" : "2000"
+            },
+            "month" : null,
+            "day" : null,
+            "media-type" : null
+          },
+          "work-external-identifiers" : {
+            "work-external-identifier" : [ {
+              "work-external-identifier-type" : "ISSN",
+              "work-external-identifier-id" : {
+                "value" : "0021-8502"
+              }
+            }, {
+              "work-external-identifier-type" : "DOI",
+              "work-external-identifier-id" : {
+                "value" : "10.1016/s0021-8502(00)90373-2"
+              }
+            } ],
+            "scope" : null
+          },
+          "url" : null,
+          "work-contributors" : null,
+          "work-source" : null,
+          "source" : {
+            "source-orcid" : {
+              "value" : null,
+              "uri" : "http://orcid.org/0000-0002-3054-1567",
+              "path" : "0000-0002-3054-1567",
+              "host" : "orcid.org"
+            },
+            "source-client-id" : null,
+            "source-name" : {
+              "value" : "CrossRef Metadata Search"
+            },
+            "source-date" : {
+              "value" : 1377620905397
+            }
+          },
+          "created-date" : {
+            "value" : 1377620905397
+          },
+          "last-modified-date" : {
+            "value" : 1431277751171
+          },
+          "language-code" : null,
+          "country" : null,
+          "visibility" : "PUBLIC"
+        } ],
+        "scope" : null
+      },
+      "funding-list" : null
+    },
+    "orcid-internal" : null,
+    "type" : "ADMIN",
+    "group-type" : null,
+    "client-type" : null
+  },
+  "orcid-search-results" : null,
+  "error-desc" : null
+}
