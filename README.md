@@ -122,6 +122,7 @@ note: to stop `control-c` to verify it's running you can open `http://localhost:
         }' 
 
 
+* Match by work identifier value and type
         curl -XGET 'http://localhost:9200/record/_search?pretty=true' -d '
         { 
         "query" : { 
