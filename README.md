@@ -121,6 +121,17 @@ note: to stop `control-c` to verify it's running you can open `http://localhost:
         	}
         }' 
 
+
+        curl -XGET 'http://localhost:9200/record/_search?pretty=true' -d '
+        { 
+        "query" : { 
+           "bool" : { 
+            	"should": [
+              	{ "match": { "orcid-profile.orcid-activities.orcid-works.orcid-work.work-external-identifiers.work-external-identifier.work-external-identifier-type":"PAT" }},
+              	{ "match": { "translator": "Louise Maude"      }}
+            	]}
+        	}
+        }' 
  
         
 
