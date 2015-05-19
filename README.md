@@ -76,7 +76,7 @@ note: to stop `control-c` to verify it's running you can open `http://localhost:
         curl -XGET 'http://localhost:9200/record/_search?pretty=true' -d '
         { 
            "query" : { 
-             "term" : { "orcid-profile.orcid-bio.personal-details.given-names.value":"alice" }
+             "match" : { "orcid-profile.orcid-bio.personal-details.given-names.value":"alice" }
            } 
         }'
 
@@ -86,7 +86,7 @@ note: to stop `control-c` to verify it's running you can open `http://localhost:
         curl -XGET 'http://localhost:9200/record/_search?pretty=true' -d '
         { 
            "query" : { 
-             "term" : { "orcid-profile.orcid-bio.personal-details.given-names.value":"alice" }
+             "match" : { "orcid-profile.orcid-bio.personal-details.given-names.value":"alice" }
            } 
         }'
 
@@ -95,7 +95,7 @@ note: to stop `control-c` to verify it's running you can open `http://localhost:
         curl -XGET 'http://localhost:9200/record/_search?pretty=true' -d '
         { 
            "query" : { 
-            "term" : { "orcid-profile.orcid-activities.affiliations.affiliation.organization.name":"orcid" }
+            "match" : { "orcid-profile.orcid-activities.affiliations.affiliation.organization.name":"orcid" }
         	} 
         }' 
 
@@ -123,6 +123,7 @@ note: to stop `control-c` to verify it's running you can open `http://localhost:
 
 
 * Match by work identifier value and type
+
         curl -XGET 'http://localhost:9200/record/_search?pretty=true' -d '
         { 
         "query" : { 
