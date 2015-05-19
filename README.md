@@ -64,12 +64,12 @@ note: to stop `control-c` to verify it's running you can open `http://localhost:
         
 * Retrieve all 
 
-       curl -XGET 'http://localhost:9200/record/_search?pretty=true' -d '
-       {
+        curl -XGET 'http://localhost:9200/record/_search?pretty=true' -d '
+        {
        	"query" : { 
              "match_all" : {} 
            }
-       }'        
+        }'        
         
 * Match by given name
 
