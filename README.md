@@ -32,21 +32,21 @@ note: to stop `control-c` to verify it's running you can open `http://localhost:
         
 * Clean solr instance and populate with sample data
 
-
-        curl -XDELETE http://localhost:9200/_all
-        curl -XPUT http://localhost:9200/record/orcid_v1.2/0000-0001-5109-3700   --upload-file sample_profiles/0000-0001-5109-3700.orcid.json
-        curl -XPUT http://localhost:9200/record/orcid_v1.2/0000-0001-6622-4910   --upload-file sample_profiles/0000-0001-6622-4910.orcid.json
-        curl -XPUT http://localhost:9200/record/orcid_v1.2/0000-0001-7234-3684   --upload-file sample_profiles/0000-0001-7234-3684.orcid.json
-        curl -XPUT http://localhost:9200/record/orcid_v1.2/0000-0002-0036-9460   --upload-file sample_profiles/0000-0002-0036-9460.orcid.json
-        curl -XPUT http://localhost:9200/record/orcid_v1.2/0000-0002-1982-1816   --upload-file sample_profiles/0000-0002-1982-1816.orcid.json
-        curl -XPUT http://localhost:9200/record/orcid_v1.2/0000-0002-3183-6594   --upload-file sample_profiles/0000-0002-3183-6594.orcid.json
-        curl -XPUT http://localhost:9200/record/orcid_v1.2/0000-0002-3219-1820   --upload-file sample_profiles/0000-0002-3219-1820.orcid.json
-        curl -XPUT http://localhost:9200/record/orcid_v1.2/0000-0002-6951-5585   --upload-file sample_profiles/0000-0002-6951-5585.orcid.json
-        curl -XPUT http://localhost:9200/record/orcid_v1.2/0000-0002-8689-4935   --upload-file sample_profiles/0000-0002-8689-4935.orcid.json
-        curl -XPUT http://localhost:9200/record/orcid_v1.2/0000-0003-2161-3781   --upload-file sample_profiles/0000-0003-2161-3781.orcid.json
-        curl -XPUT http://localhost:9200/record/orcid_v1.2/0000-0003-3188-6273   --upload-file sample_profiles/0000-0003-3188-6273.orcid.json
-        curl -XPUT http://localhost:9200/record/orcid_v1.2/0000-0003-3600-9288   --upload-file sample_profiles/0000-0003-3600-9288.orcid.json
-        curl -XPUT http://localhost:9200/record/orcid_v1.2/0000-0003-4654-1403   --upload-file sample_profiles/0000-0003-4654-1403.orcid.json
+        curl -XDELETE http://localhost:9200/record
+        curl -XPUT http://localhost:9200/record --upload-file sample_profiles/mapping.json
+        curl -XPUT http://localhost:9200/record/orcid_v1.2/0000-0001-5109-3700 --upload-file sample_profiles/0000-0001-5109-3700.orcid.json
+        curl -XPUT http://localhost:9200/record/orcid_v1.2/0000-0001-6622-4910 --upload-file sample_profiles/0000-0001-6622-4910.orcid.json
+        curl -XPUT http://localhost:9200/record/orcid_v1.2/0000-0001-7234-3684 --upload-file sample_profiles/0000-0001-7234-3684.orcid.json
+        curl -XPUT http://localhost:9200/record/orcid_v1.2/0000-0002-0036-9460 --upload-file sample_profiles/0000-0002-0036-9460.orcid.json
+        curl -XPUT http://localhost:9200/record/orcid_v1.2/0000-0002-1982-1816 --upload-file sample_profiles/0000-0002-1982-1816.orcid.json
+        curl -XPUT http://localhost:9200/record/orcid_v1.2/0000-0002-3183-6594 --upload-file sample_profiles/0000-0002-3183-6594.orcid.json
+        curl -XPUT http://localhost:9200/record/orcid_v1.2/0000-0002-3219-1820 --upload-file sample_profiles/0000-0002-3219-1820.orcid.json
+        curl -XPUT http://localhost:9200/record/orcid_v1.2/0000-0002-6951-5585 --upload-file sample_profiles/0000-0002-6951-5585.orcid.json
+        curl -XPUT http://localhost:9200/record/orcid_v1.2/0000-0002-8689-4935 --upload-file sample_profiles/0000-0002-8689-4935.orcid.json
+        curl -XPUT http://localhost:9200/record/orcid_v1.2/0000-0003-2161-3781 --upload-file sample_profiles/0000-0003-2161-3781.orcid.json
+        curl -XPUT http://localhost:9200/record/orcid_v1.2/0000-0003-3188-6273 --upload-file sample_profiles/0000-0003-3188-6273.orcid.json
+        curl -XPUT http://localhost:9200/record/orcid_v1.2/0000-0003-3600-9288 --upload-file sample_profiles/0000-0003-3600-9288.orcid.json
+        curl -XPUT http://localhost:9200/record/orcid_v1.2/0000-0003-4654-1403 --upload-file sample_profiles/0000-0003-4654-1403.orcid.json
 
 * finally inspect the index model ElasticSearch created
 
@@ -115,7 +115,7 @@ note: to stop `control-c` to verify it's running you can open `http://localhost:
         curl -XGET 'http://localhost:9200/record/_search?pretty=true' -d '
         { 
         "query" : { 
-           "match" : { 
+           "term" : { 
             "orcid-profile.orcid-activities.orcid-works.orcid-work.work-external-identifiers.work-external-identifier.work-external-identifier-id.value":"UA 20120209644 A1"
         	} 
         	}
@@ -129,9 +129,10 @@ note: to stop `control-c` to verify it's running you can open `http://localhost:
         "query" : { 
            "bool" : { 
             	"should": [
-              	{ "match": { "orcid-profile.orcid-activities.orcid-works.orcid-work.work-external-identifiers.work-external-identifier.work-external-identifier-type":"PAT" }},
-              	{ "match": { "translator": "Louise Maude"      }}
-            	]}
+              	{ "match_phrase": { "orcid-profile.orcid-activities.orcid-works.orcid-work.work-external-identifiers.work-external-identifier.work-external-identifier-type":"PAT" }},
+              	{ "match_phrase": { "orcid-profile.orcid-activities.orcid-works.orcid-work.work-external-identifiers.work-external-identifier.work-external-identifier-id.value":"UA 20120209644 A1"}}
+            	],
+            	"minimum_should_match": 2}
         	}
         }' 
  
@@ -144,7 +145,7 @@ note: to stop `control-c` to verify it's running you can open `http://localhost:
            "bool" : { 
             	"should": [
               	{ "match": { "orcid-profile.orcid-activities.orcid-works.orcid-work.work-external-identifiers.work-external-identifier.work-external-identifier-type":"PAT" }},
-              	{ "match": { "translator": "Louise Maude"      }}
+              	{ "match": { "orcid-profile.orcid-activities.orcid-works.orcid-work.work-external-identifiers.work-external-identifier.work-external-identifier-id.value":"UA 20120209644 A1"}}
             	]}
         	}
         }' 
