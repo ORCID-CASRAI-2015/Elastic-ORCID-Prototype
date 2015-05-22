@@ -4,12 +4,12 @@
       "orcid_v1.2" : {
         "properties" : {
           "message-version" : {
-            "type" : "string"
+            "type" : "string", "index" : "not_analyzed" 
           },
           "orcid-profile" : {
             "properties" : {
               "group-type" : {
-                "type" : "string"
+                "type" : "string", "index" : "not_analyzed" 
               },
               "orcid-activities" : {
                 "properties" : {
@@ -77,10 +77,10 @@
                               "disambiguated-organization" : {
                                 "properties" : {
                                   "disambiguated-organization-identifier" : {
-                                    "type" : "string"
+                                    "type" : "string", "index" : "not_analyzed" 
                                   },
                                   "disambiguation-source" : {
-                                    "type" : "string"
+                                    "type" : "string", "index" : "not_analyzed" 
                                   }
                                 }
                               },
@@ -90,7 +90,7 @@
                             }
                           },
                           "put-code" : {
-                            "type" : "string"
+                            "type" : "string", "index" : "not_analyzed" 
                           },
                           "role-title" : {
                             "type" : "string"
@@ -214,7 +214,7 @@
                                   "funding-contributor-attributes" : {
                                     "properties" : {
                                       "funding-contributor-role" : {
-                                        "type" : "string"
+                                        "type" : "string", "index" : "not_analyzed" 
                                       }
                                     }
                                   }
@@ -227,7 +227,7 @@
                               "funding-external-identifier" : {
                                 "properties" : {
                                   "funding-external-identifier-type" : {
-                                    "type" : "string"
+                                    "type" : "string", "index" : "not_analyzed" 
                                   },
                                   "funding-external-identifier-url" : {
                                     "properties" : {
@@ -237,7 +237,7 @@
                                     }
                                   },
                                   "funding-external-identifier-value" : {
-                                    "type" : "string"
+                                    "type" : "string", "index" : "not_analyzed" 
                                   }
                                 }
                               }
@@ -255,7 +255,7 @@
                             }
                           },
                           "funding-type" : {
-                            "type" : "string"
+                            "type" : "string", "index" : "not_analyzed" 
                           },
                           "last-modified-date" : {
                             "properties" : {
@@ -282,7 +282,7 @@
                               "disambiguated-organization" : {
                                 "properties" : {
                                   "disambiguated-organization-identifier" : {
-                                    "type" : "string"
+                                    "type" : "string", "index" : "not_analyzed" 
                                   },
                                   "disambiguation-source" : {
                                     "type" : "string"
@@ -297,7 +297,7 @@
                           "organization-defined-type" : {
                             "properties" : {
                               "value" : {
-                                "type" : "string"
+                                "type" : "string", "index" : "not_analyzed" 
                               }
                             }
                           },
@@ -542,12 +542,12 @@
                                   "work-external-identifier-id" : {
                                     "properties" : {
                                       "value" : {
-                                        "type" : "string"
+                                        "type" : "string", "index" : "not_analyzed" 
                                       }
                                     }
                                   },
                                   "work-external-identifier-type" : {
-                                    "type" : "string"
+                                    "type" : "string", "index" : "not_analyzed" 
                                   }
                                 }
                               }
@@ -649,14 +649,14 @@
                           "external-id-common-name" : {
                             "properties" : {
                               "value" : {
-                                "type" : "string"
+                                "type" : "string", "index" : "not_analyzed" 
                               }
                             }
                           },
                           "external-id-reference" : {
                             "properties" : {
                               "value" : {
-                                "type" : "string"
+                                "type" : "string", "index" : "not_analyzed" 
                               }
                             }
                           },

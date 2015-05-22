@@ -32,8 +32,13 @@ note: to stop `control-c` to verify it's running you can open `http://localhost:
         
 * Clean solr instance and populate with sample data
 
+        # Delete existing index
         curl -XDELETE http://localhost:9200/record
+
+        # Upload mappings for indexes
         curl -XPUT http://localhost:9200/record --upload-file sample_profiles/mapping.json
+
+        # Add json documents        
         curl -XPUT http://localhost:9200/record/orcid_v1.2/0000-0001-5109-3700 --upload-file sample_profiles/0000-0001-5109-3700.orcid.json
         curl -XPUT http://localhost:9200/record/orcid_v1.2/0000-0001-6622-4910 --upload-file sample_profiles/0000-0001-6622-4910.orcid.json
         curl -XPUT http://localhost:9200/record/orcid_v1.2/0000-0001-7234-3684 --upload-file sample_profiles/0000-0001-7234-3684.orcid.json
