@@ -119,11 +119,11 @@ note: to stop `control-c` to verify it's running you can open `http://localhost:
 
         curl -XGET 'http://localhost:9200/record/_search?pretty=true' -d '
         { 
-        "query" : { 
-           "term" : { 
-            "orcid-profile.orcid-activities.orcid-works.orcid-work.work-external-identifiers.work-external-identifier.work-external-identifier-id.value":"UA 20120209644 A1"
-        	} 
-        	}
+        "query" : {
+           "match" : {
+              "orcid-profile.orcid-activities.orcid-works.orcid-work.work-external-identifiers.work-external-identifier.work-external-identifier-id.value" : "US 20120209644 A1"
+                }
+            }
         }' 
 
 
@@ -135,7 +135,7 @@ note: to stop `control-c` to verify it's running you can open `http://localhost:
            "bool" : { 
             	"should": [
               	{ "match_phrase": { "orcid-profile.orcid-activities.orcid-works.orcid-work.work-external-identifiers.work-external-identifier.work-external-identifier-type":"PAT" }},
-              	{ "match_phrase": { "orcid-profile.orcid-activities.orcid-works.orcid-work.work-external-identifiers.work-external-identifier.work-external-identifier-id.value":"UA 20120209644 A1"}}
+              	{ "match_phrase": { "orcid-profile.orcid-activities.orcid-works.orcid-work.work-external-identifiers.work-external-identifier.work-external-identifier-id.value":"US 20120209644 A1"}}
             	],
             	"minimum_should_match": 2}
         	}
@@ -150,7 +150,7 @@ note: to stop `control-c` to verify it's running you can open `http://localhost:
            "bool" : { 
             	"should": [
               	{ "match": { "orcid-profile.orcid-activities.orcid-works.orcid-work.work-external-identifiers.work-external-identifier.work-external-identifier-type":"PAT" }},
-              	{ "match": { "orcid-profile.orcid-activities.orcid-works.orcid-work.work-external-identifiers.work-external-identifier.work-external-identifier-id.value":"UA 20120209644 A1"}}
+              	{ "match": { "orcid-profile.orcid-activities.orcid-works.orcid-work.work-external-identifiers.work-external-identifier.work-external-identifier-id.value":"US 20120209644 A1"}}
             	]}
         	}
         }' 
