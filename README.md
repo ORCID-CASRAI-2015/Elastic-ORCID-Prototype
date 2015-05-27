@@ -118,10 +118,14 @@ note: to stop `control-c` to verify it's running you can open `http://localhost:
 * Match by work identifier value 
 
         curl -XGET 'http://localhost:9200/record/_search?pretty=true' -d '
-        { 
-        "query" : {
-           "match" : {
-              "orcid-profile.orcid-activities.orcid-works.orcid-work.work-external-identifiers.work-external-identifier.work-external-identifier-id.value" : "US 20120209644 A1"
+        {
+            "query" : {
+                "filtered" : {
+                     "filter" : {
+                        "term" : {
+                            "orcid-profile.orcid-activities.orcid-works.orcid-work.work-external-identifiers.work-external-identifier.work-external-identifier-id.value" : "US 20120209644 A1"
+                        }
+                    }
                 }
             }
         }' 
