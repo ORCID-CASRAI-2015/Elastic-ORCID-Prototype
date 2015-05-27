@@ -1,851 +1,849 @@
 {
-  "record" : {
-    "mappings" : {
-      "orcid_v1.2" : {
-        "properties" : {
-          "message-version" : {
-            "type" : "string", "index" : "not_analyzed" 
-          },
-          "orcid-profile" : {
-            "properties" : {
-              "group-type" : {
-                "type" : "string", "index" : "not_analyzed" 
-              },
-              "orcid-activities" : {
-                "properties" : {
-                  "affiliations" : {
-                    "properties" : {
-                      "affiliation" : {
-                        "properties" : {
-                          "created-date" : {
-                            "properties" : {
-                              "value" : {
-                                "type" : "long"
-                              }
+  "mappings" : {
+    "orcid_v1.2" : {
+      "properties" : {
+        "message-version" : {
+          "type" : "string", "index" : "not_analyzed" 
+        },
+        "orcid-profile" : {
+          "properties" : {
+            "group-type" : {
+              "type" : "string", "index" : "not_analyzed" 
+            },
+            "orcid-activities" : {
+              "properties" : {
+                "affiliations" : {
+                  "properties" : {
+                    "affiliation" : {
+                      "properties" : {
+                        "created-date" : {
+                          "properties" : {
+                            "value" : {
+                              "type" : "long"
                             }
-                          },
-                          "department-name" : {
-                            "type" : "string"
-                          },
-                          "end-date" : {
-                            "properties" : {
-                              "day" : {
-                                "properties" : {
-                                  "value" : {
-                                    "type" : "string"
-                                  }
-                                }
-                              },
-                              "month" : {
-                                "properties" : {
-                                  "value" : {
-                                    "type" : "string"
-                                  }
-                                }
-                              },
-                              "year" : {
-                                "properties" : {
-                                  "value" : {
-                                    "type" : "string"
-                                  }
-                                }
-                              }
-                            }
-                          },
-                          "last-modified-date" : {
-                            "properties" : {
-                              "value" : {
-                                "type" : "long"
-                              }
-                            }
-                          },
-                          "organization" : {
-                            "properties" : {
-                              "address" : {
-                                "properties" : {
-                                  "city" : {
-                                    "type" : "string"
-                                  },
-                                  "country" : {
-                                    "type" : "string"
-                                  },
-                                  "region" : {
-                                    "type" : "string"
-                                  }
-                                }
-                              },
-                              "disambiguated-organization" : {
-                                "properties" : {
-                                  "disambiguated-organization-identifier" : {
-                                    "type" : "string", "index" : "not_analyzed" 
-                                  },
-                                  "disambiguation-source" : {
-                                    "type" : "string", "index" : "not_analyzed" 
-                                  }
-                                }
-                              },
-                              "name" : {
-                                "type" : "string"
-                              }
-                            }
-                          },
-                          "put-code" : {
-                            "type" : "string", "index" : "not_analyzed" 
-                          },
-                          "role-title" : {
-                            "type" : "string"
-                          },
-                          "source" : {
-                            "properties" : {
-                              "source-date" : {
-                                "properties" : {
-                                  "value" : {
-                                    "type" : "long"
-                                  }
-                                }
-                              },
-                              "source-name" : {
-                                "properties" : {
-                                  "value" : {
-                                    "type" : "string"
-                                  }
-                                }
-                              },
-                              "source-orcid" : {
-                                "properties" : {
-                                  "host" : {
-                                    "type" : "string"
-                                  },
-                                  "path" : {
-                                    "type" : "string"
-                                  },
-                                  "uri" : {
-                                    "type" : "string"
-                                  }
-                                }
-                              }
-                            }
-                          },
-                          "start-date" : {
-                            "properties" : {
-                              "day" : {
-                                "properties" : {
-                                  "value" : {
-                                    "type" : "string"
-                                  }
-                                }
-                              },
-                              "month" : {
-                                "properties" : {
-                                  "value" : {
-                                    "type" : "string"
-                                  }
-                                }
-                              },
-                              "year" : {
-                                "properties" : {
-                                  "value" : {
-                                    "type" : "string"
-                                  }
-                                }
-                              }
-                            }
-                          },
-                          "type" : {
-                            "type" : "string"
-                          },
-                          "visibility" : {
-                            "type" : "string"
                           }
+                        },
+                        "department-name" : {
+                          "type" : "string"
+                        },
+                        "end-date" : {
+                          "properties" : {
+                            "day" : {
+                              "properties" : {
+                                "value" : {
+                                  "type" : "string"
+                                }
+                              }
+                            },
+                            "month" : {
+                              "properties" : {
+                                "value" : {
+                                  "type" : "string"
+                                }
+                              }
+                            },
+                            "year" : {
+                              "properties" : {
+                                "value" : {
+                                  "type" : "string"
+                                }
+                              }
+                            }
+                          }
+                        },
+                        "last-modified-date" : {
+                          "properties" : {
+                            "value" : {
+                              "type" : "long"
+                            }
+                          }
+                        },
+                        "organization" : {
+                          "properties" : {
+                            "address" : {
+                              "properties" : {
+                                "city" : {
+                                  "type" : "string"
+                                },
+                                "country" : {
+                                  "type" : "string"
+                                },
+                                "region" : {
+                                  "type" : "string"
+                                }
+                              }
+                            },
+                            "disambiguated-organization" : {
+                              "properties" : {
+                                "disambiguated-organization-identifier" : {
+                                  "type" : "string", "index" : "not_analyzed" 
+                                },
+                                "disambiguation-source" : {
+                                  "type" : "string", "index" : "not_analyzed" 
+                                }
+                              }
+                            },
+                            "name" : {
+                              "type" : "string"
+                            }
+                          }
+                        },
+                        "put-code" : {
+                          "type" : "string", "index" : "not_analyzed" 
+                        },
+                        "role-title" : {
+                          "type" : "string"
+                        },
+                        "source" : {
+                          "properties" : {
+                            "source-date" : {
+                              "properties" : {
+                                "value" : {
+                                  "type" : "long"
+                                }
+                              }
+                            },
+                            "source-name" : {
+                              "properties" : {
+                                "value" : {
+                                  "type" : "string"
+                                }
+                              }
+                            },
+                            "source-orcid" : {
+                              "properties" : {
+                                "host" : {
+                                  "type" : "string"
+                                },
+                                "path" : {
+                                  "type" : "string"
+                                },
+                                "uri" : {
+                                  "type" : "string"
+                                }
+                              }
+                            }
+                          }
+                        },
+                        "start-date" : {
+                          "properties" : {
+                            "day" : {
+                              "properties" : {
+                                "value" : {
+                                  "type" : "string"
+                                }
+                              }
+                            },
+                            "month" : {
+                              "properties" : {
+                                "value" : {
+                                  "type" : "string"
+                                }
+                              }
+                            },
+                            "year" : {
+                              "properties" : {
+                                "value" : {
+                                  "type" : "string"
+                                }
+                              }
+                            }
+                          }
+                        },
+                        "type" : {
+                          "type" : "string"
+                        },
+                        "visibility" : {
+                          "type" : "string"
                         }
                       }
                     }
-                  },
-                  "funding-list" : {
-                    "properties" : {
-                      "funding" : {
-                        "properties" : {
-                          "amount" : {
-                            "properties" : {
-                              "currency-code" : {
-                                "type" : "string"
-                              },
-                              "value" : {
-                                "type" : "string"
-                              }
+                  }
+                },
+                "funding-list" : {
+                  "properties" : {
+                    "funding" : {
+                      "properties" : {
+                        "amount" : {
+                          "properties" : {
+                            "currency-code" : {
+                              "type" : "string"
+                            },
+                            "value" : {
+                              "type" : "string"
                             }
-                          },
-                          "created-date" : {
-                            "properties" : {
-                              "value" : {
-                                "type" : "long"
-                              }
-                            }
-                          },
-                          "end-date" : {
-                            "properties" : {
-                              "day" : {
-                                "properties" : {
-                                  "value" : {
-                                    "type" : "string"
-                                  }
-                                }
-                              },
-                              "month" : {
-                                "properties" : {
-                                  "value" : {
-                                    "type" : "string"
-                                  }
-                                }
-                              },
-                              "year" : {
-                                "properties" : {
-                                  "value" : {
-                                    "type" : "string"
-                                  }
-                                }
-                              }
-                            }
-                          },
-                          "funding-contributors" : {
-                            "properties" : {
-                              "funding-contributor" : {
-                                "properties" : {
-                                  "funding-contributor-attributes" : {
-                                    "properties" : {
-                                      "funding-contributor-role" : {
-                                        "type" : "string", "index" : "not_analyzed" 
-                                      }
-                                    }
-                                  }
-                                }
-                              }
-                            }
-                          },
-                          "funding-external-identifiers" : {
-                            "properties" : {
-                              "funding-external-identifier" : {
-                                "properties" : {
-                                  "funding-external-identifier-type" : {
-                                    "type" : "string", "index" : "not_analyzed" 
-                                  },
-                                  "funding-external-identifier-url" : {
-                                    "properties" : {
-                                      "value" : {
-                                        "type" : "string"
-                                      }
-                                    }
-                                  },
-                                  "funding-external-identifier-value" : {
-                                    "type" : "string", "index" : "not_analyzed" 
-                                  }
-                                }
-                              }
-                            }
-                          },
-                          "funding-title" : {
-                            "properties" : {
-                              "title" : {
-                                "properties" : {
-                                  "value" : {
-                                    "type" : "string"
-                                  }
-                                }
-                              }
-                            }
-                          },
-                          "funding-type" : {
-                            "type" : "string", "index" : "not_analyzed" 
-                          },
-                          "last-modified-date" : {
-                            "properties" : {
-                              "value" : {
-                                "type" : "long"
-                              }
-                            }
-                          },
-                          "organization" : {
-                            "properties" : {
-                              "address" : {
-                                "properties" : {
-                                  "city" : {
-                                    "type" : "string"
-                                  },
-                                  "country" : {
-                                    "type" : "string"
-                                  },
-                                  "region" : {
-                                    "type" : "string"
-                                  }
-                                }
-                              },
-                              "disambiguated-organization" : {
-                                "properties" : {
-                                  "disambiguated-organization-identifier" : {
-                                    "type" : "string", "index" : "not_analyzed" 
-                                  },
-                                  "disambiguation-source" : {
-                                    "type" : "string"
-                                  }
-                                }
-                              },
-                              "name" : {
-                                "type" : "string"
-                              }
-                            }
-                          },
-                          "organization-defined-type" : {
-                            "properties" : {
-                              "value" : {
-                                "type" : "string", "index" : "not_analyzed" 
-                              }
-                            }
-                          },
-                          "put-code" : {
-                            "type" : "string"
-                          },
-                          "source" : {
-                            "properties" : {
-                              "source-date" : {
-                                "properties" : {
-                                  "value" : {
-                                    "type" : "long"
-                                  }
-                                }
-                              },
-                              "source-name" : {
-                                "properties" : {
-                                  "value" : {
-                                    "type" : "string"
-                                  }
-                                }
-                              },
-                              "source-orcid" : {
-                                "properties" : {
-                                  "host" : {
-                                    "type" : "string"
-                                  },
-                                  "path" : {
-                                    "type" : "string"
-                                  },
-                                  "uri" : {
-                                    "type" : "string"
-                                  }
-                                }
-                              }
-                            }
-                          },
-                          "start-date" : {
-                            "properties" : {
-                              "day" : {
-                                "properties" : {
-                                  "value" : {
-                                    "type" : "string"
-                                  }
-                                }
-                              },
-                              "month" : {
-                                "properties" : {
-                                  "value" : {
-                                    "type" : "string"
-                                  }
-                                }
-                              },
-                              "year" : {
-                                "properties" : {
-                                  "value" : {
-                                    "type" : "string"
-                                  }
-                                }
-                              }
-                            }
-                          },
-                          "url" : {
-                            "properties" : {
-                              "value" : {
-                                "type" : "string"
-                              }
-                            }
-                          },
-                          "visibility" : {
-                            "type" : "string"
                           }
+                        },
+                        "created-date" : {
+                          "properties" : {
+                            "value" : {
+                              "type" : "long"
+                            }
+                          }
+                        },
+                        "end-date" : {
+                          "properties" : {
+                            "day" : {
+                              "properties" : {
+                                "value" : {
+                                  "type" : "string"
+                                }
+                              }
+                            },
+                            "month" : {
+                              "properties" : {
+                                "value" : {
+                                  "type" : "string"
+                                }
+                              }
+                            },
+                            "year" : {
+                              "properties" : {
+                                "value" : {
+                                  "type" : "string"
+                                }
+                              }
+                            }
+                          }
+                        },
+                        "funding-contributors" : {
+                          "properties" : {
+                            "funding-contributor" : {
+                              "properties" : {
+                                "funding-contributor-attributes" : {
+                                  "properties" : {
+                                    "funding-contributor-role" : {
+                                      "type" : "string", "index" : "not_analyzed" 
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        },
+                        "funding-external-identifiers" : {
+                          "properties" : {
+                            "funding-external-identifier" : {
+                              "properties" : {
+                                "funding-external-identifier-type" : {
+                                  "type" : "string", "index" : "not_analyzed" 
+                                },
+                                "funding-external-identifier-url" : {
+                                  "properties" : {
+                                    "value" : {
+                                      "type" : "string"
+                                    }
+                                  }
+                                },
+                                "funding-external-identifier-value" : {
+                                  "type" : "string", "index" : "not_analyzed" 
+                                }
+                              }
+                            }
+                          }
+                        },
+                        "funding-title" : {
+                          "properties" : {
+                            "title" : {
+                              "properties" : {
+                                "value" : {
+                                  "type" : "string"
+                                }
+                              }
+                            }
+                          }
+                        },
+                        "funding-type" : {
+                          "type" : "string", "index" : "not_analyzed" 
+                        },
+                        "last-modified-date" : {
+                          "properties" : {
+                            "value" : {
+                              "type" : "long"
+                            }
+                          }
+                        },
+                        "organization" : {
+                          "properties" : {
+                            "address" : {
+                              "properties" : {
+                                "city" : {
+                                  "type" : "string"
+                                },
+                                "country" : {
+                                  "type" : "string"
+                                },
+                                "region" : {
+                                  "type" : "string"
+                                }
+                              }
+                            },
+                            "disambiguated-organization" : {
+                              "properties" : {
+                                "disambiguated-organization-identifier" : {
+                                  "type" : "string", "index" : "not_analyzed" 
+                                },
+                                "disambiguation-source" : {
+                                  "type" : "string"
+                                }
+                              }
+                            },
+                            "name" : {
+                              "type" : "string"
+                            }
+                          }
+                        },
+                        "organization-defined-type" : {
+                          "properties" : {
+                            "value" : {
+                              "type" : "string", "index" : "not_analyzed" 
+                            }
+                          }
+                        },
+                        "put-code" : {
+                          "type" : "string"
+                        },
+                        "source" : {
+                          "properties" : {
+                            "source-date" : {
+                              "properties" : {
+                                "value" : {
+                                  "type" : "long"
+                                }
+                              }
+                            },
+                            "source-name" : {
+                              "properties" : {
+                                "value" : {
+                                  "type" : "string"
+                                }
+                              }
+                            },
+                            "source-orcid" : {
+                              "properties" : {
+                                "host" : {
+                                  "type" : "string"
+                                },
+                                "path" : {
+                                  "type" : "string"
+                                },
+                                "uri" : {
+                                  "type" : "string"
+                                }
+                              }
+                            }
+                          }
+                        },
+                        "start-date" : {
+                          "properties" : {
+                            "day" : {
+                              "properties" : {
+                                "value" : {
+                                  "type" : "string"
+                                }
+                              }
+                            },
+                            "month" : {
+                              "properties" : {
+                                "value" : {
+                                  "type" : "string"
+                                }
+                              }
+                            },
+                            "year" : {
+                              "properties" : {
+                                "value" : {
+                                  "type" : "string"
+                                }
+                              }
+                            }
+                          }
+                        },
+                        "url" : {
+                          "properties" : {
+                            "value" : {
+                              "type" : "string"
+                            }
+                          }
+                        },
+                        "visibility" : {
+                          "type" : "string"
                         }
                       }
                     }
-                  },
-                  "orcid-works" : {
-                    "properties" : {
-                      "orcid-work" : {
-                        "properties" : {
-                          "country" : {
-                            "properties" : {
-                              "value" : {
-                                "type" : "string"
-                              },
-                              "visibility" : {
-                                "type" : "string"
-                              }
+                  }
+                },
+                "orcid-works" : {
+                  "properties" : {
+                    "orcid-work" : {
+                      "properties" : {
+                        "country" : {
+                          "properties" : {
+                            "value" : {
+                              "type" : "string"
+                            },
+                            "visibility" : {
+                              "type" : "string"
                             }
-                          },
-                          "created-date" : {
-                            "properties" : {
-                              "value" : {
-                                "type" : "long"
-                              }
-                            }
-                          },
-                          "journal-title" : {
-                            "properties" : {
-                              "value" : {
-                                "type" : "string"
-                              }
-                            }
-                          },
-                          "language-code" : {
-                            "type" : "string"
-                          },
-                          "last-modified-date" : {
-                            "properties" : {
-                              "value" : {
-                                "type" : "long"
-                              }
-                            }
-                          },
-                          "publication-date" : {
-                            "properties" : {
-                              "day" : {
-                                "properties" : {
-                                  "value" : {
-                                    "type" : "string"
-                                  }
-                                }
-                              },
-                              "month" : {
-                                "properties" : {
-                                  "value" : {
-                                    "type" : "string"
-                                  }
-                                }
-                              },
-                              "year" : {
-                                "properties" : {
-                                  "value" : {
-                                    "type" : "string"
-                                  }
-                                }
-                              }
-                            }
-                          },
-                          "put-code" : {
-                            "type" : "string"
-                          },
-                          "short-description" : {
-                            "type" : "string"
-                          },
-                          "source" : {
-                            "properties" : {
-                              "source-date" : {
-                                "properties" : {
-                                  "value" : {
-                                    "type" : "long"
-                                  }
-                                }
-                              },
-                              "source-name" : {
-                                "properties" : {
-                                  "value" : {
-                                    "type" : "string"
-                                  }
-                                }
-                              },
-                              "source-orcid" : {
-                                "properties" : {
-                                  "host" : {
-                                    "type" : "string"
-                                  },
-                                  "path" : {
-                                    "type" : "string"
-                                  },
-                                  "uri" : {
-                                    "type" : "string"
-                                  }
-                                }
-                              }
-                            }
-                          },
-                          "url" : {
-                            "properties" : {
-                              "value" : {
-                                "type" : "string"
-                              }
-                            }
-                          },
-                          "visibility" : {
-                            "type" : "string"
-                          },
-                          "work-citation" : {
-                            "properties" : {
-                              "citation" : {
-                                "type" : "string"
-                              },
-                              "work-citation-type" : {
-                                "type" : "string"
-                              }
-                            }
-                          },
-                          "work-contributors" : {
-                            "properties" : {
-                              "contributor" : {
-                                "properties" : {
-                                  "contributor-attributes" : {
-                                    "properties" : {
-                                      "contributor-role" : {
-                                        "type" : "string"
-                                      },
-                                      "contributor-sequence" : {
-                                        "type" : "string"
-                                      }
-                                    }
-                                  },
-                                  "contributor-orcid" : {
-                                    "properties" : {
-                                      "host" : {
-                                        "type" : "string"
-                                      },
-                                      "path" : {
-                                        "type" : "string"
-                                      },
-                                      "uri" : {
-                                        "type" : "string"
-                                      }
-                                    }
-                                  },
-                                  "credit-name" : {
-                                    "properties" : {
-                                      "value" : {
-                                        "type" : "string"
-                                      },
-                                      "visibility" : {
-                                        "type" : "string"
-                                      }
-                                    }
-                                  }
-                                }
-                              }
-                            }
-                          },
-                          "work-external-identifiers" : {
-                            "properties" : {
-                              "work-external-identifier" : {
-                                "properties" : {
-                                  "work-external-identifier-id" : {
-                                    "properties" : {
-                                      "value" : {
-                                        "type" : "string", "index" : "not_analyzed" 
-                                      }
-                                    }
-                                  },
-                                  "work-external-identifier-type" : {
-                                    "type" : "string", "index" : "not_analyzed" 
-                                  }
-                                }
-                              }
-                            }
-                          },
-                          "work-title" : {
-                            "properties" : {
-                              "subtitle" : {
-                                "properties" : {
-                                  "value" : {
-                                    "type" : "string"
-                                  }
-                                }
-                              },
-                              "title" : {
-                                "properties" : {
-                                  "value" : {
-                                    "type" : "string"
-                                  }
-                                }
-                              },
-                              "translated-title" : {
-                                "properties" : {
-                                  "language-code" : {
-                                    "type" : "string"
-                                  },
-                                  "value" : {
-                                    "type" : "string"
-                                  }
-                                }
-                              }
-                            }
-                          },
-                          "work-type" : {
-                            "type" : "string"
                           }
+                        },
+                        "created-date" : {
+                          "properties" : {
+                            "value" : {
+                              "type" : "long"
+                            }
+                          }
+                        },
+                        "journal-title" : {
+                          "properties" : {
+                            "value" : {
+                              "type" : "string"
+                            }
+                          }
+                        },
+                        "language-code" : {
+                          "type" : "string"
+                        },
+                        "last-modified-date" : {
+                          "properties" : {
+                            "value" : {
+                              "type" : "long"
+                            }
+                          }
+                        },
+                        "publication-date" : {
+                          "properties" : {
+                            "day" : {
+                              "properties" : {
+                                "value" : {
+                                  "type" : "string"
+                                }
+                              }
+                            },
+                            "month" : {
+                              "properties" : {
+                                "value" : {
+                                  "type" : "string"
+                                }
+                              }
+                            },
+                            "year" : {
+                              "properties" : {
+                                "value" : {
+                                  "type" : "string"
+                                }
+                              }
+                            }
+                          }
+                        },
+                        "put-code" : {
+                          "type" : "string"
+                        },
+                        "short-description" : {
+                          "type" : "string"
+                        },
+                        "source" : {
+                          "properties" : {
+                            "source-date" : {
+                              "properties" : {
+                                "value" : {
+                                  "type" : "long"
+                                }
+                              }
+                            },
+                            "source-name" : {
+                              "properties" : {
+                                "value" : {
+                                  "type" : "string"
+                                }
+                              }
+                            },
+                            "source-orcid" : {
+                              "properties" : {
+                                "host" : {
+                                  "type" : "string"
+                                },
+                                "path" : {
+                                  "type" : "string"
+                                },
+                                "uri" : {
+                                  "type" : "string"
+                                }
+                              }
+                            }
+                          }
+                        },
+                        "url" : {
+                          "properties" : {
+                            "value" : {
+                              "type" : "string"
+                            }
+                          }
+                        },
+                        "visibility" : {
+                          "type" : "string"
+                        },
+                        "work-citation" : {
+                          "properties" : {
+                            "citation" : {
+                              "type" : "string"
+                            },
+                            "work-citation-type" : {
+                              "type" : "string"
+                            }
+                          }
+                        },
+                        "work-contributors" : {
+                          "properties" : {
+                            "contributor" : {
+                              "properties" : {
+                                "contributor-attributes" : {
+                                  "properties" : {
+                                    "contributor-role" : {
+                                      "type" : "string"
+                                    },
+                                    "contributor-sequence" : {
+                                      "type" : "string"
+                                    }
+                                  }
+                                },
+                                "contributor-orcid" : {
+                                  "properties" : {
+                                    "host" : {
+                                      "type" : "string"
+                                    },
+                                    "path" : {
+                                      "type" : "string"
+                                    },
+                                    "uri" : {
+                                      "type" : "string"
+                                    }
+                                  }
+                                },
+                                "credit-name" : {
+                                  "properties" : {
+                                    "value" : {
+                                      "type" : "string"
+                                    },
+                                    "visibility" : {
+                                      "type" : "string"
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        },
+                        "work-external-identifiers" : {
+                          "properties" : {
+                            "work-external-identifier" : {
+                              "properties" : {
+                                "work-external-identifier-id" : {
+                                  "properties" : {
+                                    "value" : {
+                                      "type" : "string", "index" : "not_analyzed" 
+                                    }
+                                  }
+                                },
+                                "work-external-identifier-type" : {
+                                  "type" : "string", "index" : "not_analyzed" 
+                                }
+                              }
+                            }
+                          }
+                        },
+                        "work-title" : {
+                          "properties" : {
+                            "subtitle" : {
+                              "properties" : {
+                                "value" : {
+                                  "type" : "string"
+                                }
+                              }
+                            },
+                            "title" : {
+                              "properties" : {
+                                "value" : {
+                                  "type" : "string"
+                                }
+                              }
+                            },
+                            "translated-title" : {
+                              "properties" : {
+                                "language-code" : {
+                                  "type" : "string"
+                                },
+                                "value" : {
+                                  "type" : "string"
+                                }
+                              }
+                            }
+                          }
+                        },
+                        "work-type" : {
+                          "type" : "string"
                         }
                       }
                     }
                   }
                 }
-              },
-              "orcid-bio" : {
-                "properties" : {
-                  "biography" : {
-                    "properties" : {
-                      "value" : {
-                        "type" : "string"
-                      },
-                      "visibility" : {
-                        "type" : "string"
-                      }
-                    }
-                  },
-                  "contact-details" : {
-                    "properties" : {
-                      "address" : {
-                        "properties" : {
-                          "country" : {
-                            "properties" : {
-                              "value" : {
-                                "type" : "string"
-                              },
-                              "visibility" : {
-                                "type" : "string"
-                              }
-                            }
-                          }
-                        }
-                      },
-                      "email" : {
-                        "properties" : {
-                          "current" : {
-                            "type" : "boolean"
-                          },
-                          "primary" : {
-                            "type" : "boolean"
-                          },
-                          "source" : {
-                            "type" : "string"
-                          },
-                          "value" : {
-                            "type" : "string"
-                          },
-                          "verified" : {
-                            "type" : "boolean"
-                          },
-                          "visibility" : {
-                            "type" : "string"
-                          }
-                        }
-                      }
-                    }
-                  },
-                  "external-identifiers" : {
-                    "properties" : {
-                      "external-identifier" : {
-                        "properties" : {
-                          "external-id-common-name" : {
-                            "properties" : {
-                              "value" : {
-                                "type" : "string", "index" : "not_analyzed" 
-                              }
-                            }
-                          },
-                          "external-id-reference" : {
-                            "properties" : {
-                              "value" : {
-                                "type" : "string", "index" : "not_analyzed" 
-                              }
-                            }
-                          },
-                          "external-id-url" : {
-                            "properties" : {
-                              "value" : {
-                                "type" : "string"
-                              }
-                            }
-                          },
-                          "source" : {
-                            "properties" : {
-                              "source-orcid" : {
-                                "properties" : {
-                                  "host" : {
-                                    "type" : "string"
-                                  },
-                                  "path" : {
-                                    "type" : "string"
-                                  },
-                                  "uri" : {
-                                    "type" : "string"
-                                  }
-                                }
-                              }
-                            }
-                          }
-                        }
-                      },
-                      "visibility" : {
-                        "type" : "string"
-                      }
-                    }
-                  },
-                  "keywords" : {
-                    "properties" : {
-                      "keyword" : {
-                        "properties" : {
-                          "value" : {
-                            "type" : "string"
-                          }
-                        }
-                      },
-                      "visibility" : {
-                        "type" : "string"
-                      }
-                    }
-                  },
-                  "personal-details" : {
-                    "properties" : {
-                      "credit-name" : {
-                        "properties" : {
-                          "value" : {
-                            "type" : "string"
-                          },
-                          "visibility" : {
-                            "type" : "string"
-                          }
-                        }
-                      },
-                      "family-name" : {
-                        "properties" : {
-                          "value" : {
-                            "type" : "string"
-                          }
-                        }
-                      },
-                      "given-names" : {
-                        "properties" : {
-                          "value" : {
-                            "type" : "string"
-                          }
-                        }
-                      },
-                      "other-names" : {
-                        "properties" : {
-                          "other-name" : {
-                            "properties" : {
-                              "value" : {
-                                "type" : "string"
-                              }
-                            }
-                          },
-                          "visibility" : {
-                            "type" : "string"
-                          }
-                        }
-                      }
-                    }
-                  },
-                  "researcher-urls" : {
-                    "properties" : {
-                      "researcher-url" : {
-                        "properties" : {
-                          "url" : {
-                            "properties" : {
-                              "value" : {
-                                "type" : "string"
-                              }
-                            }
-                          },
-                          "url-name" : {
-                            "properties" : {
-                              "value" : {
-                                "type" : "string"
-                              }
-                            }
-                          }
-                        }
-                      },
-                      "visibility" : {
-                        "type" : "string"
-                      }
-                    }
-                  }
-                }
-              },
-              "orcid-history" : {
-                "properties" : {
-                  "claimed" : {
-                    "properties" : {
-                      "value" : {
-                        "type" : "boolean"
-                      }
-                    }
-                  },
-                  "completion-date" : {
-                    "properties" : {
-                      "value" : {
-                        "type" : "long"
-                      }
-                    }
-                  },
-                  "creation-method" : {
-                    "type" : "string"
-                  },
-                  "last-modified-date" : {
-                    "properties" : {
-                      "value" : {
-                        "type" : "long"
-                      }
-                    }
-                  },
-                  "submission-date" : {
-                    "properties" : {
-                      "value" : {
-                        "type" : "long"
-                      }
-                    }
-                  },
-                  "verified-email" : {
-                    "properties" : {
-                      "value" : {
-                        "type" : "boolean"
-                      }
-                    }
-                  },
-                  "verified-primary-email" : {
-                    "properties" : {
-                      "value" : {
-                        "type" : "boolean"
-                      }
-                    }
-                  }
-                }
-              },
-              "orcid-identifier" : {
-                "properties" : {
-                  "host" : {
-                    "type" : "string"
-                  },
-                  "path" : {
-                    "type" : "string"
-                  },
-                  "uri" : {
-                    "type" : "string"
-                  }
-                }
-              },
-              "orcid-preferences" : {
-                "properties" : {
-                  "locale" : {
-                    "type" : "string"
-                  }
-                }
-              },
-              "type" : {
-                "type" : "string"
               }
+            },
+            "orcid-bio" : {
+              "properties" : {
+                "biography" : {
+                  "properties" : {
+                    "value" : {
+                      "type" : "string"
+                    },
+                    "visibility" : {
+                      "type" : "string"
+                    }
+                  }
+                },
+                "contact-details" : {
+                  "properties" : {
+                    "address" : {
+                      "properties" : {
+                        "country" : {
+                          "properties" : {
+                            "value" : {
+                              "type" : "string"
+                            },
+                            "visibility" : {
+                              "type" : "string"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "email" : {
+                      "properties" : {
+                        "current" : {
+                          "type" : "boolean"
+                        },
+                        "primary" : {
+                          "type" : "boolean"
+                        },
+                        "source" : {
+                          "type" : "string"
+                        },
+                        "value" : {
+                          "type" : "string"
+                        },
+                        "verified" : {
+                          "type" : "boolean"
+                        },
+                        "visibility" : {
+                          "type" : "string"
+                        }
+                      }
+                    }
+                  }
+                },
+                "external-identifiers" : {
+                  "properties" : {
+                    "external-identifier" : {
+                      "properties" : {
+                        "external-id-common-name" : {
+                          "properties" : {
+                            "value" : {
+                              "type" : "string", "index" : "not_analyzed" 
+                            }
+                          }
+                        },
+                        "external-id-reference" : {
+                          "properties" : {
+                            "value" : {
+                              "type" : "string", "index" : "not_analyzed" 
+                            }
+                          }
+                        },
+                        "external-id-url" : {
+                          "properties" : {
+                            "value" : {
+                              "type" : "string"
+                            }
+                          }
+                        },
+                        "source" : {
+                          "properties" : {
+                            "source-orcid" : {
+                              "properties" : {
+                                "host" : {
+                                  "type" : "string"
+                                },
+                                "path" : {
+                                  "type" : "string"
+                                },
+                                "uri" : {
+                                  "type" : "string"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "visibility" : {
+                      "type" : "string"
+                    }
+                  }
+                },
+                "keywords" : {
+                  "properties" : {
+                    "keyword" : {
+                      "properties" : {
+                        "value" : {
+                          "type" : "string"
+                        }
+                      }
+                    },
+                    "visibility" : {
+                      "type" : "string"
+                    }
+                  }
+                },
+                "personal-details" : {
+                  "properties" : {
+                    "credit-name" : {
+                      "properties" : {
+                        "value" : {
+                          "type" : "string"
+                        },
+                        "visibility" : {
+                          "type" : "string"
+                        }
+                      }
+                    },
+                    "family-name" : {
+                      "properties" : {
+                        "value" : {
+                          "type" : "string"
+                        }
+                      }
+                    },
+                    "given-names" : {
+                      "properties" : {
+                        "value" : {
+                          "type" : "string"
+                        }
+                      }
+                    },
+                    "other-names" : {
+                      "properties" : {
+                        "other-name" : {
+                          "properties" : {
+                            "value" : {
+                              "type" : "string"
+                            }
+                          }
+                        },
+                        "visibility" : {
+                          "type" : "string"
+                        }
+                      }
+                    }
+                  }
+                },
+                "researcher-urls" : {
+                  "properties" : {
+                    "researcher-url" : {
+                      "properties" : {
+                        "url" : {
+                          "properties" : {
+                            "value" : {
+                              "type" : "string"
+                            }
+                          }
+                        },
+                        "url-name" : {
+                          "properties" : {
+                            "value" : {
+                              "type" : "string"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "visibility" : {
+                      "type" : "string"
+                    }
+                  }
+                }
+              }
+            },
+            "orcid-history" : {
+              "properties" : {
+                "claimed" : {
+                  "properties" : {
+                    "value" : {
+                      "type" : "boolean"
+                    }
+                  }
+                },
+                "completion-date" : {
+                  "properties" : {
+                    "value" : {
+                      "type" : "long"
+                    }
+                  }
+                },
+                "creation-method" : {
+                  "type" : "string"
+                },
+                "last-modified-date" : {
+                  "properties" : {
+                    "value" : {
+                      "type" : "long"
+                    }
+                  }
+                },
+                "submission-date" : {
+                  "properties" : {
+                    "value" : {
+                      "type" : "long"
+                    }
+                  }
+                },
+                "verified-email" : {
+                  "properties" : {
+                    "value" : {
+                      "type" : "boolean"
+                    }
+                  }
+                },
+                "verified-primary-email" : {
+                  "properties" : {
+                    "value" : {
+                      "type" : "boolean"
+                    }
+                  }
+                }
+              }
+            },
+            "orcid-identifier" : {
+              "properties" : {
+                "host" : {
+                  "type" : "string"
+                },
+                "path" : {
+                  "type" : "string"
+                },
+                "uri" : {
+                  "type" : "string"
+                }
+              }
+            },
+            "orcid-preferences" : {
+              "properties" : {
+                "locale" : {
+                  "type" : "string"
+                }
+              }
+            },
+            "type" : {
+              "type" : "string"
             }
           }
         }
