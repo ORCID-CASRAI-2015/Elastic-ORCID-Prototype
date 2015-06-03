@@ -115,8 +115,11 @@ note: to stop `control-c` to verify it's running you can open `http://localhost:
         }' 
 
 
+note: Work Identifier has been added as a multifield, so that it is possible to make an exact, as well as, a fuzzy match on it. With type multifield, the work identifier is being stored in 2 different fields, one default(with the name 'value') and the other with non-analyzed index(with the name 'value-exact'). The insert however is only made for the default index. ElasticSearch takes care of the rest(Check mapping and input files for reference).
+
 * Match by work identifier exact value 
 
+        # To make an exact match, the 'term' keyword should be used. Also notice the use of 'value-exact'
         curl -XGET 'http://localhost:9200/record/_search?pretty=true' -d '
         {
 	   "query" : {
@@ -127,7 +130,8 @@ note: to stop `control-c` to verify it's running you can open `http://localhost:
         }'
         
 * Match by work identifier fuzzy value 
-
+	
+        # To make a fuzzy match, the 'match' keyword should be used.
         curl -XGET 'http://localhost:9200/record/_search?pretty=true' -d '
         {
 	   "query" : {
