@@ -122,24 +122,25 @@ note: Work Identifier has been added as a multifield, so that it is possible to 
         # To make an exact match, the 'term' keyword should be used. Also notice the use of 'value-exact'
         curl -XGET 'http://localhost:9200/record/_search?pretty=true' -d '
         {
-	   "query" : {
+        "query" : {
 	        "term" : {
 		    "orcid-profile.orcid-activities.orcid-works.orcid-work.work-external-identifiers.work-external-identifier.work-external-identifier-id.value.value-exact" : "US 20120209644 A1"
 		}
-	    }
-        }'
+	    }}'
+	   
         
 * Match by work identifier fuzzy value 
 	
         # To make a fuzzy match, the 'match' keyword should be used.
         curl -XGET 'http://localhost:9200/record/_search?pretty=true' -d '
         {
-	   "query" : {
+ 	    "query" : {
 	        "match" : {
 		    "orcid-profile.orcid-activities.orcid-works.orcid-work.work-external-identifiers.work-external-identifier.work-external-identifier-id.value" : "US 20120209644 A1"
 		}
-	    }
-        }'
+	    }}'
+	
+	  
 
 * Match by work identifier value and type
 
