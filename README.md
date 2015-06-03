@@ -81,7 +81,7 @@ note: to stop `control-c` to verify it's running you can open `http://localhost:
         curl -XGET 'http://localhost:9200/record/_search?pretty=true' -d '
         { 
            "query" : { 
-             "match" : { "orcid-profile.orcid-bio.personal-details.given-names.value":"alice" }
+              "match" : { "orcid-profile.orcid-bio.personal-details.given-names.value":"alice" }
            } 
         }'
 
@@ -91,7 +91,7 @@ note: to stop `control-c` to verify it's running you can open `http://localhost:
         curl -XGET 'http://localhost:9200/record/_search?pretty=true' -d '
         { 
            "query" : { 
-             "match" : { "orcid-profile.orcid-bio.personal-details.given-names.value":"alice" }
+              "term" : { "orcid-profile.orcid-bio.personal-details.given-names.value":"alice" }
            } 
         }'
 
@@ -100,8 +100,8 @@ note: to stop `control-c` to verify it's running you can open `http://localhost:
         curl -XGET 'http://localhost:9200/record/_search?pretty=true' -d '
         { 
            "query" : { 
-            "match" : { "orcid-profile.orcid-activities.affiliations.affiliation.organization.name":"orcid" }
-        	} 
+               "match" : { "orcid-profile.orcid-activities.affiliations.affiliation.organization.name":"orcid" }
+           } 
         }' 
 
 
@@ -110,26 +110,32 @@ note: to stop `control-c` to verify it's running you can open `http://localhost:
         curl -XGET 'http://localhost:9200/record/_search?pretty=true' -d '
         { 
            "query" : { 
-            "term" : { "orcid-profile.orcid-activities.affiliations.affiliation.organization.name":"orcid" }
-        	} 
+                "term" : { "orcid-profile.orcid-activities.affiliations.affiliation.organization.name":"orcid" }
+           } 
         }' 
 
 
-* Match by work identifier value 
+* Match by work identifier exact value 
 
         curl -XGET 'http://localhost:9200/record/_search?pretty=true' -d '
         {
-            "query" : {
-                "filtered" : {
-                     "filter" : {
-                        "term" : {
-                            "orcid-profile.orcid-activities.orcid-works.orcid-work.work-external-identifiers.work-external-identifier.work-external-identifier-id.value" : "US 20120209644 A1"
-                        }
-                    }
-                }
-            }
-        }' 
+	   "query" : {
+	        "term" : {
+		    "orcid-profile.orcid-activities.orcid-works.orcid-work.work-external-identifiers.work-external-identifier.work-external-identifier-id.value.value-exact" : "US 20120209644 A1"
+		}
+	    }
+        }'
+        
+* Match by work identifier fuzzy value 
 
+        curl -XGET 'http://localhost:9200/record/_search?pretty=true' -d '
+        {
+	   "query" : {
+	        "match" : {
+		    "orcid-profile.orcid-activities.orcid-works.orcid-work.work-external-identifiers.work-external-identifier.work-external-identifier-id.value" : "US 20120209644 A1"
+		}
+	    }
+        }'
 
 * Match by work identifier value and type
 
