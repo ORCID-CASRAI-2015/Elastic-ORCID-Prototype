@@ -1,0 +1,163 @@
+{
+	"record" : {
+		"client-type" : null,
+		"group-type" : null,
+		"record-type" : null,
+		"orcid-identifier" : null,
+		"deprecated" : null,
+		"preferences" : null,
+		"history" : null,
+		"person" : null,
+		"activities" : {
+			"activities-summary" : {
+				"educations" : {
+					"education-summary" : {
+						"put-code" : "21",
+						"visibility" : "PUBLIC",
+						"created-date" : 1434378761401,
+						"last-modified-date" : null,
+						"source" : {
+							"source-orcid" : {
+								"uri" : "http://orcid.org/0000-0001-5109-3705",
+								"path" : "0000-0001-5109-3705",
+								"host" : "orcid.org"
+							},
+							"source-name" : "User 5"
+						},
+						"department-name" : "Test Department 5",
+						"role-title" : "Test Role 5",
+						"start-date" : null,
+						"end-date" : null,
+						"organization" : {
+							"name" : "Stanford University School of Medicine",
+							"address" : {
+							"city" : "Stanford",
+							"region" : "California",
+							"country" : "US"
+						},
+						"disambiguated-organization" : null
+						}
+					}
+				},
+				"employments" : {
+					"employment-summary" : {
+						"put-code" : 22,
+						"visibility" : "PUBLIC",
+						"created-date" : 1434379231544,
+						"last-modified-date" : 1434379243927,
+						"source" : {
+							"source-orcid" : {
+								"uri" : "http://orcid.org/0000-0001-5109-3705",
+								"path" : "0000-0001-5109-3705",
+								"host" : "orcid.org"
+							},
+							"source-name" : "User 5"
+						},
+						"department-name" : "",
+						"role-title" : null,
+						"start-date" : {
+							"year" : "2012",
+							"month" : "04",
+							"day" : "09"
+						},
+						"end-date" : null,
+						"organization" : {
+							"name" : "ORCID",
+							"address" : {
+								"city" : "Bethesda",
+								"region" : null,
+								"country" : "US"
+							},
+							"disambiguated-organization" : null
+						}
+					}
+				},
+				"fundings" : {
+					"group" : {
+						"identifiers" : {
+							"identifier" : {
+								"external-identifier-type" : "DOI",
+								"external-identifier-id" : "Test External Identifier Id 5"
+							}
+						},
+						"summary" : {
+							"put-code" : "23",
+							"visibility" : "PUBLIC",
+							"created-date" : 1434379896777,
+							"last-modified-date" : null,
+							"source" : {
+								"source-orcid" : {
+									"uri" : "http://orcid.org/0000-0001-5109-3705",
+									"path" : "0000-0001-5109-3705",
+									"host" : "orcid.org"
+								},
+								"source-name" : "User 5"
+							},
+							"title" : {
+								"value" : "Test Funding 5",
+								"translated-title" : {
+									"language-code" : "EN",
+									"value" : "Translated Title Funding 5"
+								}
+							},
+							"external-identifiers" : null,
+							"funding-type" : "GRANT",
+							"start-date" : {
+								"year" : "2013",
+								"month" : "02",
+								"day" : 27
+							},
+							"end-date" : {
+								"year" : "2014",
+								"month" : "01",
+								"day" : "10"
+							}
+						}
+					}
+				},
+				"works" : {
+					"group" : {
+						"identifiers" : {
+							"identifier" : {
+								"external-identifier-type" : "DOI",
+								"external-identifier-id" : "Test External Identifier Id 5"
+							}
+						},
+						"work-summary" : {
+							"put-code" : "24",
+							"visibility" : "PUBLIC",
+							"created-date" : 1434382462075,
+							"last-modified-date" : null,
+							"source" : {
+								"source-orcid" : {
+									"uri" : "http://orcid.org/0000-0001-5109-3705",
+									"path" : "0000-0001-5109-3705",
+									"host" : "orcid.org"
+								},
+								"source-name" : "User 5"
+							},
+							"title" : {
+								"value" : "Test Work 5",
+								"sub-title" : "Test Work Subtitle 5",
+								"translated-title" : {
+									"language-code" : "EN",
+									"value" : "Translated Test Work 5"
+								  }
+								}
+							  }
+							},
+							"external-identifiers" : null,
+							"work-type" : "DATA_SET",
+							"publication-date" : {
+								"year" : "2014",
+								"month" : "11",
+								"day" : "25"
+							}
+						}
+					}
+				}
+			}
+		},
+		"internal" : null
+	}
+}

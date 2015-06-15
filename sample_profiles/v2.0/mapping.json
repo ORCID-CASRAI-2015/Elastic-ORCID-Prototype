@@ -1,0 +1,1001 @@
+{
+  "mappings" : {
+	"orcid_v2.0" : {
+	  "properties" : {
+		"record" : {
+		  "properties" : {
+		    "client-type" : {
+			  "type" : "string", "index" : "not_analyzed"
+			},
+			"group-type" : {
+			  "type" : "string", "index" : "not_analyzed"
+			},
+			"record-type" : {
+			  "type" : "string", "index" : "not_analyzed"
+			},
+			"orcid-identifier" : {
+			  "properties" : {
+			    "uri" : {
+				  "type" : "string",
+				  "fields": {
+					"uri-exact": { "type": "string", "index": "not_analyzed" }
+				  }
+				},
+				"path" : {
+				  "type" : "string"
+				},
+				"host" : {
+				  "type" : "string"
+				}
+			  }
+			},
+			"deprecated" : {
+			  "properties" : {
+			    "deprecated-date" : {
+				  "type" : "long"
+				},
+				"primary-record" : {
+				  "properties" : {
+				    "orcid-identifier" : {
+					  "properties" : {
+						"uri" : {
+						  "type" : "string",
+						  "fields": {
+							"uri-exact": { "type": "string", "index": "not_analyzed" }
+						  }
+						},
+						"path" : {
+						  "type" : "string"
+						},
+						"host" : {
+						  "type" : "string"
+						}
+					  }
+					}
+				  }
+				}
+			  }
+			},
+			"preferences" : {
+			  "properties" : {
+			    "locale" : {
+				  "type" : "string", "index" : "not_analyzed"
+				}
+			  }
+			},
+			"history" : {
+			  "properties" : {
+			    "visibility" : {
+				  "type" : "string", "index" : "not_analyzed"
+				},
+				"creation-method" : {
+				  "type" : "string", "index" : "not_analyzed"
+				},
+				"completion-date" : {
+				  "type" : "long"
+				},
+				"submission-date" : {
+				  "type" : "long"
+				},
+				"last-modified-date" : {
+				  "type" : "long"
+				},
+				"claimed" : {
+				  "type" : "boolean"
+				},
+				"source" : {
+				  "properties" : {
+					"source-orcid" : {
+					  "properties" : {
+					    "uri" : {
+						  "type" : "string",
+						  "fields": {
+							"uri-exact": { "type": "string", "index": "not_analyzed" }
+						  }
+						},
+						"path" : {
+						  "type" : "string"
+						},
+						"host" : {
+						  "type" : "string"
+						}
+					  }
+					},
+				    "source-name" : {
+					  "type" : "string"
+					}
+				  }
+				},
+				"deactivation-date" : {
+				  "type" : "long"
+				},
+				"verified-email" : {
+				  "type" : "boolean"
+				},
+				"verified-primary-email" : {
+				  "type" : "boolean"
+				}
+			  }
+			},
+			"person" : {
+			  "properties" : {
+			    "personal-details" : {
+				  "properties" : {
+					"given-names" : {
+					  "type" : "string"
+					},
+					"family-name" : {
+					  "type" : "string"
+					},
+					"credit-name" : {
+					  "type" : "string"
+					},
+					"other-names" : {
+					  "properties" : {
+					    "visibility" : {
+						  "type" : "string", "index" : "not_analyzed"
+					    },
+						"other-name" : {
+						  "type" : "string"
+					    }
+					  }
+					}
+				  }
+				},
+				"biography" : {
+				  "properties" : {
+				    "visibility" : {
+					  "type" : "string", "index" : "not_analyzed"
+					},
+					"value" : {
+					  "type" : "string"
+					}
+				  }
+				},
+				"researcher-urls" : {
+				  "properties" : {
+					"visibility" : {
+					  "type" : "string", "index" : "not_analyzed"
+					},
+				    "researcher-url" : {
+					  "properties" : {
+						"url-name" : {
+						  "type" : "string"
+						},
+						"url" : {
+						  "type" : "string",
+						  "fields": {
+							"url-exact": { "type": "string", "index": "not_analyzed" }
+						  }
+						}
+					  }
+					}
+				  }
+				},
+				"contact-details" : {
+				  "properties" : {
+				    "email" : {
+					  "properties" : {
+					    "current" : {
+						  "type" : "boolean"
+						},
+						"primary" : {
+						  "type" : "boolean"
+						},
+						"source" : {
+						  "type" : "string",
+						  "fields": {
+							"source-exact": { "type": "string", "index": "not_analyzed" }
+						  }
+						},
+						"source-client-id" : {
+						  "type" : "string",
+						  "fields": {
+							"source-client-id-exact": { "type": "string", "index": "not_analyzed" }
+						  }
+						},
+						"verified" : {
+						  "type" : "boolean"
+						},
+						"visibility" : {
+						  "type" : "string", "index" : "not_analyzed"
+						},
+						"value" : {
+						  "type" : "string"
+						}
+					  }
+					},
+					"address" : {
+					  "properties" : {
+					    "country" : {
+						  "properties" : {
+						    "visibility" : {
+							  "type" : "string", "index" : "not_analyzed"
+							},
+							"value" : {
+							  "type" : "string", "index" : "not_analyzed"
+							}
+						  }
+						}
+					  }
+					}
+				  }
+				},
+				"keywords" : {
+				  "properties" : {
+				    "visibility" : {
+					  "type" : "string", "index" : "not_analyzed"
+					},
+					"keyword" : {
+					  "properties" : {
+					    "value" : {
+						  "type" : "string"
+						}
+					  }
+					}
+				  }
+				},
+				"external-identifiers" : {
+				  "properties" : {
+				    "visibility" : {
+					  "type" : "string", "index" : "not_analyzed"
+					},
+					"external-identifier" : {
+					  "properties" : {
+					    "external-id-common-name" : {
+						  "type" : "string"
+						},
+						"external-id-reference" : {
+						  "type" : "string"
+						},
+						"external-id-url" : {
+						  "type" : "string",
+						  "fields": {
+							"external-id-url-exact": { "type": "string", "index": "not_analyzed" }
+						  }
+						},
+						"source" : {
+						  "properties" : {
+							"source-orcid" : {
+							  "properties" : {
+								"uri" : {
+								  "type" : "string",
+								  "fields": {
+									"uri-exact": { "type": "string", "index": "not_analyzed" }
+								  }
+								},
+								"path" : {
+								  "type" : "string"
+								},
+								"host" : {
+								  "type" : "string"
+								}
+							  }
+							},
+							"source-name" : {
+							  "type" : "string"
+							}
+						  }
+						}
+					  }
+					}
+				  }
+				},
+				"delegation" : {
+				  "properties" : {
+				    "visibility" : {
+				      "type" : "string", "index" : "not_analyzed"
+				    },
+					"given-permission-to" : {
+				      "properties" : {
+					    "delegation-details" : {
+						  "properties" : {
+						    "approval-date" : {
+						      "type" : "long"
+						    },
+							"delegate-summary" : {
+						      "properties" : {
+							    "orcid-identifier" : {
+							      "properties" : {
+									"uri" : {
+									  "type" : "string",
+									  "fields": {
+										"uri-exact": { "type": "string", "index": "not_analyzed" }
+									  }
+									},
+									"path" : {
+									  "type" : "string"
+									},
+									"host" : {
+									  "type" : "string"
+									}
+								  }
+							    },
+								"last-modified-date" : {
+							      "type" : "long"
+							    },
+								"credit-name" : {
+							      "properties" : {
+								    "visibility" : {
+									  "type" : "string", "index" : "not_analyzed"
+									},
+									"value" : {
+									  "type" : "string"
+									}
+								  }
+							    }
+							  }
+						    }
+						  }
+						}
+					  }
+				    },
+					"given-permission-by" : {
+				      "properties" : {
+					    "delegation-details" : {
+						  "properties" : {
+						    "approval-date" : {
+						      "type" : "long"
+						    },
+							"delegate-summary" : {
+						      "properties" : {
+							    "orcid-identifier" : {
+							      "properties" : {
+									"uri" : {
+									  "type" : "string",
+									  "fields": {
+										"uri-exact": { "type": "string", "index": "not_analyzed" }
+									  }
+									},
+									"path" : {
+									  "type" : "string"
+									},
+									"host" : {
+									  "type" : "string"
+									}
+								  }
+							    },
+								"last-modified-date" : {
+							      "type" : "long"
+							    },
+								"credit-name" : {
+							      "properties" : {
+								    "visibility" : {
+									  "type" : "string", "index" : "not_analyzed"
+									},
+									"value" : {
+									  "type" : "string"
+									}
+								  }
+							    }
+							  }
+						    }
+						  }
+						}
+					  }
+				    }
+				  }
+				},
+				"applications" : {
+				  "properties" : {
+				    "visibility" : {
+				      "type" : "string", "index" : "not_analyzed"
+				    },
+					"application-summary" : {
+				      "properties" : {
+					    "application-orcid" : {
+						  "properties" : {
+							"uri" : {
+							  "type" : "string",
+							  "fields": {
+								"uri-exact": { "type": "string", "index": "not_analyzed" }
+							  }
+							},
+							"path" : {
+							  "type" : "string"
+							},
+							"host" : {
+							  "type" : "string"
+							}
+						  }
+						},
+						"application-name" : {
+						  "type" : "string"
+						},
+						"application-website" : {
+						  "type" : "string"
+						},
+						"approval-date" : {
+						  "type" : "long"
+						},
+						"scope-paths" : {
+						  "properties" : {
+							"scope-path" : {
+							  "type" : "string", "index" : "not_analyzed"
+							}
+						  }
+						},
+						"application-group-orcid" : {
+						  "properties" : {
+							"uri" : {
+							  "type" : "string",
+							  "fields": {
+								"uri-exact": { "type": "string", "index": "not_analyzed" }
+							  }
+							},
+							"path" : {
+							  "type" : "string"
+							},
+							"host" : {
+							  "type" : "string"
+							}
+						  }
+						},
+						"application-group-name" : {
+						  "type" : "string"
+						}
+					  }
+				    }
+				  }
+				}
+			  }
+			},
+			"activities" : {
+			  "properties" : {
+			    "activities-summary" : {
+				  "properties" : {
+					"educations" : {
+					  "properties" : {
+					    "education-summary" : {
+						  "properties" : {
+						    "put-code" : {
+						      "type" : "string"
+						    },
+							"visibility" : {
+						      "type" : "string", "index" : "not_analyzed"
+						    },
+							"created-date" : {
+						      "type" : "long"
+						    },
+							"last-modified-date" : {
+						      "type" : "long"
+						    },
+							"source" : {
+						      "properties" : {
+								"source-orcid" : {
+								  "properties" : {
+									"uri" : {
+									  "type" : "string",
+									  "fields": {
+										"uri-exact": { "type": "string", "index": "not_analyzed" }
+									  }
+									},
+									"path" : {
+									  "type" : "string"
+									},
+									"host" : {
+									  "type" : "string"
+									}
+								  }
+								},
+								"source-name" : {
+								  "type" : "string"
+								}
+							  }
+						    },
+							"department-name" : {
+						      "type" : "string"
+						    },
+							"role-title" : {
+						      "type" : "string"
+						    },
+							"start-date" : {
+						      "properties" : {
+							    "year" : {
+						          "type" : "string"
+								},
+								"month" : {
+								  "type" : "string"
+								},
+								"day" : {
+								  "type" : "string"
+								}
+							  }
+						    },
+							"end-date" : {
+						      "properties" : {
+							    "year" : {
+						          "type" : "string"
+								},
+								"month" : {
+								  "type" : "string"
+								},
+								"day" : {
+								  "type" : "string"
+								}
+							  }
+						    },
+							"organization" : {
+						      "properties" : {
+							    "name" : {
+						          "type" : "string"
+								},
+								"address" : {
+								  "properties" : {
+									"city" : {
+									  "type" : "string"
+									},
+									"region" : {
+									  "type" : "string"
+									},
+									"country" : {
+									  "type" : "string", "index" : "not_analyzed"
+									}
+								  }
+								},
+								"disambiguated-organization" : {
+								  "properties" : {
+									"disambiguated-organization-identifier" : {
+									  "type" : "string",
+									  "fields": {
+										"disambiguated-organization-identifier-exact": { "type": "string", "index": "not_analyzed" }
+									  }
+									},
+									"disambiguated-source" : {
+									  "type" : "string",
+									  "fields": {
+										"disambiguated-source-exact": { "type": "string", "index": "not_analyzed" }
+									  }
+									}
+								  }
+								}
+							  }
+						    }
+						  }
+						}
+					  }
+					},
+					"employments" : {
+					  "properties" : {
+					    "employment-summary" : {
+						  "properties" : {
+						    "put-code" : {
+						      "type" : "string"
+						    },
+							"visibility" : {
+						      "type" : "string", "index" : "not_analyzed"
+						    },
+							"created-date" : {
+						      "type" : "long"
+						    },
+							"last-modified-date" : {
+						      "type" : "long"
+						    },
+							"source" : {
+						      "properties" : {
+								"source-orcid" : {
+								  "properties" : {
+									"uri" : {
+									  "type" : "string",
+									  "fields": {
+										"uri-exact": { "type": "string", "index": "not_analyzed" }
+									  }
+									},
+									"path" : {
+									  "type" : "string"
+									},
+									"host" : {
+									  "type" : "string"
+									}
+								  }
+								},
+								"source-name" : {
+								  "type" : "string"
+								}
+							  }
+						    },
+							"department-name" : {
+						      "type" : "string"
+						    },
+							"role-title" : {
+						      "type" : "string"
+						    },
+							"start-date" : {
+						      "properties" : {
+							    "year" : {
+						          "type" : "string"
+								},
+								"month" : {
+								  "type" : "string"
+								},
+								"day" : {
+								  "type" : "string"
+								}
+							  }
+						    },
+							"end-date" : {
+						      "properties" : {
+							    "year" : {
+						          "type" : "string"
+								},
+								"month" : {
+								  "type" : "string"
+								},
+								"day" : {
+								  "type" : "string"
+								}
+							  }
+						    },
+							"organization" : {
+						      "properties" : {
+							    "name" : {
+						          "type" : "string"
+								},
+								"address" : {
+								  "properties" : {
+									"city" : {
+									  "type" : "string"
+									},
+									"region" : {
+									  "type" : "string"
+									},
+									"country" : {
+									  "type" : "string", "index" : "not_analyzed"
+									}
+								  }
+								},
+								"disambiguated-organization" : {
+								  "properties" : {
+									"disambiguated-organization-identifier" : {
+									  "type" : "string",
+									  "fields": {
+										"disambiguated-organization-identifier-exact": { "type": "string", "index": "not_analyzed" }
+									  }
+									},
+									"disambiguated-source" : {
+									  "type" : "string",
+									  "fields": {
+										"disambiguated-source-exact": { "type": "string", "index": "not_analyzed" }
+									  }
+									}
+								  }
+								}
+							  }
+						    }
+						  }
+						}
+					  }
+					},
+					"fundings" : {
+					  "properties" : {
+					    "group" : {
+						  "properties" : {
+						    "identifiers" : {
+							  "properties" : {
+							    "identifier" : {
+								  "properties" : {
+									"external-identifier-type" : {
+									  "type" : "string"
+									},
+									"external-identifier-id" : {
+									  "type" : "string",
+									  "fields": {
+										"external-identifier-id-exact": { "type": "string", "index": "not_analyzed" }
+									  }
+									}
+								  }
+								}
+							  }
+							},
+							"summary" : {
+							  "properties" : {
+								"put-code" : {
+								  "type" : "string"
+								},
+								"visibility" : {
+								  "type" : "string", "index" : "not_analyzed"
+								},
+								"created-date" : {
+								  "type" : "long"
+								},
+								"last-modified-date" : {
+								  "type" : "long"
+								},
+								"source" : {
+								  "properties" : {
+									"source-orcid" : {
+									  "properties" : {
+										"uri" : {
+										  "type" : "string",
+										  "fields": {
+											"uri-exact": { "type": "string", "index": "not_analyzed" }
+										  }
+										},
+										"path" : {
+										  "type" : "string"
+										},
+										"host" : {
+										  "type" : "string"
+										}
+									  }
+									},
+									"source-name" : {
+									  "type" : "string"
+									}
+								  }
+								},
+								"title" : {
+								  "properties" : {
+								    "value" : {
+									  "type" : "string"
+									},
+									"translated-title" : {
+									  "properties" : {
+										"language-code" : {
+										  "type" : "string", "index" : "not_analyzed"
+										},
+										"value" : {
+										  "type" : "string"
+										}
+									  }
+									}
+								  }
+								},
+								"external-identifiers" : {
+								  "properties" : {
+									"external-identifier" : {
+									  "properties" : {
+										"external-identifier-type" : {
+										  "type" : "string", "index" : "not_analyzed"
+										},
+										"external-identifier-value" : {
+										  "type" : "string",
+										  "fields": {
+											"external-identifier-value-exact": { "type": "string", "index": "not_analyzed" }
+										  }
+										},
+										"external-identifier-url" : {
+										  "type" : "string",
+										  "fields": {
+											"external-identifier-url-exact": { "type": "string", "index": "not_analyzed" }
+										  }
+										}
+									  }
+									}
+								  }
+								},
+								"funding-type" : {
+								  "type" : "string", "index" : "not_analyzed"
+								},
+								"start-date" : {
+								  "properties" : {
+									"year" : {
+									  "type" : "string"
+									},
+									"month" : {
+									  "type" : "string"
+									},
+									"day" : {
+									  "type" : "string"
+									}
+								  }
+								},
+								"end-date" : {
+								  "properties" : {
+									"year" : {
+									  "type" : "string"
+									},
+									"month" : {
+									  "type" : "string"
+									},
+									"day" : {
+									  "type" : "string"
+									}
+								  }
+								}
+							  }
+							}
+						  }
+						}
+					  }
+					},
+					"works" : {
+					  "properties" : {
+					    "group" : {
+						  "properties" : {
+						    "identifiers" : {
+							  "properties" : {
+							    "identifier" : {
+								  "properties" : {
+									"external-identifier-type" : {
+									  "type" : "string"
+									},
+									"external-identifier-id" : {
+									  "type" : "string",
+									  "fields": {
+										"external-identifier-id-exact": { "type": "string", "index": "not_analyzed" }
+									  }
+									}
+								  }
+								}
+							  }
+							},
+							"work-summary" : {
+							  "properties" : {
+								"put-code" : {
+								  "type" : "string"
+								},
+								"visibility" : {
+								  "type" : "string", "index" : "not_analyzed"
+								},
+								"created-date" : {
+								  "type" : "long"
+								},
+								"last-modified-date" : {
+								  "type" : "long"
+								},
+								"source" : {
+								  "properties" : {
+									"source-orcid" : {
+									  "properties" : {
+										"uri" : {
+										  "type" : "string",
+										  "fields": {
+											"uri-exact": { "type": "string", "index": "not_analyzed" }
+										  }
+										},
+										"path" : {
+										  "type" : "string"
+										},
+										"host" : {
+										  "type" : "string"
+										}
+									  }
+									},
+									"source-name" : {
+									  "type" : "string"
+									}
+								  }
+								},
+								"title" : {
+								  "properties" : {
+								    "value" : {
+									  "type" : "string"
+									},
+									"sub-title" : {
+									  "type" : "string"
+									},
+									"translated-title" : {
+									  "properties" : {
+										"language-code" : {
+										  "type" : "string", "index" : "not_analyzed"
+										},
+										"value" : {
+										  "type" : "string"
+										}
+									  }
+									}
+								  }
+								},
+								"external-identifiers" : {
+								  "properties" : {
+									"work-external-identifier" : {
+									  "properties" : {
+										"external-identifier-type" : {
+										  "type" : "string", "index" : "not_analyzed"
+										},
+										"external-identifier-id" : {
+										  "type" : "string",
+										  "fields": {
+											"external-identifier-id-exact": { "type": "string", "index": "not_analyzed" }
+										  }
+										}
+									  }
+									}
+								  }
+								},
+								"work-type" : {
+								  "type" : "string", "index" : "not_analyzed"
+								},
+								"publication-date" : {
+								  "properties" : {
+									"year" : {
+									  "type" : "string"
+									},
+									"month" : {
+									  "type" : "string"
+									},
+									"day" : {
+									  "type" : "string"
+									}
+								  }
+								}
+							  }
+							}
+						  }
+						}
+					  }
+					}
+				  }
+				}
+			  }
+			},
+			"internal" : {
+			  "properties" : {
+			    "visibility" : {
+			      "type" : "string", "index" : "not_analyzed"
+			    },
+				"security-details" : {
+			      "properties" : {
+				    "encrypted-password" : {
+					  "type" : "string"
+					},
+					"security-question-id" : {
+					  "type" : "string",
+					  "fields": {
+						"security-question-id-exact": { "type": "string", "index": "not_analyzed" }
+					  }
+					},
+					"encrypted-security-answer" : {
+					  "type" : "string"
+					},
+					"encrypted-verification-code" : {
+					  "type" : "string"
+					}
+				  }
+			    },
+				"preferences" : {
+			      "properties" : {
+				    "send-email-frequency-days" : {
+					  "type" : "string"
+					},
+					"send-change-notifications" : {
+					  "type" : "boolean"
+					},
+					"send-orcid-news" : {
+					  "type" : "boolean"
+					},
+					"send-member-update-requests" : {
+					  "type" : "boolean"
+					},
+					"activities-visibility-default" : {
+					  "type" : "string", "index" : "not_analyzed"
+					},
+					"developer-tools-enabled" : {
+					  "type" : "boolean"
+					}
+				  }
+			    },
+				"group-orcid-identifier" : {
+			      "properties" : {
+					"uri" : {
+					  "type" : "string",
+					  "fields": {
+						"uri-exact": { "type": "string", "index": "not_analyzed" }
+					  }
+					},
+					"path" : {
+					  "type" : "string"
+					},
+					"host" : {
+					  "type" : "string"
+					}
+				  }
+			    },
+				"referred-by" : {
+			      "type" : "string"
+			    },
+				"salesforce-id" : {
+			      "type" : "string",
+				  "fields": {
+					"salesforce-id-exact": { "type": "string", "index": "not_analyzed" }
+				  }
+			    }
+			  }
+			}
+		  }
+		} 
+	  }
+	}
+  }
+}
