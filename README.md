@@ -32,13 +32,15 @@ note: to stop `control-c` to verify it's running you can open `http://localhost:
         
 * Clean solr instance and populate with sample data
 
-        # Delete existing index
+        # Delete existing index(we will use index names 'record' for Orcid ver 1.2x and 'record_v2.0' for Orcid ver 2.0x)
         curl -XDELETE http://localhost:9200/record
+		curl -XDELETE http://localhost:9200/record_v2.0
 
         # Upload mappings for indexes
         curl -XPUT http://localhost:9200/record --upload-file sample_profiles/mapping.json
+		curl -XPUT http://localhost:9200/record_v2.0 --upload-file sample_profiles/v2.0/mapping.json
 
-        # Add json documents        
+        # Add json documents		
         curl -XPUT http://localhost:9200/record/orcid_v1.2/0000-0001-5109-3700 --upload-file sample_profiles/0000-0001-5109-3700.orcid.json
         curl -XPUT http://localhost:9200/record/orcid_v1.2/0000-0001-6622-4910 --upload-file sample_profiles/0000-0001-6622-4910.orcid.json
         curl -XPUT http://localhost:9200/record/orcid_v1.2/0000-0001-7234-3684 --upload-file sample_profiles/0000-0001-7234-3684.orcid.json
@@ -52,31 +54,52 @@ note: to stop `control-c` to verify it's running you can open `http://localhost:
         curl -XPUT http://localhost:9200/record/orcid_v1.2/0000-0003-3188-6273 --upload-file sample_profiles/0000-0003-3188-6273.orcid.json
         curl -XPUT http://localhost:9200/record/orcid_v1.2/0000-0003-3600-9288 --upload-file sample_profiles/0000-0003-3600-9288.orcid.json
         curl -XPUT http://localhost:9200/record/orcid_v1.2/0000-0003-4654-1403 --upload-file sample_profiles/0000-0003-4654-1403.orcid.json
+		
+		curl -XPUT http://localhost:9200/record_v2.0/orcid_v2.0/1 --upload-file sample_profiles/v2.0/1.json
+		curl -XPUT http://localhost:9200/record_v2.0/orcid_v2.0/2 --upload-file sample_profiles/v2.0/2.json
+		curl -XPUT http://localhost:9200/record_v2.0/orcid_v2.0/3 --upload-file sample_profiles/v2.0/3.json
+		curl -XPUT http://localhost:9200/record_v2.0/orcid_v2.0/4 --upload-file sample_profiles/v2.0/4.json
+		curl -XPUT http://localhost:9200/record_v2.0/orcid_v2.0/5 --upload-file sample_profiles/v2.0/5.json
+		curl -XPUT http://localhost:9200/record_v2.0/orcid_v2.0/6 --upload-file sample_profiles/v2.0/6.json
+		curl -XPUT http://localhost:9200/record_v2.0/orcid_v2.0/7 --upload-file sample_profiles/v2.0/7.json
+		curl -XPUT http://localhost:9200/record_v2.0/orcid_v2.0/8 --upload-file sample_profiles/v2.0/8.json
+		
+		
 
-* finally inspect the index model ElasticSearch created
+* finally inspect the indexes model ElasticSearch created
 
         curl  http://localhost:9200/record?pretty
+		curl  http://localhost:9200/record_v2.0?pretty
         
 ### Sample queries (and proof this is easier)
 
 * Retrieve record
 
         curl http://localhost:9200/record/orcid_v1.2/0000-0001-6622-4910
+        curl http://localhost:9200/record_v2.0/orcid_v2.0/1
 
 * Simple count
 
         curl http://localhost:9200/record/_count?pretty
+        curl http://localhost:9200/record_v2.0/_count?pretty
         
 * Retrieve all 
 
         curl -XGET 'http://localhost:9200/record/_search?pretty=true' -d '
         {
+        "query" : { 
+             "match_all" : {} 
+           }
+        }'
+
+		curl -XGET 'http://localhost:9200/record_v2.0/_search?pretty=true' -d '
+        {
        	"query" : { 
              "match_all" : {} 
            }
-        }'        
+        }'
         
-* Match by given name
+* Match by a phrase
 
         curl -XGET 'http://localhost:9200/record/_search?pretty=true' -d '
         { 
@@ -84,16 +107,14 @@ note: to stop `control-c` to verify it's running you can open `http://localhost:
               "match" : { "orcid-profile.orcid-bio.personal-details.given-names.value":"alice" }
            } 
         }'
-
-
-* Match by given name
- 
-        curl -XGET 'http://localhost:9200/record/_search?pretty=true' -d '
+		
+		curl -XGET 'http://localhost:9200/record_v2.0/_search?pretty=true' -d '
         { 
            "query" : { 
-              "term" : { "orcid-profile.orcid-bio.personal-details.given-names.value":"alice" }
+              "match" : { "record.activities.activities-summary.educations.education-summary.department-name":"Neurosciences" }
            } 
         }'
+
 
 * Match by organization name of affiliation 
 
@@ -102,20 +123,17 @@ note: to stop `control-c` to verify it's running you can open `http://localhost:
            "query" : { 
                "match" : { "orcid-profile.orcid-activities.affiliations.affiliation.organization.name":"orcid" }
            } 
-        }' 
-
-
-* Match by organization name of affiliation 
-
-        curl -XGET 'http://localhost:9200/record/_search?pretty=true' -d '
+        }'
+		
+		curl -XGET 'http://localhost:9200/record_v2.0/_search?pretty=true' -d '
         { 
            "query" : { 
-                "term" : { "orcid-profile.orcid-activities.affiliations.affiliation.organization.name":"orcid" }
+               "match" : { "record.activities.activities-summary.educations.education-summary.organization.name":"Stanford" }
            } 
-        }' 
+        }'
 
 
-note: Work Identifier has been added as a multifield, so that it is possible to make an exact, as well as, a fuzzy match on it. With type multifield, the work identifier is being stored in 2 different fields, one default(with the name 'value') and the other with non-analyzed index(with the name 'value-exact'). The insert however is only made for the default index. ElasticSearch takes care of the rest(Check mapping and input files for reference).
+note: Work Identifier has been added as a multifield, so that it is possible to make an exact, as well as, a fuzzy match on it. With type multifield, the work identifier is being stored in 2 different fields, one default(with the name 'value' or 'external-identifier-id') and the other with non-analyzed index(with the name 'value-exact' or 'external-identifier-id-exact'). The insert however is only made for the default index. ElasticSearch takes care of the rest(Check mapping and input files for reference).
 
 * Match by work identifier exact value 
 
@@ -123,11 +141,21 @@ note: Work Identifier has been added as a multifield, so that it is possible to 
         curl -XGET 'http://localhost:9200/record/_search?pretty=true' -d '
         {
         "query" : {
-	        "term" : {
-		    "orcid-profile.orcid-activities.orcid-works.orcid-work.work-external-identifiers.work-external-identifier.work-external-identifier-id.value.value-exact" : "US 20120209644 A1"
-		}
-	    }}'
-	   
+            "term" : {
+            "orcid-profile.orcid-activities.orcid-works.orcid-work.work-external-identifiers.work-external-identifier.work-external-identifier-id.value.value-exact" : "US 20120209644 A1"
+        }
+        }}'
+
+        curl -XGET 'http://localhost:9200/record_v2.0/_search?pretty=true' -d '
+        {
+        "query" : {
+            "term" : {
+            "record.activities.activities-summary.works.group.identifiers.identifier.external-identifier-id.external-identifier-id-exact" : "Test External Identifier Id 0"
+        }
+        }}'
+
+
+  
         
 * Match by work identifier fuzzy value 
 	
@@ -139,8 +167,17 @@ note: Work Identifier has been added as a multifield, so that it is possible to 
 		    "orcid-profile.orcid-activities.orcid-works.orcid-work.work-external-identifiers.work-external-identifier.work-external-identifier-id.value" : "US 20120209644 A1"
 		}
 	    }}'
-	
-	  
+		
+		
+        curl -XGET 'http://localhost:9200/record_v2.0/_search?pretty=true' -d '
+        {
+        "query" : {
+            "match" : {
+            "record.activities.activities-summary.works.group.identifiers.identifier.external-identifier-id" : "Test External Identifier Id"
+        }
+        }}'
+
+
 
 * Match by work identifier value and type
 
@@ -154,7 +191,19 @@ note: Work Identifier has been added as a multifield, so that it is possible to 
             	],
             	"minimum_should_match": 2}
         	}
-        }' 
+        }'
+		
+		curl -XGET 'http://localhost:9200/record_v2.0/_search?pretty=true' -d '
+        { 
+        "query" : { 
+           "bool" : { 
+                "should": [
+                { "match_phrase": { "record.activities.activities-summary.works.group.identifiers.identifier.external-identifier-id":"Test External Identifier Id 0" }},
+                { "match_phrase": { "record.activities.activities-summary.works.group.identifiers.identifier.external-identifier-type":"DOI"}}
+                ],
+                "minimum_should_match": 2}
+            }
+        }'
  
 
 * Count (_count) match by work identifier value and type
@@ -168,7 +217,19 @@ note: Work Identifier has been added as a multifield, so that it is possible to 
               	{ "match": { "orcid-profile.orcid-activities.orcid-works.orcid-work.work-external-identifiers.work-external-identifier.work-external-identifier-id.value":"US 20120209644 A1"}}
             	]}
         	}
-        }' 
+        }'
+		
+		curl -XGET 'http://localhost:9200/record_v2.0/_count?pretty=true' -d '
+        { 
+        "query" : { 
+           "bool" : { 
+                "should": [
+                { "match_phrase": { "record.activities.activities-summary.works.group.identifiers.identifier.external-identifier-id":"Test External Identifier Id 0" }},
+                { "match_phrase": { "record.activities.activities-summary.works.group.identifiers.identifier.external-identifier-type":"DOI"}}
+                ],
+                "minimum_should_match": 2}
+            }
+        }'
         
 
      
