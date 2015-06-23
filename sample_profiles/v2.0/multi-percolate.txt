@@ -1,0 +1,4 @@
+{"percolate" : {"index" : "record_v2.0", "type" : "orcid_v2.0", "id" : "1"}}
+{}
+{"percolate" : {"index" : "record_v2.0", "type" : "orcid_v2.0", "id" : "2"}}
+{}
