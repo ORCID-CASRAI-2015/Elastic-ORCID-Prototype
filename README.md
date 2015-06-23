@@ -230,6 +230,47 @@ note: Work Identifier has been added as a multifield, so that it is possible to 
                 "minimum_should_match": 2}
             }
         }'
-        
+		
+### Percolator
 
-     
+* Register queries in the percolator
+		
+        curl -XPUT 'localhost:9200/record_v2.0/.percolator/matchEduOrgQuery' -d '
+        {
+        "query" : {
+            "match" : {
+                "record.activities.activities-summary.educations.education-summary.organization.name" : "Stanford"}
+            }
+        }'
+		
+        curl -XPUT 'localhost:9200/record_v2.0/.percolator/matchEduDepQuery' -d '
+        {
+        "query" : {
+            "match" : {
+                "record.activities.activities-summary.educations.education-summary.department-name":"Neurosciences"}
+            }
+        }'
+		
+		
+note: Best practice is to create a separate index for all the queries, but requires the type-mapping to be available in the index.
+		
+* Match a document to the registered queries
+
+        curl -XGET 'localhost:9200/record_v2.0/orcid_v2.0/_percolate' -d '
+        {
+        "doc" : {
+            "record.activities.activities-summary.educations.education-summary.organization.name" : "Stanford university"}
+        }'
+		
+        curl -XGET 'localhost:9200/record_v2.0/orcid_v2.0/_percolate' -d '
+        {
+        "doc" : {
+            "record.activities.activities-summary.educations.education-summary.department-name":"My name is Neurosciences"}
+        }'
+
+* Match an existing document to the registered queries
+
+        curl -XGET 'localhost:9200/record_v2.0/orcid_v2.0/1/_percolate'
+		
+		
+note: This returns 2 matches, one for each indexed query.
