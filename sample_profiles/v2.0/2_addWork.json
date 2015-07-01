@@ -12,24 +12,24 @@
 			"activities-summary" : {
 				"educations" : {
 					"education-summary" : {
-						"put-code" : "17",
+						"put-code" : "5",
 						"visibility" : "PUBLIC",
-						"created-date" : 1434378761401,
+						"created-date" : 1434384136058,
 						"last-modified-date" : null,
 						"source" : {
 							"source-orcid" : {
-								"uri" : "http://orcid.org/0000-0001-5109-3704",
-								"path" : "0000-0001-5109-3704",
+								"uri" : "http://orcid.org/0000-0001-5109-3701",
+								"path" : "0000-0001-5109-3701",
 								"host" : "orcid.org"
 							},
-							"source-name" : "User 4"
+							"source-name" : "User 1"
 						},
-						"department-name" : "Test Department 4",
-						"role-title" : "Test Role 4",
+						"department-name" : "Test Department",
+						"role-title" : "Test Role",
 						"start-date" : null,
 						"end-date" : null,
 						"organization" : {
-							"name" : "Stanford University School of Medicine",
+							"name" : "Test Organization",
 							"address" : {
 							"city" : "Stanford",
 							"region" : "California",
@@ -41,17 +41,17 @@
 				},
 				"employments" : {
 					"employment-summary" : {
-						"put-code" : 18,
+						"put-code" : 6,
 						"visibility" : "PUBLIC",
-						"created-date" : 1434379231544,
-						"last-modified-date" : 1434379243927,
+						"created-date" : 1434384321229,
+						"last-modified-date" : 1434384322229,
 						"source" : {
 							"source-orcid" : {
-								"uri" : "http://orcid.org/0000-0001-5109-3704",
-								"path" : "0000-0001-5109-3704",
+								"uri" : "http://orcid.org/0000-0001-5109-3701",
+								"path" : "0000-0001-5109-3701",
 								"host" : "orcid.org"
 							},
-							"source-name" : "User 4"
+							"source-name" : "User 1"
 						},
 						"department-name" : "",
 						"role-title" : null,
@@ -77,27 +77,27 @@
 						"identifiers" : {
 							"identifier" : {
 								"external-identifier-type" : "DOI",
-								"external-identifier-id" : "Test External Identifier Id 4"
+								"external-identifier-id" : "Test External Identifier Id 1"
 							}
 						},
 						"summary" : {
-							"put-code" : "19",
+							"put-code" : "7",
 							"visibility" : "PUBLIC",
-							"created-date" : 1434379896777,
+							"created-date" : 1434384385315,
 							"last-modified-date" : null,
 							"source" : {
 								"source-orcid" : {
-									"uri" : "http://orcid.org/0000-0001-5109-3704",
-									"path" : "0000-0001-5109-3704",
+									"uri" : "http://orcid.org/0000-0001-5109-3701",
+									"path" : "0000-0001-5109-3701",
 									"host" : "orcid.org"
 								},
-								"source-name" : "User 4"
+								"source-name" : "User 1"
 							},
 							"title" : {
-								"value" : "Test Funding 4",
+								"value" : "Test Funding 1",
 								"translated-title" : {
 									"language-code" : "EN",
-									"value" : "Translated Title Funding 4"
+									"value" : "Translated Title Funding 1"
 								}
 							},
 							"external-identifiers" : null,
@@ -120,28 +120,65 @@
 						"identifiers" : {
 							"identifier" : {
 								"external-identifier-type" : "DOI",
-								"external-identifier-id" : "Test External Identifier Id 4"
+								"external-identifier-id" : "Test External Identifier Id 1"
 							}
 						},
 						"work-summary" : {
-							"put-code" : "20",
+							"put-code" : "8",
 							"visibility" : "PUBLIC",
 							"created-date" : 1434382462075,
 							"last-modified-date" : null,
 							"source" : {
 								"source-orcid" : {
-									"uri" : "http://orcid.org/0000-0001-5109-3704",
-									"path" : "0000-0001-5109-3704",
+									"uri" : "http://orcid.org/0000-0001-5109-3701",
+									"path" : "0000-0001-5109-3701",
 									"host" : "orcid.org"
 								},
-								"source-name" : "User 4"
+								"source-name" : "User 1"
 							},
 							"title" : {
-								"value" : "Test Work 4",
-								"sub-title" : "Test Work Subtitle 4",
+								"value" : "Test Work 1",
+								"sub-title" : "Test Work Subtitle 1",
 								"translated-title" : {
 									"language-code" : "EN",
-									"value" : "Translated Test Work 4"
+									"value" : "Translated Test Work 1"
+								}
+							},
+							"external-identifiers" : null,
+							"work-type" : "DATA_SET",
+							"publication-date" : {
+								"year" : "2014",
+								"month" : "11",
+								"day" : "25"
+							}
+						}
+					},
+					"group" : {
+						"identifiers" : {
+							"identifier" : {
+								"external-identifier-type" : "DOI",
+								"external-identifier-id" : "Test External Identifier Id 0"
+							}
+						},
+						"work-summary" : {
+							"put-code" : "8",
+							"visibility" : "PUBLIC",
+							"created-date" : 1434382462075,
+							"last-modified-date" : null,
+							"source" : {
+								"source-orcid" : {
+									"uri" : "http://orcid.org/0000-0001-5109-3701",
+									"path" : "0000-0001-5109-3701",
+									"host" : "orcid.org"
+								},
+								"source-name" : "User 1"
+							},
+							"title" : {
+								"value" : "Test Work 11",
+								"sub-title" : "Test Work Subtitle 11",
+								"translated-title" : {
+									"language-code" : "EN",
+									"value" : "Translated Test Work 11"
 								}
 							},
 							"external-identifiers" : null,

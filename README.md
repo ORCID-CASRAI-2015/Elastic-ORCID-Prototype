@@ -294,3 +294,23 @@ note: This returns 2 matches, one for each indexed query.
         curl -XGET 'localhost:9200/record_v2.0/orcid_v2.0/_mpercolate' --data-binary @sample_profiles/v2.0/multi-percolate.txt; echo
 		
 note: It will return 3 matches. 2 for document with id '1' and 1 for document with id '2'. Multipercolate requires that each statement in the source file(multi-percolate.txt in this case) is ended by a new line.
+		
+* Auto-Percolate incoming data.
+
+        #Add a new query to make an exact match with external identifier id of work
+        curl -XPUT 'localhost:9200/record_v2.0/.percolator/matchWorkTitleExact' -d '
+        {
+        "query" : {
+          "term" : {
+          "record.activities.activities-summary.works.group.identifiers.identifier.external-identifier-id.external-identifier-id-exact" : "Test External Identifier Id 0"}
+        }
+        }'
+		
+		#Following gives 1 match for sample document with id '1'.
+		curl -XGET 'localhost:9200/record_v2.0/orcid_v2.0/_mpercolate' --data-binary @sample_profiles/v2.0/multi-percolate.txt; echo
+		
+		#Add new work with external identifier 'Test External Identifier Id 0' to sample document with id '2' 
+        curl -XPUT http://localhost:9200/record_v2.0/orcid_v2.0/2 --upload-file sample_profiles/v2.0/2_addWork.json
+		
+		#Following gives 2 matches now; One for sample document with id '1' and other for id '2'.
+		curl -XGET 'localhost:9200/record_v2.0/orcid_v2.0/_mpercolate' --data-binary @sample_profiles/v2.0/multi-percolate.txt; echo
